@@ -263,6 +263,14 @@ Frameworks and libraries for building web applications, APIs, and web services.
   - WebSocket support for Actix Web, with an API based on asynchronous streams and sessions.
 
 ### Authentication
+- [Huskarl](https://github.com/huskarl-rs/huskarl)
+  - OAuth 2.0 and OpenID Connect library for Rust, covering token requests, access token validation, and authentication flows.
+- [axum-login](https://github.com/maxcountryman/axum-login)
+  - Handles user authentication and authorization in Axum applications, with support for custom user types and authentication backends.
+- [OpenID Connect](https://github.com/ramosbugs/openidconnect-rs)
+  - OpenID Connect library for implementing user login through identity providers such as Google, GitLab, and Microsoft.
+- [tower-sessions](https://github.com/maxcountryman/tower-sessions)
+  - Session middleware for Tower and Axum, with support for multiple storage backends.
 
 ### Template Engines
 
