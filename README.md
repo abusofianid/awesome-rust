@@ -253,6 +253,15 @@ Frameworks and libraries for building web applications, APIs, and web services.
 
 ### WebSocket
 
+- [Tokio Tungstenite](https://github.com/snapview/tokio-tungstenite)
+  - Asynchronous WebSocket implementation for Tokio, with support for both clients and servers.
+- [Fastwebsockets](https://github.com/denoland/fastwebsockets)
+  - WebSocket protocol implementation with direct access to frames and support for building clients and servers.
+- [ewebsock](https://github.com/rerun-io/ewebsock)
+  - WebSocket client that works on native platforms and in the browser through WebAssembly.
+- [actix-ws](https://github.com/actix/actix-extras/tree/master/actix-ws)
+  - WebSocket support for Actix Web, with an API based on asynchronous streams and sessions.
+
 ### Authentication
 
 ### Template Engines
