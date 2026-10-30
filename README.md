@@ -235,6 +235,13 @@ Frameworks and libraries for building web applications, APIs, and web services.
 
 ### Web Servers
 
+- [Hyper](https://github.com/hyperium/hyper)
+  - HTTP implementation for Rust, used to build HTTP clients and servers.
+- [Pingora](https://github.com/cloudflare/pingora)
+  - Framework for building HTTP proxies and other network services, developed by Cloudflare.
+- [Static Web Server](https://github.com/static-web-server/static-web-server)
+  - Serves static files over HTTP and HTTPS, with support for compression, caching, and access control.
+
 ### GraphQL
 
 ### WebSocket
