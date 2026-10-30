@@ -4,7 +4,7 @@
   <img src="images/awesome-rust.svg" alt="Awesome Rust Logo" width="180">
 </p>
 
-Rust is a language empowering everyone to build reliable and efficient software. This repository brings together useful projects, tools, and learning resources from across the Rust ecosystem.
+Rust is a language empowering everyone to build reliable and efficient software. This repository brings together useful projects, tools, and learning resources from across the Rust ecosystem.  
 Whether you are building web applications, working with systems programming, exploring artificial intelligence, or developing embedded software, this list aims to help you find the right tools for your needs.
 > Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 ## Official Links
@@ -17,22 +17,135 @@ Whether you are building web applications, working with systems programming, exp
 ## Contents
 
 - [AI & Machine Learning](#ai--machine-learning)
+  - [AI Agents](#ai-agents)
+  - [Large Language Models](#large-language-models)
+  - [Machine Learning](#machine-learning)
+  - [Deep Learning](#deep-learning)
+  - [Natural Language Processing](#natural-language-processing)
+  - [Computer Vision](#computer-vision)
+
 - [Web Development](#web-development)
+  - [Web Frameworks](#web-frameworks)
+  - [Web APIs](#web-apis)
+  - [Web Servers](#web-servers)
+  - [GraphQL](#graphql)
+  - [WebSocket](#websocket)
+  - [Authentication](#authentication)
+  - [Template Engines](#template-engines)
+
 - [Networking & Communication](#networking--communication)
+  - [HTTP Clients](#http-clients)
+  - [Networking](#networking)
+  - [gRPC](#grpc)
+  - [Messaging](#messaging)
+  - [Email](#email)
+  - [Web Scraping](#web-scraping)
+
 - [Database & Storage](#database--storage)
+  - [ORM](#orm)
+  - [Database Drivers](#database-drivers)
+  - [SQL Databases](#sql-databases)
+  - [NoSQL Databases](#nosql-databases)
+  - [Caching](#caching)
+  - [Search](#search)
+  - [Serialization](#serialization)
+
 - [Data & Science](#data--science)
+  - [Data Analysis](#data-analysis)
+  - [Data Processing](#data-processing)
+  - [ETL](#etl)
+  - [Data Visualization](#data-visualization)
+  - [Statistics](#statistics)
+  - [Scientific Computing](#scientific-computing)
+  - [Geospatial](#geospatial)
+
 - [Developer Tools](#developer-tools)
+  - [Testing](#testing)
+  - [Debugging](#debugging)
+  - [Code Analysis](#code-analysis)
+  - [Documentation](#documentation)
+  - [Profiling](#profiling)
+  - [Algorithms](#algorithms)
+
 - [DevOps & Cloud](#devops--cloud)
+  - [Cloud](#cloud)
+  - [Containers](#containers)
+  - [CI/CD](#cicd)
+  - [Distributed Systems](#distributed-systems)
+  - [Observability](#observability)
+  - [Logging](#logging)
+
 - [CLI & GUI](#cli--gui)
+  - [CLI Frameworks](#cli-frameworks)
+  - [Terminal UI](#terminal-ui)
+  - [GUI Frameworks](#gui-frameworks)
+  - [Desktop Applications](#desktop-applications)
+
 - [Media & Graphics](#media--graphics)
+  - [Image Processing](#image-processing)
+  - [Audio](#audio)
+  - [Video](#video)
+  - [Graphics](#graphics)
+  - [Game Development](#game-development)
+  - [Rendering](#rendering)
+
 - [Rust Language](#rust-language)
+  - [Async](#async)
+  - [Concurrency](#concurrency)
+  - [Macros](#macros)
+  - [Memory Management](#memory-management)
+  - [Functional Programming](#functional-programming)
+  - [FFI](#ffi)
+  - [Unsafe Rust](#unsafe-rust)
+
 - [Rust Toolchain](#rust-toolchain)
+  - [Cargo](#cargo)
+  - [Compilers](#compilers)
+  - [Package Management](#package-management)
+  - [Linters](#linters)
+  - [Formatters](#formatters)
+  - [Build Tools](#build-tools)
+
 - [Embedded & Hardware](#embedded--hardware)
+  - [Embedded Systems](#embedded-systems)
+  - [IoT](#iot)
+  - [Robotics](#robotics)
+  - [Microcontrollers](#microcontrollers)
+  - [Hardware Interfaces](#hardware-interfaces)
+
 - [Security](#security)
+  - [Cryptography](#cryptography)
+  - [TLS](#tls)
+  - [Security Auditing](#security-auditing)
+  - [Authentication](#authentication)
+  - [Penetration Testing](#penetration-testing)
+
 - [Operating Systems & Systems Programming](#operating-systems--systems-programming)
+  - [Operating Systems](#operating-systems)
+  - [Filesystems](#filesystems)
+  - [Memory Management](#memory-management)
+  - [Kernel Development](#kernel-development)
+  - [Virtualization](#virtualization)
+
 - [Resources](#resources)
+  - [Books](#books)
+  - [Courses](#courses)
+  - [Tutorials](#tutorials)
+  - [Conferences](#conferences)
+  - [Communities](#communities)
+  - [Podcasts](#podcasts)
+  - [Newsletters](#newsletters)
+
 - [AI Development Resources](#ai-development-resources)
+  - [AI Coding Agents](#ai-coding-agents)
+  - [AI Coding Instructions](#ai-coding-instructions)
+  - [AI Agent Skills](#ai-agent-skills)
+  - [AI Development Workflows](#ai-development-workflows)
+  - [Model Context Protocol (MCP)](#model-context-protocol-mcp)
+  - [AI Developer Tools](#ai-developer-tools)
+
 - [Contributing](#contributing)
+- [License](#license)
 
 ## AI & Machine Learning
 
