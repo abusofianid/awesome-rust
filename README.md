@@ -505,7 +505,35 @@ Libraries for data processing, scientific computing, and analytical applications
 
 ### Scientific Computing
 
+- [Faer](https://github.com/sarah-quinones/faer-rs)
+  - High-performance linear algebra library for dense and sparse matrices, including matrix decompositions.
+- [nalgebra](https://github.com/dimforge/nalgebra)
+  - Linear algebra library for vectors, matrices, and geometric transformations.
+- [ndarray](https://github.com/rust-ndarray/ndarray)
+  - N-dimensional array library with slicing, array views, and numerical operations.
+- [Peroxide](https://github.com/Axect/Peroxide)
+  - Numerical computing library with linear algebra, ODE solvers, interpolation, optimization, and numerical integration.
+- [sprs](https://github.com/sparsemat/sprs)
+  - Sparse linear algebra library for sparse matrices, vectors, and matrix operations.
+
 ### Geospatial
+
+- [Geo](https://github.com/georust/geo)
+  - Geospatial library for points, lines, polygons, geometric operations, and distance calculations.
+- [GeoZero](https://github.com/georust/geozero)
+  - Reads and writes geospatial data in formats such as GeoJSON, WKT, WKB, and GeoPackage.
+- [GDAL](https://github.com/georust/gdal)
+  - Rust bindings for GDAL to read, write, and process raster and vector geospatial data.
+- [PROJ](https://github.com/georust/proj)
+  - Rust bindings for PROJ to transform coordinates and convert between geographic coordinate systems.
+- [rstar](https://github.com/georust/rstar)
+  - Spatial indexing library using R*-trees for efficient spatial and nearest-neighbor queries.
+- [GeoJSON](https://github.com/georust/geojson)
+  - Library for reading, writing, and working with GeoJSON geographic data.
+- [geo-index](https://github.com/georust/geo-index)
+  - Packed, immutable spatial indexes designed for fast geographic queries.
+- [geohash](https://github.com/georust/geohash)
+  - Library for encoding and decoding geographic coordinates using the Geohash system.
 
 **[⬆ Back to Top](#contents)**
 
