@@ -67,6 +67,13 @@ Libraries and frameworks for building artificial intelligence and machine learni
 
 ### Natural Language Processing
 
+- [Hugging Face Tokenizers](https://github.com/huggingface/tokenizers)
+  - A fast and versatile tokenizer library written in Rust, supporting widely used subword tokenization algorithms and pretrained tokenizer models.
+- [Lingua](https://github.com/pemistahl/lingua-rs)
+  - A language detection library for Rust designed to identify languages accurately, including short text and individual words, with offline support.
+- [Lindera](https://github.com/lindera/lindera)
+  - A multilingual morphological analysis library for Rust, supporting tokenization, part-of-speech tagging, and text normalization for Japanese, Korean, and Chinese.
+
 ### Computer Vision
 
 **[⬆ Back to Top](#contents)**
