@@ -322,6 +322,15 @@ Libraries and tools for network communication, protocols, and distributed messag
 
 ### Messaging
 
+- [async-nats](https://github.com/nats-io/nats.rs)
+  - Rust client for NATS, with support for publish/subscribe, request/reply, JetStream, and key-value storage.
+- [Lapin](https://github.com/amqp-rs/lapin)
+  - Async AMQP 0-9-1 client for RabbitMQ, supporting message publishing, consuming, and acknowledgements.
+- [Apache Iggy](https://github.com/apache/iggy)
+  - Persistent message streaming platform with support for streams, topics, partitions, producers, and consumers.
+- [RMQTT](https://github.com/rmqtt/rmqtt)
+  - MQTT broker for IoT messaging, supporting MQTT 3.1.1 and 5.0, clustering, WebSockets, and TLS.
+
 ### Email
 
 ### Web Scraping
