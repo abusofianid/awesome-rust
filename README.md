@@ -315,6 +315,11 @@ Libraries and tools for network communication, protocols, and distributed messag
 
 ### gRPC
 
+- [Tonic](https://github.com/grpc/grpc-rust)
+  - gRPC implementation for Rust with async/await, HTTP/2, streaming, and Protocol Buffers support.
+- [Volo](https://github.com/cloudwego/volo)
+  - Rust RPC framework with support for gRPC and Thrift, including code generation from Protocol Buffers.
+
 ### Messaging
 
 ### Email
