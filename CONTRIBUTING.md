@@ -125,5 +125,3 @@ By contributing to this repository, you agree that your contributions will be li
 Please ensure that you have the right to submit the content you contribute and that your contribution does not violate third-party rights.
 
 Thank you for helping make Awesome Rust better!
-
-**[⬆ Back to Top](#contents)**
