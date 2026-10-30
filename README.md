@@ -44,6 +44,11 @@ Libraries and frameworks for building artificial intelligence and machine learni
 
 ### Large Language Models
 
+- [mistral.rs](https://github.com/EricLBuehler/mistral.rs)
+  - A fast and flexible Rust inference engine for running quantized large language models locally, with CPU, Apple Silicon, and CUDA support.
+- [Candle](https://github.com/huggingface/candle)
+  - A minimalist machine learning framework for Rust, with support for running transformer-based language models on CPU and GPU.
+
 ### Machine Learning
 
 ### Deep Learning
