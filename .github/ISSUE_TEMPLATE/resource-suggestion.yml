@@ -1,0 +1,62 @@
+
+name: Resource Suggestion
+description: Suggest a Rust book, course, tutorial, or learning resource.
+title: "[Resource Suggestion]: "
+labels:
+  - resource suggestion
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a learning resource for Awesome Rust!
+
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource Name
+      placeholder: Example: The Rust Programming Language
+    validations:
+      required: true
+
+  - type: input
+    id: resource-url
+    attributes:
+      label: Resource URL
+      placeholder: https://example.com
+    validations:
+      required: true
+
+  - type: dropdown
+    id: resource-type
+    attributes:
+      label: Resource Type
+      options:
+        - Book
+        - Course
+        - Tutorial
+        - Documentation
+        - Conference
+        - Community
+        - Podcast
+        - Newsletter
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the resource in clear and concise English.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Submission Checklist
+      options:
+        - label: I have checked that this resource is not already listed.
+          required: true
+        - label: I have verified that the URL is accessible.
+          required: true
