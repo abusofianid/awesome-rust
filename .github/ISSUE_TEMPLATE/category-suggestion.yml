@@ -14,7 +14,7 @@ body:
     id: category-name
     attributes:
       label: Proposed Category or Subcategory
-      placeholder: Example: Blockchain
+      placeholder: "Example: Blockchain"
     validations:
       required: true
 
