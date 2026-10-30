@@ -13,7 +13,7 @@
 
 ## Checklist
 
-- [ ] My contribution follows the [Contributing Guidelines](../blob/main/CONTRIBUTING.md).
+- [ ] My contribution follows the [Contributing Guidelines](../CONTRIBUTING.md).
 - [ ] The project or resource is relevant to the Rust ecosystem.
 - [ ] All links are valid and point to the intended destination.
 - [ ] Descriptions are concise, clear, and written in English.
