@@ -76,6 +76,11 @@ Libraries and frameworks for building artificial intelligence and machine learni
 
 ### Computer Vision
 
+- [Kornia-rs](https://github.com/kornia/kornia-rs)
+  - A low-level computer vision library in Rust for image processing, geometric transformations, camera pipelines, and 3D vision, with CPU and GPU support.
+- [OpenCV Rust](https://github.com/twistedfall/opencv-rust)
+  - Rust bindings for OpenCV, providing access to image processing, object detection, feature extraction, camera calibration, and computer vision algorithms.
+
 **[⬆ Back to Top](#contents)**
 
 ## Web Development
