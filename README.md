@@ -244,6 +244,13 @@ Frameworks and libraries for building web applications, APIs, and web services.
 
 ### GraphQL
 
+- [async-graphql](https://github.com/async-graphql/async-graphql)
+  - GraphQL server library with async support, subscriptions, and integrations for Axum, Poem, and Actix Web.
+- [Juniper](https://github.com/graphql-rust/juniper)
+  - GraphQL server library that lets you define schemas using Rust types and connect them to existing web frameworks.
+- [graphql-client](https://github.com/graphql-rust/graphql-client)
+  - Generates type-safe Rust code for GraphQL queries and responses from your schema and query files.
+
 ### WebSocket
 
 ### Authentication
