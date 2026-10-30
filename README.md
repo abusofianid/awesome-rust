@@ -334,6 +334,6 @@ Make sure your submission is relevant to the Rust ecosystem, properly documented
 
 ## License
 
-This repository is available under the [CC0 1.0 Universal](LICENSE) license.
+This project is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
 **[⬆ Back to Top](#contents)**
