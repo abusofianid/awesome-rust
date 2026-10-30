@@ -344,6 +344,13 @@ Libraries and tools for network communication, protocols, and distributed messag
 
 ### Web Scraping
 
+- [Spider](https://github.com/spider-rs/spider)
+  - Web crawler for collecting pages and links, with support for concurrent crawling and JavaScript-rendered content.
+- [Scraper](https://github.com/rust-scraper/scraper)
+  - HTML parsing library with CSS selector support for extracting elements and data from web pages.
+- [Fantoccini](https://github.com/jonhoo/fantoccini)
+  - Async WebDriver client for controlling browsers and interacting with web pages through CSS selectors.
+
 **[⬆ Back to Top](#contents)**
 
 ## Database & Storage
