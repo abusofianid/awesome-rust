@@ -304,6 +304,15 @@ Libraries and tools for network communication, protocols, and distributed messag
 
 ### Networking
 
+- [rust-libp2p](https://github.com/libp2p/rust-libp2p)
+  - Framework for building peer-to-peer applications, with support for peer discovery, connections, and decentralized communication.
+- [Iroh](https://github.com/n0-computer/iroh)
+  - Library for building direct connections between devices, including connections across NATs.
+- [smoltcp](https://github.com/smoltcp-rs/smoltcp)
+  - TCP/IP stack designed for embedded and bare-metal systems, with no heap allocation required.
+- [Quinn](https://github.com/quinn-rs/quinn)
+  - Async implementation of the QUIC protocol for building network clients and servers in Rust.
+
 ### gRPC
 
 ### Messaging
