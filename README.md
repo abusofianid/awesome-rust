@@ -33,6 +33,15 @@ Libraries and frameworks for building artificial intelligence and machine learni
 
 ### AI Agents
 
+- [Rig](https://github.com/0xPlaygrounds/rig)
+  - A modular Rust framework for building LLM applications and AI agents with tool calling, multi-turn conversations, streaming, and memory management.
+- [Swiftide](https://github.com/bosun-ai/swiftide)
+  - A framework for building LLM agents with tool execution, typed task graphs, streaming workflows, and RAG pipelines.
+- [AutoAgents](https://github.com/liquidos-ai/AutoAgents)
+  - A modular multi-agent framework with type-safe agent execution, structured tool calling, configurable memory, and pluggable LLM backends.
+- [LangChain Rust](https://github.com/Abraxas-365/langchain-rust)
+  - A Rust implementation of LangChain that provides tool-using agents, memory, LLM chains, and integrations with multiple model providers.
+
 ### Large Language Models
 
 ### Machine Learning
