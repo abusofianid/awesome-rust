@@ -215,6 +215,14 @@ Frameworks and libraries for building web applications, APIs, and web services.
   - An ergonomic and modular web framework built around Tokio and Tower.
 - [Rocket](https://github.com/rwf2/Rocket)
   - A web framework focused on usability, security, and developer experience.
+- [Poem](https://github.com/poem-web/poem)
+  - A full-featured and easy-to-use web framework with flexible routing, middleware, and OpenAPI support.
+- [Salvo](https://github.com/salvo-rs/salvo)
+  - A powerful and easy-to-use web framework with built-in support for HTTP/2, HTTP/3, OpenAPI, and middleware.
+- [Loco](https://github.com/loco-rs/loco)
+  - A Rails-inspired full-stack web framework for building web applications and APIs with built-in ORM, authentication, and background jobs.
+- [Topcoat](https://github.com/tokio-rs/topcoat)
+  - A modular, batteries-included full-stack Rust framework for server-rendered web applications with reactive client-side interactivity.
 
 ### Web APIs
 
