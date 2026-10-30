@@ -60,6 +60,11 @@ Libraries and frameworks for building artificial intelligence and machine learni
 
 ### Deep Learning
 
+- [Neuronika](https://github.com/neuronika/neuronika)
+  - A pure Rust deep learning library for building dynamic neural networks with reverse-mode automatic differentiation.
+- [tch-rs](https://github.com/LaurentMazare/tch-rs)
+  - Rust bindings for the PyTorch C++ API, providing tensor operations, automatic differentiation, neural network modules, and GPU acceleration.
+
 ### Natural Language Processing
 
 ### Computer Vision
