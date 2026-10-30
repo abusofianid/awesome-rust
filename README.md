@@ -359,7 +359,27 @@ Libraries and tools for database connectivity, data persistence, and storage man
 
 ### ORM
 
+- [Diesel](https://github.com/diesel-rs/diesel)
+  - ORM and query builder that uses Rust's type system to check database schemas and queries at compile time. Supports PostgreSQL, MySQL, and SQLite.
+- [SeaORM](https://github.com/SeaQL/sea-orm)
+  - Async ORM for relational databases, with support for entity relationships, migrations, PostgreSQL, MySQL, and SQLite.
+- [RBatis](https://github.com/rbatis/rbatis)
+  - Async ORM with dynamic SQL, macros, and support for multiple database backends.
+
 ### Database Drivers
+
+- [Tokio Postgres](https://github.com/rust-postgres/rust-postgres)
+  - Async PostgreSQL driver for Tokio, with support for transactions, prepared statements, and pipelining.
+- [Rusqlite](https://github.com/rusqlite/rusqlite)
+  - SQLite bindings for Rust, providing an API for executing SQL queries and managing transactions.
+- [MySQL Async](https://github.com/blackbeam/rust-mysql-simple)
+  - Async MySQL driver for Tokio, with support for prepared statements and connection pooling.
+- [MongoDB Rust Driver](https://github.com/mongodb/mongo-rust-driver)
+  - Official MongoDB driver for Rust, supporting CRUD operations, aggregation, transactions, and change streams.
+- [Redis-rs](https://github.com/redis-rs/redis-rs)
+  - Redis client for Rust, with support for async and sync connections, Pub/Sub, and pipelining.
+- [ScyllaDB Rust Driver](https://github.com/scylladb/scylla-rust-driver)
+  - Async CQL driver for ScyllaDB, also compatible with Apache Cassandra.
 
 ### SQL Databases
 
