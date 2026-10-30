@@ -333,6 +333,15 @@ Libraries and tools for network communication, protocols, and distributed messag
 
 ### Email
 
+- [Lettre](https://github.com/lettre/lettre)
+  - Email library for building and sending messages over SMTP, with support for TLS, attachments, and async transports.
+- [mail-send](https://github.com/stalwartlabs/mail-send)
+  - SMTP email delivery library with MIME support and DKIM signing.
+- [mail-parser](https://github.com/stalwartlabs/mail-parser)
+  - Parses email messages, including headers, MIME parts, attachments, and encoded message bodies.
+- [MailCrab](https://github.com/tweedegolf/mailcrab)
+  - Local SMTP server for testing outgoing emails, with a web interface for viewing messages and attachments.
+
 ### Web Scraping
 
 **[⬆ Back to Top](#contents)**
