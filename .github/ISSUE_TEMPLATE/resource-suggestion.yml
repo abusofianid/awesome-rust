@@ -14,7 +14,7 @@ body:
     id: resource-name
     attributes:
       label: Resource Name
-      placeholder: Example: The Rust Programming Language
+      placeholder: "Example: The Rust Programming Language"
     validations:
       required: true
 
