@@ -47,13 +47,24 @@ This Code of Conduct applies to all spaces associated with Awesome Rust, includi
 
 It also applies when an individual is officially representing Awesome Rust in public spaces.
 
+
 ## Reporting
 
-If you experience or witness unacceptable behavior, please report it to the project maintainers through the appropriate private communication channel.
+If you experience or witness unacceptable behavior, please report it to the project maintainers privately via email:
 
-Please include as much relevant information as possible so that the maintainers can review the situation appropriately.
+**[abusofian.id@gmail.com](mailto:abusofian.id@gmail.com)**
 
-Reports will be handled with respect and confidentiality.
+Please include as much relevant information as possible, such as:
+
+- A description of the incident.
+- The date and location where it occurred.
+- Links to relevant issues, pull requests, or discussions.
+- Any additional context that may help with the investigation.
+
+All reports will be handled with respect and confidentiality.
+
+The project maintainers will review each report and determine appropriate actions based on the circumstances.
+
 
 ## Enforcement
 
