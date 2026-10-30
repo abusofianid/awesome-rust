@@ -293,6 +293,15 @@ Libraries and tools for network communication, protocols, and distributed messag
 
 ### HTTP Clients
 
+- [Reqwest](https://github.com/seanmonstar/reqwest)
+  - HTTP client with async and blocking APIs, supporting JSON, multipart requests, cookies, proxies, and TLS.
+- [Ureq](https://github.com/algesten/ureq)
+  - Synchronous HTTP client for applications that don't need an async runtime.
+- [Wreq](https://github.com/0x676e67/wreq)
+  - HTTP client with customizable TLS and HTTP/2 settings, proxy support, and browser fingerprint matching.
+- [ehttp](https://github.com/emilk/ehttp)
+  - Minimal HTTP client that works on native platforms and in WebAssembly.
+
 ### Networking
 
 ### gRPC
