@@ -226,6 +226,13 @@ Frameworks and libraries for building web applications, APIs, and web services.
 
 ### Web APIs
 
+- [Utoipa](https://github.com/juhaku/utoipa)
+  - A code-first library for automatically generating OpenAPI documentation for Rust REST APIs, with integrations for Axum, Actix Web, and Rocket.
+- [Poem OpenAPI](https://github.com/poem-web/poem/tree/master/poem-openapi)
+  - A type-safe OpenAPI implementation for the Poem web framework, with support for automatic API documentation and interactive documentation interfaces.
+- [Aide](https://github.com/tamasfe/aide)
+  - A library for generating API documentation from Rust code, with a focus on integration with Axum and OpenAPI.
+
 ### Web Servers
 
 ### GraphQL
