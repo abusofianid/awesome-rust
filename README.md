@@ -274,6 +274,17 @@ Frameworks and libraries for building web applications, APIs, and web services.
 
 ### Template Engines
 
+- [Askama](https://github.com/askama-rs/askama)
+  - Jinja-style templates compiled into Rust code, with template errors checked at compile time.
+- [Tera](https://github.com/Keats/tera)
+  - Template engine inspired by Jinja2 and Django, with support for template inheritance and data rendering.
+- [MiniJinja](https://github.com/mitsuhiko/minijinja)
+  - Lightweight Jinja2-style template engine for rendering HTML, configuration files, and other text.
+- [Maud](https://github.com/lambda-fairy/maud)
+  - HTML templates written directly in Rust using macros, without separate template files.
+- [Handlebars](https://github.com/sunng87/handlebars-rust)
+  - Rust implementation of Handlebars with support for helpers, partials, and template inheritance.
+
 **[⬆ Back to Top](#contents)**
 
 ## Networking & Communication
