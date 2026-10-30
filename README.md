@@ -51,6 +51,13 @@ Libraries and frameworks for building artificial intelligence and machine learni
 
 ### Machine Learning
 
+- [SmartCore](https://github.com/smartcorelib/smartcore)
+  - A comprehensive machine learning library for Rust, featuring classification, regression, clustering, model evaluation, and numerical computing.
+- [Burn](https://github.com/tracel-ai/burn)
+  - A flexible and portable deep learning framework written in Rust, supporting neural networks, automatic differentiation, model training, and multiple hardware backends.
+- [Linfa](https://github.com/rust-ml/linfa)
+  - A Rust machine learning toolkit inspired by scikit-learn, providing classical algorithms, preprocessing, clustering, regression, and dimensionality reduction.
+
 ### Deep Learning
 
 ### Natural Language Processing
