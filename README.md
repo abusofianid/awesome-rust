@@ -4,12 +4,15 @@
   <img src="images/awesome-rust.svg" alt="Awesome Rust Logo" width="180">
 </p>
 
-> A curated list of awesome Rust libraries, frameworks, tools, and resources.
-> Inspired by [awesome-python](https://github.com/vinta/awesome-python).
-
 Rust is a language empowering everyone to build reliable and efficient software. This repository brings together useful projects, tools, and learning resources from across the Rust ecosystem.
-
 Whether you are building web applications, working with systems programming, exploring artificial intelligence, or developing embedded software, this list aims to help you find the right tools for your needs.
+> Inspired by [awesome-python](https://github.com/vinta/awesome-python).
+## Official Links
+- [Rust Official Website](https://www.rust-lang.org/)
+- [Rust Official Documentation](https://rust-lang.org/learn)
+- [Rust Official Github](https://github.com/rust-lang)
+
+
 
 ## Contents
 
