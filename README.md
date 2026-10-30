@@ -1,5 +1,8 @@
 
 # Awesome Rust [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+  <img src="images/awesome-rust.svg" alt="Awesome Rust Logo" width="180">
+</p>
 
 > A curated list of awesome Rust libraries, frameworks, tools, and resources.
 > Inspired by [awesome-python](https://github.com/vinta/awesome-python).
