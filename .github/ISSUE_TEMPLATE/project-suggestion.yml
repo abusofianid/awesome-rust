@@ -1,0 +1,113 @@
+
+name: Project Suggestion
+description: Suggest a Rust library, framework, software, or developer tool.
+title: "[Project Suggestion]: "
+labels:
+  - project suggestion
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a project for Awesome Rust!
+
+        Before submitting, please read our [Contributing Guidelines](../../blob/main/CONTRIBUTING.md).
+
+        Make sure the project is relevant to the Rust ecosystem, properly documented, and not already listed.
+
+  - type: input
+    id: project-name
+    attributes:
+      label: Project Name
+      description: Provide the official name of the project.
+      placeholder: Example: Axum
+    validations:
+      required: true
+
+  - type: input
+    id: project-url
+    attributes:
+      label: Project URL
+      description: Provide the official repository or website.
+      placeholder: https://github.com/owner/project
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested Category
+      description: Select the most appropriate category from the README.
+      options:
+        - AI & Machine Learning
+        - Web Development
+        - Networking & Communication
+        - Database & Storage
+        - Data & Science
+        - Developer Tools
+        - DevOps & Cloud
+        - CLI & GUI
+        - Media & Graphics
+        - Rust Language
+        - Rust Toolchain
+        - Embedded & Hardware
+        - Security
+        - Operating Systems & Systems Programming
+        - AI Development Resources
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Project Description
+      description: Provide a concise and objective description in English.
+      placeholder: Explain what the project does and its main purpose.
+    validations:
+      required: true
+
+  - type: textarea
+    id: rust-relevance
+    attributes:
+      label: Relevance to Rust
+      description: Explain how this project relates to the Rust ecosystem.
+      placeholder: Describe its use case and relevance to Rust developers.
+    validations:
+      required: true
+
+  - type: input
+    id: documentation
+    attributes:
+      label: Documentation
+      description: Provide a link to the project's documentation, if available.
+      placeholder: https://docs.example.com
+
+  - type: dropdown
+    id: maintenance
+    attributes:
+      label: Maintenance Status
+      description: Select the current maintenance status of the project.
+      options:
+        - Actively maintained
+        - Stable and mature
+        - Maintenance status unknown
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Submission Checklist
+      description: Confirm that your suggestion follows our contribution guidelines.
+      options:
+        - label: I have checked that this project is not already listed.
+          required: true
+        - label: I have verified that the project URL is accessible.
+          required: true
+        - label: I have checked that the project is relevant to the Rust ecosystem.
+          required: true
+        - label: I have read the contribution guidelines.
+          required: true
+        - label: I have the right to submit the description and other content included in this suggestion.
+          required: true
