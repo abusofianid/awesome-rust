@@ -383,7 +383,29 @@ Libraries and tools for database connectivity, data persistence, and storage man
 
 ### SQL Databases
 
+- [Turso](https://github.com/tursodatabase/turso)
+  - SQLite-compatible SQL database written in Rust that runs directly inside an application.
+- [SurrealDB](https://github.com/surrealdb/surrealdb)
+  - Multi-model database combining relational, document, and graph data with its own query language, SurrealQL.
+- [GreptimeDB](https://github.com/GreptimeTeam/greptimedb)
+  - Database for storing and querying time series, metrics, logs, and traces using SQL and PromQL.
+- [RisingWave](https://github.com/risingwavelabs/risingwave)
+  - Streaming database that continuously runs SQL queries on incoming data from sources such as Kafka.
+- [Databend](https://github.com/datafuselabs/databend)
+  - Cloud-native SQL data warehouse for analytics on large datasets stored in object storage.
+- [GlueSQL](https://github.com/gluesql/gluesql)
+  - Extensible SQL database engine that works with different storage backends, including memory and files.
+
 ### NoSQL Databases
+
+- [TiKV](https://github.com/tikv/tikv)
+  - Distributed key-value database with ACID transactions and Raft-based replication.
+- [Qdrant](https://github.com/qdrant/qdrant)
+  - Vector database for storing and searching embeddings with metadata filtering.
+- [Fjall](https://github.com/fjall-rs/fjall)
+  - Embedded key-value storage engine based on an LSM-tree, designed for use directly in Rust applications.
+- [redb](https://github.com/cberner/redb)
+  - Embedded key-value database written in pure Rust with ACID transactions and concurrent readers.
 
 ### Caching
 
