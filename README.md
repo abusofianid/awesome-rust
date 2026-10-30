@@ -409,9 +409,44 @@ Libraries and tools for database connectivity, data persistence, and storage man
 
 ### Caching
 
+- [Moka](https://github.com/moka-rs/moka)
+  - Concurrent in-memory cache for synchronous and asynchronous applications, with TTL, TTI, and eviction policies.
+- [Foyer](https://github.com/foyer-rs/foyer)
+  - Hybrid cache that combines memory and disk storage with asynchronous access.
+- [Quick Cache](https://github.com/arthurprs/quick-cache)
+  - Lightweight concurrent cache with S3-FIFO eviction and low access overhead.
+- [cached](https://github.com/jaemk/cached)
+  - Caching library with reusable cache structures and macros for function memoization.
+
 ### Search
 
+- [Tantivy](https://github.com/quickwit-oss/tantivy)
+  - Rust library for full-text search, inspired by Apache Lucene.
+- [Meilisearch](https://github.com/meilisearch/meilisearch)
+  - Search engine for applications with typo tolerance and relevant search results.
+- [Quickwit](https://github.com/quickwit-oss/quickwit)
+  - Distributed search engine for logs, traces, and large-scale event data.
+- [Sonic](https://github.com/valeriansaliou/sonic)
+  - Lightweight search backend that indexes words and returns document identifiers, with typo correction and autocomplete.
+- [ParadeDB](https://github.com/paradedb/paradedb)
+  - PostgreSQL extension that adds full-text search, BM25 ranking, and vector search.
+
 ### Serialization
+
+- [Serde](https://github.com/serde-rs/serde)
+  - Framework for serializing and deserializing Rust data structures across different data formats.
+- [Serde JSON](https://github.com/serde-rs/json)
+  - JSON support for Serde, with serialization and deserialization of Rust data structures.
+- [rkyv](https://github.com/rkyv/rkyv)
+  - Zero-copy serialization framework that allows serialized data to be accessed without fully deserializing it.
+- [Postcard](https://github.com/jamesmunns/postcard)
+  - Compact binary serialization format built on Serde, designed for no_std and embedded systems.
+- [simd-json](https://github.com/simd-lite/simd-json)
+  - SIMD-based JSON parser for Rust with Serde compatibility.
+- [Prost](https://github.com/tokio-rs/prost)
+  - Protocol Buffers implementation that generates Rust types from .proto files.
+- [RON](https://github.com/ron-rs/ron)
+  - Human-readable serialization format with a syntax similar to Rust, built on Serde.
 
 **[⬆ Back to Top](#contents)**
 
