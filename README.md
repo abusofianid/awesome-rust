@@ -456,7 +456,27 @@ Libraries for data processing, scientific computing, and analytical applications
 
 ### Data Analysis
 
+- [Polars](https://github.com/pola-rs/polars)
+  - DataFrame library for working with structured data, with support for lazy queries, SQL, and parallel processing.
+- [Apache DataFusion](https://github.com/apache/datafusion)
+  - Extensible SQL query engine built on Apache Arrow for analytical queries over different data sources.
+- [Daft](https://github.com/Eventual-Inc/Daft)
+  - DataFrame and query engine for processing large datasets, including images, videos, and other multimodal data.
+- [ndarray](https://github.com/rust-ndarray/ndarray)
+  - Library for working with multidimensional arrays, including slicing, mathematical operations, and linear algebra.
+
 ### Data Processing
+
+- [Apache Arrow Rust](https://github.com/apache/arrow-rs)
+  - Rust implementation of Apache Arrow and Parquet for columnar data processing and storage.
+- [Delta-rs](https://github.com/delta-io/delta-rs)
+  - Rust library for reading and managing Delta Lake tables, including data updates and version history.
+- [Apache Iceberg Rust](https://github.com/apache/iceberg-rust)
+  - Rust implementation of Apache Iceberg for managing analytical tables, schema evolution, and snapshots.
+- [Timely Dataflow](https://github.com/TimelyDataflow/timely-dataflow)
+  - Framework for building parallel and distributed dataflow computations.
+- [Differential Dataflow](https://github.com/TimelyDataflow/differential-dataflow)
+  - Incremental data processing framework that updates computation results as input data changes.
 
 ### ETL
 
