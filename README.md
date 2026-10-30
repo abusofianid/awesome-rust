@@ -1,7 +1,8 @@
 
 # Awesome Rust [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of Awesome Rust frameworks, libraries, and software. Inspired by [awesome-python](https://github.com/vinta/awesome-python).
+> A curated list of awesome Rust libraries, frameworks, tools, and resources.
+> Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 Rust is a language empowering everyone to build reliable and efficient software. This repository brings together useful projects, tools, and learning resources from across the Rust ecosystem.
 
