@@ -20,7 +20,7 @@ body:
     attributes:
       label: Project Name
       description: Provide the official name of the project.
-      placeholder: Example: Axum
+      placeholder: "Example: Axum"
     validations:
       required: true
 
