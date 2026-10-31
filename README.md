@@ -543,11 +543,58 @@ Tools and libraries that improve the software development workflow.
 
 ### Testing
 
+- [Nextest](https://github.com/nextest-rs/nextest)
+  - A test runner for Rust with parallel execution, test filtering, retries, and CI reporting.
+- [Insta](https://github.com/mitsuhiko/insta)
+  - Snapshot testing library for comparing test output against saved reference snapshots.
+- [Proptest](https://github.com/proptest-rs/proptest)
+  - Property-based testing library that generates random inputs to test program behavior.
+- [rstest](https://github.com/la10736/rstest)
+  - Fixture-based testing framework with parameterized tests and reusable test setup.
+- [Mockall](https://github.com/asomers/mockall)
+  - Mock object library for creating test doubles from Rust traits and structs.
+- [cargo-llvm-cov](https://github.com/taiki-e/cargo-llvm-cov)
+  - Cargo subcommand for measuring Rust code coverage using LLVM instrumentation.
+- [Testcontainers](https://github.com/testcontainers/testcontainers-rs)
+  - Runs temporary containers such as databases and services for integration tests.
+- [test-log](https://github.com/d-e-s-o/test-log)
+  - Test attribute that initializes logging or tracing before running tests.
+- [cargo-fuzz](https://github.com/rust-fuzz/cargo-fuzz)
+  - Cargo subcommand for fuzz testing Rust code with libFuzzer.
+
 ### Debugging
+
+- [Tokio Console](https://github.com/tokio-rs/console)
+  - Interactive debugging tool for monitoring Tokio tasks, async operations, and runtime resources.
+- [Tracing](https://github.com/tokio-rs/tracing)
+  - Instrumentation framework for collecting structured events and diagnostic information from Rust applications.
+- [Ey​​re](https://github.com/eyre-rs/eyre)
+  - Error reporting library with customizable error reports and backtrace support.
+- [Backtrace](https://github.com/rust-lang/backtrace-rs)
+  - Library for capturing stack traces and resolving function names and source locations at runtime.
+- [addr2line](https://github.com/gimli-rs/addr2line)
+  - Resolves executable addresses into function names, source files, line numbers, and stack frames using DWARF debug information.
+- [gimli](https://github.com/gimli-rs/gimli)
+  - Library for reading and writing DWARF debugging information used by debuggers and other development tools.
 
 ### Code Analysis
 
+- [Clippy](https://github.com/rust-lang/rust-clippy)
+  - A collection of Rust lints that detects common mistakes, suspicious code, and performance issues.
+- [cargo-deny](https://github.com/EmbarkStudios/cargo-deny)
+  - Checks project dependencies for license compliance, security advisories, duplicate versions, and allowed sources.
+- [cargo-udeps](https://github.com/est31/cargo-udeps)
+  - Finds unused dependencies in Cargo projects.
+- [cargo-machete](https://github.com/bnjbvr/cargo-machete)
+  - Detects unused dependencies declared in Cargo.toml files.
+- [cargo-semver-checks](https://github.com/obi1kenobi/cargo-semver-checks)
+  - Checks whether changes to a Rust library's public API break semantic versioning compatibility.
+- [cargo-geiger](https://github.com/geiger-rs/cargo-geiger)
+  - Measures the amount of unsafe Rust code in a project and its dependencies.
+
 ### Documentation
+
+
 
 ### Profiling
 
