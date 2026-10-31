@@ -938,13 +938,67 @@ Libraries and resources related to Rust language features and programming paradi
 
 ### Memory Management
 
-
+- [jemallocator](https://github.com/tikv/jemallocator)
+  - Rust allocator using jemalloc as its memory allocation backend.
+- [Bumpalo](https://github.com/fitzgen/bumpalo)
+  - Fast bump allocation arena for Rust.
+- [Slotmap](https://github.com/orlp/slotmap)
+  - Slot-based storage with stable keys for managing objects.
+- [Triomphe](https://github.com/Manishearth/triomphe)
+  - Reference-counted smart pointer library with additional utilities.
+- [Self Cell](https://github.com/Voultapher/self_cell)
+  - Safe self-referential structs for stable Rust.
+- [Bytecheck](https://github.com/rkyv/bytecheck)
+  - Memory validation framework for Rust data structures.
 
 ### Functional Programming
 
+- [Itertools](https://github.com/rust-itertools/itertools)
+  - Extra iterator adaptors, methods, functions, and macros for Rust.
+- [Rustica](https://github.com/but212/rustica)
+  - Functional programming library for the Rust language.
+- [Num](https://github.com/rust-num/num)
+  - Collection of numeric types and traits for Rust.
+- [Frunk](https://github.com/lloydmeta/frunk)
+  - Functional generic programming library with HLists and type-level abstractions.
+
 ### FFI
 
+- [Rust Bindgen](https://github.com/rust-lang/rust-bindgen)
+  - Automatically generates Rust FFI bindings to C and C++ libraries.
+- [CXX](https://github.com/dtolnay/cxx)
+  - Safe interoperability between Rust and C++.
+- [Cbindgen](https://github.com/mozilla/cbindgen)
+  - Generates C and C++ headers from Rust code.
+- [UniFFI](https://github.com/mozilla/uniffi-rs)
+  - Generates foreign language bindings for Rust libraries.
+- [PyO3](https://github.com/PyO3/pyo3)
+  - Rust bindings for the Python interpreter.
+- [NAPI-RS](https://github.com/napi-rs/napi-rs)
+  - Framework for building Node.js native add-ons in Rust.
+- [Wasm-bindgen](https://github.com/wasm-bindgen/wasm-bindgen)
+  - Facilitates interactions between WebAssembly and JavaScript.
+- [JNI-RS](https://github.com/jni-rs/jni-rs)
+  - Rust bindings for the Java Native Interface.
+- [Diplomat](https://github.com/rust-diplomat/diplomat)
+  - Generates FFI interfaces for exposing Rust APIs to other languages.
+
 ### Unsafe Rust
+
+- [Bytemuck](https://github.com/Lokathor/bytemuck)
+  - Utilities for safely converting and working with byte representations.
+- [Zerocopy](https://github.com/google/zerocopy)
+  - Zero-cost memory manipulation with safe abstractions over unsafe code.
+- [Miri](https://github.com/rust-lang/miri)
+  - Interpreter for detecting undefined behavior in Rust programs.
+- [SmallVec](https://github.com/servo/rust-smallvec)
+  - Vector implementation that stores small collections inline on the stack.
+- [x86_64](https://github.com/rust-osdev/x86_64)
+  - Low-level abstractions for programming x86_64 hardware.
+- [Libc](https://github.com/rust-lang/libc)
+  - Raw bindings to platform-specific C APIs.
+- [rustc-hash](https://github.com/rust-lang/rustc-hash)
+  - Fast hash algorithm and collection aliases used by the Rust compiler.
 
 **[⬆ Back to Top](#contents)**
 
