@@ -597,6 +597,8 @@ Tools and libraries that improve the software development workflow.
   - Checks whether changes to a Rust library's public API break semantic versioning compatibility.
 - [cargo-geiger](https://github.com/geiger-rs/cargo-geiger)
   - Measures the amount of unsafe Rust code in a project and its dependencies.
+- [Biome](https://github.com/biomejs/biome)
+  - A fast web development toolchain written in Rust, providing a formatter and linter for JavaScript, TypeScript, JSON, CSS, and other web technologies.
 
 ### Documentation
 
