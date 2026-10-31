@@ -827,11 +827,51 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
 
 ### Video
 
+- [GStreamer Rust Bindings](https://github.com/GStreamer/gstreamer-rs)
+  - Rust bindings for the GStreamer multimedia framework.
+- [Rust FFmpeg](https://github.com/zmwangx/rust-ffmpeg)
+  - Rust bindings for the FFmpeg multimedia framework.
+- [Av1an](https://github.com/rust-av/Av1an)
+  - Video encoding automation tool for AV1 and other codecs.
+
 ### Graphics
+
+- [Vello](https://github.com/linebender/vello)
+  - GPU-accelerated 2D graphics renderer.
+- [Kurbo](https://github.com/linebender/kurbo)
+  - Library for working with curves and geometric shapes.
+- [Tiny Skia](https://github.com/linebender/tiny-skia)
+  - Lightweight 2D graphics rendering library.
+- [Raden](https://github.com/shiguredo/raden)
+  - 2D vector graphics library powered by Cranelift JIT.
 
 ### Game Development
 
+- [Bevy](https://github.com/bevyengine/bevy)
+  - Data-driven game engine built in Rust.
+- [Macroquad](https://github.com/not-fl3/macroquad)
+  - Cross-platform game engine for 2D and 3D games.
+- [Fyrox](https://github.com/FyroxEngine/Fyrox)
+  - 2D and 3D game engine written in Rust.
+- [ggez](https://github.com/ggez/ggez)
+  - Lightweight game development framework for Rust.
+- [Rapier](https://github.com/dimforge/rapier)
+  - Physics engine for 2D and 3D games.
+- [Avian](https://github.com/avianphysics/avian)
+  - ECS-driven 2D and 3D physics engine for Bevy.
+- [Piston](https://github.com/PistonDevelopers/piston)
+  - Modular game engine written in Rust.
+
 ### Rendering
+
+- [wgpu](https://github.com/gfx-rs/wgpu)
+  - Cross-platform graphics API written in Rust.
+- [Vulkano](https://github.com/vulkano-rs/vulkano)
+  - Safe Rust wrapper for the Vulkan graphics API.
+- [three-d](https://github.com/asny/three-d)
+  - Cross-platform 2D and 3D rendering library.
+- [Pixels](https://github.com/parasyte/pixels)
+  - Hardware-accelerated pixel framebuffer renderer.
 
 **[⬆ Back to Top](#contents)**
 
