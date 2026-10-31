@@ -14,7 +14,7 @@ Whether you are building web applications, working with systems programming, exp
 
 
 
-## Table of Contents
+## Contents
 
 - [AI & Machine Learning](#ai--machine-learning)
   - [AI Agents](#ai-agents)
@@ -1120,13 +1120,46 @@ Libraries, tools, and projects for low-level programming and operating system de
 
 ### Operating Systems
 
+- [Redox](https://github.com/redox-os/redox)
+  - A Unix-like operating system written in Rust, featuring its own kernel, drivers, and system utilities.
+- [Asterinas](https://github.com/asterinas/asterinas)
+  - A Linux-compatible operating system kernel written in Rust, designed with memory safety and performance in mind.
+
 ### Filesystems
+
+- [Fuser](https://github.com/cberner/fuser)
+  - Provides a Rust library for implementing userspace filesystems using the FUSE interface.
+- [Rust FATFS](https://github.com/rafalh/rust-fatfs)
+  - Implements FAT12, FAT16, and FAT32 filesystem support in Rust.
 
 ### Memory Management
 
+- [Talc](https://github.com/SFBdragon/talc)
+  - A fast and flexible memory allocator designed for Rust applications.
+- [Buddy System Allocator](https://github.com/rcore-os/buddy_system_allocator)
+  - Implements a buddy memory allocation algorithm for managing memory blocks.
+- [Mimalloc Rust](https://github.com/purpleprotocol/mimalloc_rust)
+  - Provides Rust bindings for Microsoft's mimalloc memory allocator.
+
 ### Kernel Development
 
+- [Rust for Linux](https://github.com/Rust-for-Linux/linux)
+  - Adds Rust language support and abstractions for developing Linux kernel components.
+- [Bootloader](https://github.com/rust-osdev/bootloader)
+  - Provides bootloaders for starting custom operating system kernels written in Rust.
+
 ### Virtualization
+
+- [Cloud Hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor)
+  - A modern virtual machine monitor built with Rust, designed for cloud workloads.
+- [crosvm](https://github.com/google/crosvm)
+  - A secure virtual machine monitor written in Rust, used by ChromeOS.
+- [Rust VMM KVM](https://github.com/rust-vmm/kvm)
+  - Provides Rust abstractions for interacting with the Linux KVM virtualization interface.
+- [vm-memory](https://github.com/rust-vmm/vm-memory)
+  - Provides memory abstractions and utilities for virtual machine monitors.
+- [vhost](https://github.com/rust-vmm/vhost)
+  - Implements Rust interfaces for the vhost protocol used in virtualized environments.
 
 **[⬆ Back to Top](#contents)**
 
