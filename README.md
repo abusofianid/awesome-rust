@@ -594,11 +594,44 @@ Tools and libraries that improve the software development workflow.
 
 ### Documentation
 
-
+- [mdBook](https://github.com/rust-lang/mdBook)
+  - Creates books and documentation websites from Markdown files.
+- [cargo-readme](https://github.com/webern/cargo-readme)
+  - Generates README.md files from Rust crate documentation comments.
+- [cargo-rdme](https://github.com/orium/cargo-rdme)
+  - Generates or updates README sections from crate-level Rust documentation comments.
+- [document-features](https://github.com/slint-ui/document-features)
+  - Generates documentation for Cargo feature flags from comments in Cargo.toml.
+- [rustdoc](https://github.com/rust-lang/rust)
+  - Generates HTML documentation from Rust source code and documentation comments.
 
 ### Profiling
 
+- [Samply](https://github.com/mstange/samply)
+  - Cross-platform sampling profiler for analyzing CPU usage with the Firefox Profiler interface.
+- [Flamegraph](https://github.com/flamegraph-rs/flamegraph)
+  - Generates flame graphs from profiling data to visualize CPU time spent in functions.
+- [Puffin](https://github.com/EmbarkStudios/puffin)
+  - Instrumentation profiler for measuring execution time in functions and code sections.
+- [hotpath](https://github.com/hotpath-rs/hotpath)
+  - Profiler for CPU, memory allocations, async operations, SQL queries, and HTTP requests.
+- [Inferno](https://github.com/jonhoo/inferno)
+  - Rust library and command-line tools for generating flame graphs from stack traces and profiling data.
+- [profiling](https://github.com/aclysma/profiling)
+  - Common profiling API that integrates with backends such as Puffin, Tracy, and Superluminal.
+
 ### Algorithms
+
+- [Petgraph](https://github.com/petgraph/petgraph)
+  - Graph data structure library with algorithms for shortest paths, minimum spanning trees, graph traversal, and more.
+- [Pathfinding](https://github.com/evenfurther/pathfinding)
+  - Implements pathfinding, graph traversal, shortest-path, and flow algorithms such as A*, BFS, and Dijkstra.
+- [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust)
+  - Collection of algorithm implementations in Rust, covering sorting, searching, graph algorithms, and data structures.
+- [Polyanya](https://github.com/vleue/polyanya)
+  - Implements any-angle pathfinding on navigation meshes for finding optimal paths.
+- [Condor](https://github.com/bnomei/condor)
+  - Pathfinding library with grid search, polygonal pathfinding, navigation meshes, and route planning.
 
 **[⬆ Back to Top](#contents)**
 
