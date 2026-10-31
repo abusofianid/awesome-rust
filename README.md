@@ -223,6 +223,10 @@ Frameworks and libraries for building web applications, APIs, and web services.
   - A Rails-inspired full-stack web framework for building web applications and APIs with built-in ORM, authentication, and background jobs.
 - [Topcoat](https://github.com/tokio-rs/topcoat)
   - A modular, batteries-included full-stack Rust framework for server-rendered web applications with reactive client-side interactivity.
+- [Yew](https://github.com/yewstack/yew)
+  - A Rust framework for building client-side web applications using WebAssembly and a component-based architecture.
+- [Leptos](https://github.com/leptos-rs/leptos)
+  - A full-stack Rust web framework supporting reactive user interfaces, server-side rendering, and WebAssembly.
 
 ### Web APIs
 
