@@ -1284,13 +1284,64 @@ Resources that help developers use AI tools and workflows when building Rust app
 
 ### AI Coding Agents
 
+- [OpenAI Codex CLI](https://github.com/openai/codex)
+  - An open-source coding agent that runs in the terminal and can read, modify, and execute code.
+- [Goose](https://github.com/block/goose)
+  - An extensible AI agent built in Rust that can execute commands, edit files, and automate development workflows.
+- [Agent Code](https://github.com/avala-ai/agent-code)
+  - A terminal-based AI coding agent written in Rust, featuring multi-provider support, tools, and a modern TUI.
+- [CodingBuddy](https://github.com/aloundoye/codingbuddy)
+  - A multi-model Rust coding agent with planning, tool execution, code search, and parallel agent workflows.
+- [OxiCode](https://github.com/project-oxi/oxicode)
+  - A Rust-based terminal coding assistant with streaming responses, multiple LLM providers, and persistent sessions.
+- [Code Assistant](https://github.com/stippi/code-assistant)
+  - An autonomous AI coding assistant written in Rust with a native GUI, terminal interface, and MCP integration.
+
 ### AI Coding Instructions
+
+- [Rust Skills](https://github.com/leonardomso/rust-skills)
+  - A collection of 265 rules across 26 categories that help AI coding agents write idiomatic, efficient, and safe Rust code.
+- [RSTSR Agents](https://github.com/RESTGroup/rstsr-agents)
+  - A shared collection of AGENTS.md instructions, coding rules, and development skills for AI agents working on Rust projects.
 
 ### AI Agent Skills
 
+- [egui Agent Skills](https://github.com/gregorycarnegie/egui-agent-skills)
+  - A collection of AI agent skills for building, testing, reviewing, and designing Rust GUI applications with egui and eframe.
+- [mdBook AI Skill](https://github.com/marceloeatworld/mdbook-ai-skill)
+  - An auto-updated skill that provides AI coding assistants with structured knowledge of mdBook documentation, commands, configuration, and workflows.
+
 ### AI Development Workflows
 
+- [DevFlow](https://github.com/denniyahh/devflow)
+  - A Rust-based automation tool for AI-driven development, featuring isolated worktrees, human approval gates, testing, and release workflows.
+- [Forge](https://github.com/ForgeAILab/forge)
+  - A multi-agent development platform that coordinates coding agents through isolated Git worktrees, CI checks, and review workflows.
+- [CodePanion](https://github.com/Vantalens/CodePanion)
+  - A local-first AI development workspace for orchestrating multi-agent workflows, planning, coding, testing, and reviewing projects.
+- [OpenAgents Control](https://github.com/darrenhinde/OpenAgentsControl)
+  - A framework for creating repeatable AI coding workflows with reusable patterns, specialized agents, and human approval gates.
+- [Spec-Driven Develop](https://github.com/zhaoxiufei/spec_driven_develop)
+  - A structured methodology that guides AI coding agents through project analysis, architecture planning, task decomposition, and implementation.
+
 ### Model Context Protocol (MCP)
+
+- [Official Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)
+  - The official Rust SDK for implementing Model Context Protocol clients and servers with asynchronous support.
+- [Rust MCP SDK](https://github.com/rust-mcp-stack/rust-mcp-sdk)
+  - A Rust library for building MCP clients and servers with protocol support and reusable components.
+- [Hyper MCP](https://github.com/hyper-mcp-rs/hyper-mcp)
+  - A high-performance MCP server that extends its capabilities through WebAssembly plugins.
+- [Rust MCP Filesystem](https://github.com/rust-mcp-stack/rust-mcp-filesystem)
+  - An asynchronous MCP server that provides AI agents with filesystem operations.
+- [Rust Analyzer MCP](https://github.com/zeenix/rust-analyzer-mcp)
+  - An MCP server that connects AI assistants to rust-analyzer for code navigation, symbol lookup, and code analysis.
+- [IDA MCP Rust](https://github.com/blacktop/ida-mcp-rs)
+  - A headless MCP server for connecting AI agents to IDA Pro for reverse engineering and binary analysis.
+- [Apollo MCP Server](https://github.com/apollographql/apollo-mcp-server)
+  - An MCP server that connects AI assistants to Apollo GraphOS and GraphQL development workflows.
+- [Agent Gateway](https://github.com/agentgateway/agentgateway)
+  - A Rust-based gateway for managing and securing connections between AI agents, MCP servers, and model providers.
 
 ### AI Developer Tools
 
@@ -1298,6 +1349,16 @@ Resources that help developers use AI tools and workflows when building Rust app
   - A desktop tool for managing configurations and switching between AI coding assistants and model providers.
 - [Agent Desktop](https://github.com/vercel-labs/agent-desktop)
   - A Rust-based computer-use tool that enables AI agents to inspect and operate desktop applications through accessibility APIs.
+- [Trusty Tools](https://github.com/bobmatnyc/trusty-tools)
+  - A unified Rust toolkit for AI-assisted development, combining code search, persistent memory, analysis, multi-agent orchestration, and code review.
+- [Cedr](https://github.com/Sheernox/cedr)
+  - An open-source developer tool for routing tasks to coding agents, reviewing their work, and managing agent configurations.
+- [Traz](https://github.com/mithilgirish/traz)
+  - A local-first engineering memory layer that provides AI coding tools with persistent project context and MCP integration.
+- [Swarm](https://github.com/braycarlson/swarm)
+  - A developer tool that generates searchable project context to help developers and AI tools navigate codebases.
+- [Skillscripts](https://github.com/gtiders/skillscripts)
+  - A Rust-based script launcher with a registry system and built-in instructions for using and creating scripts.
 
 **[⬆ Back to Top](#contents)**
 
