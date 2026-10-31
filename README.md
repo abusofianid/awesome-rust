@@ -1045,6 +1045,8 @@ Tools for compiling, building, formatting, and managing Rust projects.
   - A compiler for the Gleam programming language, targeting Erlang and JavaScript.
 - [Roc](https://github.com/roc-lang/roc)
   - A compiler for a fast, friendly, and functional programming language.
+- [tsrs](https://github.com/oxc-project/tsrs)
+  - A Rust implementation of the TypeScript 7 compiler and language server, designed for faster type checking and lower memory usage.
 
 ### Package Management
 
