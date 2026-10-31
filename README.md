@@ -745,7 +745,43 @@ Frameworks and libraries for building command-line, terminal-based, and graphica
 
 ### GUI Frameworks
 
+- [Iced](https://github.com/iced-rs/iced)
+  - Cross-platform GUI framework with a declarative, widget-based approach.
+- [egui](https://github.com/emilk/egui)
+  - Immediate-mode GUI library for building desktop applications and interactive tools.
+- [Slint](https://github.com/slint-ui/slint)
+  - Declarative GUI framework for desktop, embedded, and mobile applications.
+- [Makepad](https://github.com/makepad/makepad)
+  - Framework for building multi-platform user interfaces with GPU rendering.
+- [Dioxus](https://github.com/DioxusLabs/dioxus)
+  - Component-based framework for building web, desktop, and mobile applications.
+- [Freya](https://github.com/marc2332/freya)
+  - Declarative GUI framework for building desktop applications with components and styling.
+- [Relm4](https://github.com/Relm4/Relm4)
+  - Framework for building GTK4 applications in Rust using a component-based architecture.
+- [Xilem](https://github.com/linebender/xilem)
+  - Data-driven GUI framework for building reactive user interfaces.
+- [Tauri](https://github.com/tauri-apps/tauri)
+  - Framework for building desktop applications with web frontends and Rust backends.
+- [libcosmic](https://github.com/pop-os/libcosmic)
+  - Toolkit for building desktop applications with COSMIC components and design.
+
 ### Desktop Applications
+
+- [Zed](https://github.com/zed-industries/zed)
+  - High-performance code editor with built-in collaboration and AI features.
+- [Lapce](https://github.com/lapce/lapce)
+  - Fast, open-source code editor built with Rust.
+- [RustDesk](https://github.com/rustdesk/rustdesk)
+  - Open-source remote desktop application for remote access and support.
+- [Pake](https://github.com/tw93/Pake)
+  - Tool for packaging websites into lightweight desktop applications.
+- [Mission Center](https://github.com/YJ-Software/mission-control-center)
+  - System monitor for viewing CPU, memory, disk, network, and GPU usage.
+- [Rnote](https://github.com/flxzt/rnote)
+  - Vector-based drawing and note-taking application for handwritten notes and sketches.
+- [Kando](https://github.com/kando-menu/kando)
+  - Cross-platform pie menu for launching applications and performing actions.
 
 **[⬆ Back to Top](#contents)**
 
@@ -755,7 +791,39 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
 
 ### Image Processing
 
+- [Image](https://github.com/image-rs/image)
+  - Rust library for loading, processing, and saving images in various formats.
+- [Photon](https://github.com/silvia-odwyer/photon)
+  - Fast image processing library with filters, effects, and transformations.
+- [fast_image_resize](https://github.com/Cykooz/fast_image_resize)
+  - High-performance image resizing library for Rust.
+- [Oxipng](https://github.com/oxipng/oxipng)
+  - Multithreaded PNG optimizer that reduces file sizes without losing image quality.
+- [libimagequant](https://github.com/ImageOptim/libimagequant)
+  - Library for high-quality image color quantization and palette generation.
+- [dssim](https://github.com/kornelski/dssim)
+  - Image similarity comparison tool based on perceptual differences.
+
 ### Audio
+
+- [Rodio](https://github.com/RustAudio/rodio)
+  - Audio playback library for playing, mixing, and controlling sound.
+- [CPAL](https://github.com/RustAudio/cpal)
+  - Cross-platform audio I/O library for recording and playback.
+- [Symphonia](https://github.com/pdeljanov/Symphonia)
+  - Pure Rust multimedia format decoding library with support for common audio formats.
+- [Hound](https://github.com/ruuda/hound)
+  - WAV audio encoding and decoding library.
+- [Kira](https://github.com/tesselode/kira)
+  - Audio library for games with support for sound effects, music, and spatial audio.
+- [Rubato](https://github.com/HEnquist/rubato)
+  - Audio resampling library for converting between sample rates.
+- [NIH-plug](https://github.com/robbert-vdh/nih-plug)
+  - Framework for developing audio plugins in Rust.
+- [Lofty](https://github.com/Serial-ATA/lofty-rs)
+  - Library for reading and writing metadata tags in audio files.
+- [OxideAV](https://github.com/OxideAV/oxideav-workspace)
+  - Pure Rust audio and video codec implementations.
 
 ### Video
 
