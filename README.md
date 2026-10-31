@@ -14,7 +14,7 @@ Whether you are building web applications, working with systems programming, exp
 
 
 
-## Contents
+## Table of contents
 
 - [AI & Machine Learning](#ai--machine-learning)
   - [AI Agents](#ai-agents)
