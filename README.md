@@ -881,11 +881,64 @@ Libraries and resources related to Rust language features and programming paradi
 
 ### Async
 
+- [Tokio](https://github.com/tokio-rs/tokio)
+  - Asynchronous runtime for networking, I/O, timers, and task scheduling.
+- [Smol](https://github.com/smol-rs/smol)
+  - Small and fast asynchronous runtime for Rust.
+- [Futures](https://github.com/rust-lang/futures-rs)
+  - Zero-cost abstractions for asynchronous programming.
+- [Monoio](https://github.com/monoio-rs/monoio)
+  - Asynchronous runtime based on io_uring.
+- [Compio](https://github.com/compio-rs/compio)
+  - Thread-per-core async runtime with support for IOCP and io_uring.
+- [Embassy](https://github.com/embassy-rs/embassy)
+  - Async framework for embedded systems.
+- [Async Channel](https://github.com/smol-rs/async-channel)
+  - Asynchronous multi-producer multi-consumer channel.
+- [Async Lock](https://github.com/smol-rs/async-lock)
+  - Asynchronous synchronization primitives.
+- [Async FS](https://github.com/smol-rs/async-fs)
+  - Asynchronous filesystem operations.
+
 ### Concurrency
+
+- [Rayon](https://github.com/rayon-rs/rayon)
+  - Data parallelism library for executing computations across multiple threads.
+- [Crossbeam](https://github.com/crossbeam-rs/crossbeam)
+  - Tools and primitives for concurrent programming in Rust.
+- [Parking Lot](https://github.com/Amanieu/parking_lot)
+  - Efficient synchronization primitives for multithreaded applications.
+- [Orx Parallel](https://github.com/orxfun/orx-parallel)
+  - Parallel computation library with an expressive iterator API.
+- [Loom](https://github.com/tokio-rs/loom)
+  - Concurrency testing tool for exploring possible thread execution orders.
+- [Flume](https://github.com/zesterer/flume)
+  - Fast and safe multi-producer, multi-consumer channel.
 
 ### Macros
 
+- [Syn](https://github.com/dtolnay/syn)
+  - Parsing library for Rust source code and procedural macros.
+- [Quote](https://github.com/dtolnay/quote)
+  - Quasi-quoting library for generating Rust code.
+- [Proc Macro2](https://github.com/dtolnay/proc-macro2)
+  - Stable interface for interacting with Rust procedural macros.
+- [Bon](https://github.com/elastio/bon)
+  - Builder generator using Rust procedural macros.
+- [Async Trait](https://github.com/dtolnay/async-trait)
+  - Enables async functions in trait definitions and implementations.
+- [Thiserror](https://github.com/dtolnay/thiserror)
+  - Derive macros for implementing standard error traits.
+- [Seq Macro](https://github.com/dtolnay/seq-macro)
+  - Macro for expanding sequences of repeated Rust code.
+- [Inventory](https://github.com/dtolnay/inventory)
+  - Typed plugin registration through distributed collections.
+- [Linkme](https://github.com/dtolnay/linkme)
+  - Distributed slices implemented with procedural macros.
+
 ### Memory Management
+
+
 
 ### Functional Programming
 
