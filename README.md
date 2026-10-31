@@ -601,6 +601,10 @@ Tools and libraries that improve the software development workflow.
   - Measures the amount of unsafe Rust code in a project and its dependencies.
 - [Biome](https://github.com/biomejs/biome)
   - A fast web development toolchain written in Rust, providing a formatter and linter for JavaScript, TypeScript, JSON, CSS, and other web technologies.
+- [Ruff](https://github.com/astral-sh/ruff)
+  - Extremely fast Python linter and code formatter written in Rust, with hundreds of lint rules and automatic code fixes.
+- [ty](https://github.com/astral-sh/ty)
+  - Extremely fast Python type checker and language server written in Rust, providing static type analysis and rich diagnostics.
 
 ### Documentation
 
@@ -1064,6 +1068,10 @@ Tools for compiling, building, formatting, and managing Rust projects.
   - Removes stale Cargo build artifacts to reclaim disk space.
 - [crates.io](https://github.com/rust-lang/crates.io)
   - The official Rust package registry, providing infrastructure for publishing and downloading crates.
+- [Bun](https://github.com/oven-sh/bun)
+  - Fast all-in-one JavaScript and TypeScript toolkit written in Rust, featuring a runtime, bundler, test runner, and package manager.
+- [uv](https://github.com/astral-sh/uv)
+  - Extremely fast Python package and project manager written in Rust, with dependency management, lockfiles, virtual environments, and Python version management.
 
 ### Linters
 
