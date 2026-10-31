@@ -641,13 +641,39 @@ Tools and libraries for infrastructure, deployment, cloud services, and operatio
 
 ### Cloud
 
+- [AWS SDK for Rust](https://github.com/awslabs/aws-sdk-rust) - Official Rust SDK for interacting with AWS services.
+- [Firecracker](https://github.com/firecracker-microvm/firecracker) - Lightweight virtualization technology for running secure microVMs.
+- [Spin](https://github.com/spinframework/spin) - Framework for building and running WebAssembly applications in the cloud.
+- [Bottlerocket](https://github.com/bottlerocket-os/bottlerocket) - Linux-based operating system designed for running containers in cloud environments.
+- [Vector](https://github.com/vectordotdev/vector) - Observability data pipeline for collecting, processing, and routing logs, metrics, and traces.
+
 ### Containers
+
+- [youki](https://github.com/youki-dev/youki) - OCI-compatible container runtime written in Rust.
+- [runwasi](https://github.com/containerd/runwasi) - Library for running WebAssembly workloads with containerd.
+- [oci-spec-rs](https://github.com/youki-dev/oci-spec-rs) - Rust implementation of the OCI Runtime, Image, and Distribution Specifications.
+- [containerd-shim-spin](https://github.com/spinframework/containerd-shim-spin) - containerd integration for running Spin WebAssembly applications.
 
 ### CI/CD
 
+- [release-plz](https://github.com/release-plz/release-plz) - Automates Rust crate releases, version updates, changelogs, and publishing from CI.
+- [cargo-release](https://github.com/crate-ci/cargo-release) - Automates crate releases, including versioning, Git tagging, and publishing.
+- [cargo-dist](https://github.com/axodotdev/cargo-dist) - Automates cross-platform binary builds, installers, and release distribution through CI.
+- [git-cliff](https://github.com/orhun/git-cliff) - Generates changelogs from Git history and conventional commits.
+
 ### Distributed Systems
 
+- [OpenRaft](https://github.com/databendlabs/openraft) - Raft consensus implementation for building fault-tolerant distributed systems.
+- [raft-rs](https://github.com/tikv/raft-rs) - Rust implementation of the Raft consensus algorithm for replicated state machines.
+- [OmniPaxos](https://github.com/haraldng/omnipaxos) - Distributed log library for building replicated and fault-tolerant services.
+
 ### Observability
+
+- [OpenTelemetry Rust](https://github.com/open-telemetry/opentelemetry-rust) - Instrumentation and telemetry collection for metrics, logs, and traces.
+- [metrics](https://github.com/metrics-rs/metrics) - Metrics ecosystem for recording counters, gauges, and histograms in Rust applications.
+- [Prometheus Rust Client](https://github.com/prometheus/client_rust) - Prometheus-compatible metrics instrumentation library for Rust.
+- [Sentry Rust SDK](https://github.com/getsentry/sentry-rust) - Captures application errors, panics, events, and performance data for Sentry.
+- [tracing-opentelemetry](https://github.com/tokio-rs/tracing-opentelemetry) - Integrates the tracing ecosystem with OpenTelemetry for distributed tracing.
 
 ### Logging
 
