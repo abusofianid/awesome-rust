@@ -1047,6 +1047,8 @@ Tools for compiling, building, formatting, and managing Rust projects.
   - A compiler for a fast, friendly, and functional programming language.
 - [tsrs](https://github.com/oxc-project/tsrs)
   - A Rust implementation of the TypeScript 7 compiler and language server, designed for faster type checking and lower memory usage.
+- [SWC](https://github.com/swc-project/swc)
+  - A high-performance JavaScript and TypeScript compiler written in Rust, providing fast code transformation and minification.
 
 ### Package Management
 
