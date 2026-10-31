@@ -227,6 +227,8 @@ Frameworks and libraries for building web applications, APIs, and web services.
   - A Rust framework for building client-side web applications using WebAssembly and a component-based architecture.
 - [Leptos](https://github.com/leptos-rs/leptos)
   - A full-stack Rust web framework supporting reactive user interfaces, server-side rendering, and WebAssembly.
+- [Proa](https://github.com/Proa-Labs/proa)
+  - High-performance Rust web framework featuring compiled components, server-side rendering, streaming, data loading, and interactive islands.
 
 ### Web APIs
 
