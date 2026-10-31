@@ -1010,15 +1010,75 @@ Tools for compiling, building, formatting, and managing Rust projects.
 
 ### Cargo
 
+- [cargo-binstall](https://github.com/cargo-bins/cargo-binstall)
+  - Installs Rust binaries directly from prebuilt releases instead of compiling them from source.
+- [cargo-edit](https://github.com/killercup/cargo-edit)
+  - Provides commands for adding, removing, and upgrading dependencies in Cargo.toml.
+- [cargo-generate](https://github.com/cargo-generate/cargo-generate)
+  - Creates new Rust projects from existing Git repository templates.
+- [cargo-hack](https://github.com/taiki-e/cargo-hack)
+  - Simplifies testing crate features and feature combinations in CI workflows.
+- [cargo-expand](https://github.com/dtolnay/cargo-expand)
+  - Displays expanded Rust macros and derive implementations for easier inspection.
+- [cargo-chef](https://github.com/LukeMathWalker/cargo-chef)
+  - Speeds up Docker builds by caching Rust project dependencies.
+- [cargo-msrv](https://github.com/foresterre/cargo-msrv)
+  - Identifies the minimum Rust version required to compile a crate.
+
 ### Compilers
+
+- [rustc](https://github.com/rust-lang/rust)
+  - The official Rust compiler, responsible for compiling Rust source code into executable binaries and libraries.
+- [Cranelift Codegen Backend](https://github.com/rust-lang/rustc_codegen_cranelift)
+  - An alternative Rust compiler backend that uses Cranelift to generate machine code.
+- [GCC Codegen Backend](https://github.com/rust-lang/rustc_codegen_gcc)
+  - Enables Rust programs to be compiled through GCC as an alternative code generation backend.
+- [Rust-GPU](https://github.com/rust-gpu/rust-gpu)
+  - Provides a Rust toolchain for compiling GPU shaders to SPIR-V.
+- [Miden Compiler](https://github.com/0xMiden/compiler)
+  - Compiles programs for the Miden virtual machine.
+- [Gleam](https://github.com/gleam-lang/gleam)
+  - A compiler for the Gleam programming language, targeting Erlang and JavaScript.
+- [Roc](https://github.com/roc-lang/roc)
+  - A compiler for a fast, friendly, and functional programming language.
 
 ### Package Management
 
+- [cargo-update](https://github.com/nabijaczleweli/cargo-update)
+  - Installs and updates Rust binaries installed through `cargo install`.
+- [cargo-quickinstall](https://github.com/cargo-bins/cargo-quickinstall)
+  - Installs precompiled Rust binaries from GitHub releases to avoid compiling them locally.
+- [cargo-sweep](https://github.com/holmgr/cargo-sweep)
+  - Removes stale Cargo build artifacts to reclaim disk space.
+- [crates.io](https://github.com/rust-lang/crates.io)
+  - The official Rust package registry, providing infrastructure for publishing and downloading crates.
+
 ### Linters
+
+- [Dylint](https://github.com/trailofbits/dylint)
+  - Enables custom Rust lint libraries to detect project-specific coding issues.
+- [cargo-spellcheck](https://github.com/drahnr/cargo-spellcheck)
+  - Checks spelling errors in Rust documentation comments and project documentation.
 
 ### Formatters
 
+- [rustfmt](https://github.com/rust-lang/rust/tree/master/src/tools/rustfmt)
+  - The official Rust code formatter, automatically formatting source code according to configurable style rules.
+- [Prettyplease](https://github.com/dtolnay/prettyplease)
+  - Formats Rust syntax trees into readable source code as an alternative to rustfmt.
+- [Taplo](https://github.com/tamasfe/taplo)
+  - Provides formatting, validation, and language-server support for TOML files.
+
 ### Build Tools
+
+- [Cross](https://github.com/cross-rs/cross)
+  - Simplifies cross-compiling and testing Rust projects for different target platforms using Docker.
+- [cargo-zigbuild](https://github.com/rust-cross/cargo-zigbuild)
+  - Enables cross-compilation of Rust applications using Zig as a linker.
+- [sccache](https://github.com/mozilla/sccache)
+  - Caches compiler outputs to accelerate repeated Rust builds and reduce compilation time.
+- [cargo-chef](https://github.com/LukeMathWalker/cargo-chef)
+  - Optimizes Rust Docker builds by separating dependency compilation from application source changes.
 
 **[⬆ Back to Top](#contents)**
 
