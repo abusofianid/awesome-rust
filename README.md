@@ -1169,17 +1169,112 @@ Learning materials and community resources for Rust developers.
 
 ### Books
 
+- [Programming Rust](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
+  - A comprehensive guide to systems programming with Rust, covering ownership, concurrency, and performance.
+- [Rust for Rustaceans](https://rust-for-rustaceans.com/)
+  - An advanced guide to writing idiomatic, efficient, and maintainable Rust code.
+- [Zero To Production In Rust](https://www.zero2prod.com/)
+  - A practical book on building reliable, production-ready backend applications with Rust.
+- [Rust Atomics and Locks](https://marabos.nl/atomics/)
+  - Explores concurrent programming in Rust through atomics, memory ordering, and synchronization primitives.
+
 ### Courses
+
+- [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
+  - A free, comprehensive Rust course developed by Google, covering fundamentals, concurrency, and embedded programming.
+- [Exercism – Rust Track](https://exercism.org/tracks/rust)
+  - An interactive learning path with coding exercises and optional mentor feedback.
+- [JetBrains Academy – Learn Rust](https://academy.jetbrains.com/course/16631)
+  - A hands-on beginner course with coding exercises, instant feedback, and a completion certificate.
+- [Getting Started with Rust – Linux Foundation](https://training.linuxfoundation.org/express-learning/getting-started-with-rust-lfel1002/)
+  - A self-paced introductory course covering Rust syntax, Cargo, troubleshooting, and practical exercises.
+- [100 Exercises To Learn Rust](https://rust-exercises.com/)
+  - A progressive, exercise-driven course that teaches Rust through practical coding challenges.
+- [Brown University – Interactive Rust Book](https://rust-book.cs.brown.edu/)
+  - An interactive learning experience with quizzes and visualizations to help understand Rust ownership and borrowing.
 
 ### Tutorials
 
+- [Learn Rust](https://learnrust.net/)
+  - A beginner-friendly tutorial series covering Rust fundamentals through step-by-step lessons, examples, and quizzes.
+- [Rust Tutorial](https://www.rusttutorial.org/)
+  - Practical Rust lessons with runnable examples and guided projects, from basic syntax to async programming.
+- [Buzzard – Learn Rust by Example](https://buzzard.clivern.com/)
+  - A hands-on tutorial with 60 lessons covering Rust fundamentals, ownership, borrowing, and advanced concepts.
+- [Crust of Rust](https://www.youtube.com/playlist?list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa)
+  - An in-depth video series by Jon Gjengset exploring advanced Rust concepts through live coding.
+- [Hecto: Build Your Own Text Editor in Rust](https://flenker.blog/hecto/)
+  - A step-by-step tutorial on building a terminal text editor from scratch using Rust.
+- [Writing an OS in Rust](https://os.phil-opp.com/)
+  - A practical tutorial series on building an operating system kernel with Rust.
+- [Game Development with Macroquad](https://mq.agical.se/)
+  - A project-based guide to creating 2D games with Rust and the Macroquad game framework.
+- [Build a Lua Interpreter in Rust](https://wubingzheng.github.io/build-lua-in-rust/en/)
+  - A tutorial series that teaches interpreter development by implementing Lua in Rust.
+
 ### Conferences
+
+- [RustConf](https://rustconf.com/)
+  - The flagship annual Rust conference bringing together developers, maintainers, and researchers from across the Rust ecosystem.
+- [RustWeek](https://rustweek.org/)
+  - A week-long Rust community event featuring technical talks, workshops, hackathons, and networking.
+- [Oxidize](https://oxidizeconf.com/)
+  - A conference focused on practical Rust adoption, production engineering, and real-world systems development.
+- [EuroRust](https://eurorust.eu/)
+  - A European Rust conference covering systems programming, web development, embedded systems, and the wider ecosystem.
+- [RustLab](https://rustlab.it/)
+  - An international Rust conference featuring technical talks, workshops, and community activities.
+- [Rust Nation UK](https://www.rustnationuk.com/)
+  - A UK-based conference for Rust developers, featuring talks, workshops, and community networking.
+- [Rustikon](https://rustikon.com/)
+  - A Rust conference bringing together developers to share knowledge and explore the ecosystem.
+- [Rust in Paris](https://rustinparis.com/)
+  - A community-driven Rust conference featuring technical presentations and online participation.
+- [TokioConf](https://tokioconf.com/)
+  - A conference focused on asynchronous Rust, Tokio, and building high-performance production services.
 
 ### Communities
 
+- [Rust Users Forum](https://users.rust-lang.org/)
+  - The official community forum for asking questions, sharing projects, and discussing Rust programming.
+- [Rust Internals Forum](https://internals.rust-lang.org/)
+  - A discussion forum focused on Rust language development, compiler internals, and language design.
+- [Rust Zulip](https://rust-lang.zulipchat.com/)
+  - The primary chat platform for Rust project teams, contributors, and community discussions.
+- [Rust Programming Language Community Discord](https://discord.gg/rust-lang-community)
+  - A large community Discord server for learning Rust, getting help, and connecting with other developers.
+- [r/rust](https://www.reddit.com/r/rust/)
+  - A Reddit community for Rust news, discussions, questions, and project showcases.
+- [Rust Community on Stack Overflow](https://stackoverflow.com/questions/tagged/rust)
+  - A question-and-answer community for solving Rust programming problems.
+- [Rust User Groups](https://rust-lang.org/community/)
+  - A directory of local Rust meetups and community events around the world.
+
 ### Podcasts
 
+- [Rustacean Station](https://rustacean-station.org/)
+  - A community-driven podcast featuring interviews, discussions, and technical deep dives into the Rust ecosystem.
+- [Rust in Production](https://corrode.dev/podcast/)
+  - Explores how companies use Rust in production through interviews with engineers and technology leaders.
+- [Netstack.FM](https://netstack.fm/)
+  - A podcast about Rust, networking, protocols, and the engineers building modern internet infrastructure.
+- [Oxide and Friends](https://oxide-and-friends.transistor.fm/)
+  - Covers systems engineering, operating systems, hardware, infrastructure, and low-level technologies, including Rust.
+
 ### Newsletters
+
+- [This Week in Rust](https://this-week-in-rust.org/)
+  - A weekly newsletter covering Rust releases, community updates, new projects, articles, events, and job opportunities.
+- [Rust Bytes](https://weeklyrust.substack.com/)
+  - A weekly curated newsletter featuring Rust news, technical discussions, project spotlights, and learning resources.
+- [Awesome Rust Weekly](https://rust.libhunt.com/newsletter)
+  - A weekly collection of Rust projects, libraries, tools, releases, and ecosystem news.
+- [The Embedded Rustacean](https://theembeddedrustacean.com/)
+  - A newsletter focused on embedded Rust, microcontrollers, hardware projects, and embedded development tutorials.
+- [Rust Trends](https://rust-trends.com/)
+  - A newsletter highlighting Rust ecosystem developments, industry adoption, technical articles, and emerging projects.
+- [How To Code It](https://www.howtocodeit.com/newsletter)
+  - A newsletter sharing practical Rust programming techniques, software architecture insights, and engineering discussions.
 
 **[⬆ Back to Top](#contents)**
 
