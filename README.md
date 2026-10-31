@@ -14,7 +14,7 @@ Whether you are building web applications, working with systems programming, exp
 
 
 
-## Table of contents
+## Table of Contents
 
 - [AI & Machine Learning](#ai--machine-learning)
   - [AI Agents](#ai-agents)
@@ -350,6 +350,8 @@ Libraries and tools for network communication, protocols, and distributed messag
   - HTML parsing library with CSS selector support for extracting elements and data from web pages.
 - [Fantoccini](https://github.com/jonhoo/fantoccini)
   - Async WebDriver client for controlling browsers and interacting with web pages through CSS selectors.
+- [cfsolve](https://github.com/chris124567/cfsolve)
+  - A Rust library and CLI tool for handling Cloudflare Turnstile widgets and challenge pages without a headless browser.
 
 **[⬆ Back to Top](#contents)**
 
@@ -1103,6 +1105,11 @@ Resources that help developers use AI tools and workflows when building Rust app
 ### Model Context Protocol (MCP)
 
 ### AI Developer Tools
+
+- [CC Switch](https://github.com/farion1231/cc-switch)
+  - A desktop tool for managing configurations and switching between AI coding assistants and model providers.
+- [Agent Desktop](https://github.com/vercel-labs/agent-desktop)
+  - A Rust-based computer-use tool that enables AI agents to inspect and operate desktop applications through accessibility APIs.
 
 **[⬆ Back to Top](#contents)**
 
