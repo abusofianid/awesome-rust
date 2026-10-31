@@ -641,41 +641,73 @@ Tools and libraries for infrastructure, deployment, cloud services, and operatio
 
 ### Cloud
 
-- [AWS SDK for Rust](https://github.com/awslabs/aws-sdk-rust) - Official Rust SDK for interacting with AWS services.
-- [Firecracker](https://github.com/firecracker-microvm/firecracker) - Lightweight virtualization technology for running secure microVMs.
-- [Spin](https://github.com/spinframework/spin) - Framework for building and running WebAssembly applications in the cloud.
-- [Bottlerocket](https://github.com/bottlerocket-os/bottlerocket) - Linux-based operating system designed for running containers in cloud environments.
-- [Vector](https://github.com/vectordotdev/vector) - Observability data pipeline for collecting, processing, and routing logs, metrics, and traces.
+- [AWS SDK for Rust](https://github.com/awslabs/aws-sdk-rust)
+  - Official Rust SDK for interacting with AWS services.
+- [Firecracker](https://github.com/firecracker-microvm/firecracker)
+  - Lightweight virtualization technology for running secure microVMs.
+- [Spin](https://github.com/spinframework/spin)
+  - Framework for building and running WebAssembly applications in the cloud.
+- [Bottlerocket](https://github.com/bottlerocket-os/bottlerocket)
+  - Linux-based operating system designed for running containers in cloud environments.
+- [Vector](https://github.com/vectordotdev/vector)
+  - Observability data pipeline for collecting, processing, and routing logs, metrics, and traces.
 
 ### Containers
 
-- [youki](https://github.com/youki-dev/youki) - OCI-compatible container runtime written in Rust.
-- [runwasi](https://github.com/containerd/runwasi) - Library for running WebAssembly workloads with containerd.
-- [oci-spec-rs](https://github.com/youki-dev/oci-spec-rs) - Rust implementation of the OCI Runtime, Image, and Distribution Specifications.
-- [containerd-shim-spin](https://github.com/spinframework/containerd-shim-spin) - containerd integration for running Spin WebAssembly applications.
+- [youki](https://github.com/youki-dev/youki)
+  - OCI-compatible container runtime written in Rust.
+- [runwasi](https://github.com/containerd/runwasi)
+  - Library for running WebAssembly workloads with containerd.
+- [oci-spec-rs](https://github.com/youki-dev/oci-spec-rs)
+  - Rust implementation of the OCI Runtime, Image, and Distribution Specifications.
+- [containerd-shim-spin](https://github.com/spinframework/containerd-shim-spin)
+  - containerd integration for running Spin WebAssembly applications.
 
 ### CI/CD
 
-- [release-plz](https://github.com/release-plz/release-plz) - Automates Rust crate releases, version updates, changelogs, and publishing from CI.
-- [cargo-release](https://github.com/crate-ci/cargo-release) - Automates crate releases, including versioning, Git tagging, and publishing.
-- [cargo-dist](https://github.com/axodotdev/cargo-dist) - Automates cross-platform binary builds, installers, and release distribution through CI.
-- [git-cliff](https://github.com/orhun/git-cliff) - Generates changelogs from Git history and conventional commits.
+- [release-plz](https://github.com/release-plz/release-plz)
+  - Automates Rust crate releases, version updates, changelogs, and publishing from CI.
+- [cargo-release](https://github.com/crate-ci/cargo-release)
+  - Automates crate releases, including versioning, Git tagging, and publishing.
+- [cargo-dist](https://github.com/axodotdev/cargo-dist)
+  - Automates cross-platform binary builds, installers, and release distribution through CI.
+- [git-cliff](https://github.com/orhun/git-cliff)
+  - Generates changelogs from Git history and conventional commits.
 
 ### Distributed Systems
 
-- [OpenRaft](https://github.com/databendlabs/openraft) - Raft consensus implementation for building fault-tolerant distributed systems.
-- [raft-rs](https://github.com/tikv/raft-rs) - Rust implementation of the Raft consensus algorithm for replicated state machines.
-- [OmniPaxos](https://github.com/haraldng/omnipaxos) - Distributed log library for building replicated and fault-tolerant services.
+- [OpenRaft](https://github.com/databendlabs/openraft)
+  - Raft consensus implementation for building fault-tolerant distributed systems.
+- [raft-rs](https://github.com/tikv/raft-rs)
+  - Rust implementation of the Raft consensus algorithm for replicated state machines.
+- [OmniPaxos](https://github.com/haraldng/omnipaxos)
+  - Distributed log library for building replicated and fault-tolerant services.
 
 ### Observability
 
-- [OpenTelemetry Rust](https://github.com/open-telemetry/opentelemetry-rust) - Instrumentation and telemetry collection for metrics, logs, and traces.
-- [metrics](https://github.com/metrics-rs/metrics) - Metrics ecosystem for recording counters, gauges, and histograms in Rust applications.
-- [Prometheus Rust Client](https://github.com/prometheus/client_rust) - Prometheus-compatible metrics instrumentation library for Rust.
-- [Sentry Rust SDK](https://github.com/getsentry/sentry-rust) - Captures application errors, panics, events, and performance data for Sentry.
-- [tracing-opentelemetry](https://github.com/tokio-rs/tracing-opentelemetry) - Integrates the tracing ecosystem with OpenTelemetry for distributed tracing.
+- [OpenTelemetry Rust](https://github.com/open-telemetry/opentelemetry-rust)
+  - Instrumentation and telemetry collection for metrics, logs, and traces.
+- [metrics](https://github.com/metrics-rs/metrics)
+  - Metrics ecosystem for recording counters, gauges, and histograms in Rust applications.
+- [Prometheus Rust Client](https://github.com/prometheus/client_rust)
+  - Prometheus-compatible metrics instrumentation library for Rust.
+- [Sentry Rust SDK](https://github.com/getsentry/sentry-rust)
+  - Captures application errors, panics, events, and performance data for Sentry.
+- [tracing-opentelemetry](https://github.com/tokio-rs/tracing-opentelemetry)
+  - Integrates the tracing ecosystem with OpenTelemetry for distributed tracing.
 
 ### Logging
+
+- [log](https://github.com/rust-lang/log)
+  - Logging facade providing macros such as `info!`, `warn!`, and `error!`.
+- [env_logger](https://github.com/rust-cli/env_logger)
+  - Simple logger with log-level filtering through environment variables.
+- [log4rs](https://github.com/estk/log4rs)
+  - Configurable logging framework with support for multiple outputs and appenders.
+- [logforth](https://github.com/fast/logforth)
+  - Extensible logging framework with configurable dispatches, filters, and appenders.
+- [fast_log](https://github.com/rbatis/fast_log)
+  - Asynchronous logging library designed for high-performance applications.
 
 **[⬆ Back to Top](#contents)**
 
@@ -685,7 +717,31 @@ Frameworks and libraries for building command-line, terminal-based, and graphica
 
 ### CLI Frameworks
 
+- [Clap](https://github.com/clap-rs/clap)
+  - Command-line argument parser with support for subcommands, flags, and automatic help generation.
+- [Argh](https://github.com/google/argh)
+  - Derive-based argument parsing library for building command-line interfaces.
+- [bpaf](https://github.com/pacak/bpaf)
+  - Composable argument parser for building declarative command-line interfaces.
+- [Dialoguer](https://github.com/console-rs/dialoguer)
+  - Library for creating interactive CLI prompts, selections, and confirmations.
+- [Inquire](https://github.com/mikaelmello/inquire)
+  - Interactive CLI framework with text input, selections, and multi-selection prompts.
+
 ### Terminal UI
+
+- [Ratatui](https://github.com/ratatui/ratatui)
+  - Library for building terminal interfaces with widgets, layouts, tables, charts, and custom rendering.
+- [Cursive](https://github.com/gyscos/cursive)
+  - Framework for building terminal applications with dialogs, menus, forms, and reusable views.
+- [TUI Realm](https://github.com/veeso/tui-realm)
+  - Component-based framework for building terminal user interfaces with widgets and event handling.
+- [TUI Widgets](https://github.com/ratatui/tui-widgets)
+  - Collection of additional widgets for extending Ratatui applications.
+- [TachyonFX](https://github.com/ratatui/tachyonfx)
+  - Library for adding animations and visual effects to Ratatui applications.
+- [Ratatui Image](https://github.com/ratatui/ratatui-image)
+  - Library for displaying images in terminal applications using Ratatui.
 
 ### GUI Frameworks
 
