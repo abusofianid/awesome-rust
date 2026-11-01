@@ -673,6 +673,8 @@ Frameworks and libraries for building command-line, terminal-based, and graphica
   - Component-based framework for building terminal user interfaces with widgets and event handling.
 - [TachyonFX](https://github.com/ratatui/tachyonfx)
   - Library for adding animations and visual effects to Ratatui applications.
+- [Yazi](https://github.com/sxyazi/yazi)
+  - A blazing-fast terminal file manager written in Rust, featuring asynchronous file operations, image previews, Vim-like navigation, and an extensible Lua plugin system.
 
 ### GUI Frameworks
 
