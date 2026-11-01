@@ -1,9 +1,7 @@
 blank_issues_enabled: false
 
 contact_links:
-  - name: Questions and Discussions
-    url: https://github.com/abusofianid/awesome-rust/discussions
-    about: Ask questions or discuss the Rust ecosystem.
+
 
   - name: Contribution Guidelines
     url: https://github.com/abusofianid/awesome-rust/blob/main/CONTRIBUTING.md
