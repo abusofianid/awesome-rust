@@ -717,12 +717,8 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
   - Rust library for loading, processing, and saving images in various formats.
 - [Photon](https://github.com/silvia-odwyer/photon)
   - Fast image processing library with filters, effects, and transformations.
-- [fast_image_resize](https://github.com/Cykooz/fast_image_resize)
-  - High-performance image resizing library for Rust.
 - [Oxipng](https://github.com/oxipng/oxipng)
   - Multithreaded PNG optimizer that reduces file sizes without losing image quality.
-- [libimagequant](https://github.com/ImageOptim/libimagequant)
-  - Library for high-quality image color quantization and palette generation.
 - [dssim](https://github.com/kornelski/dssim)
   - Image similarity comparison tool based on perceptual differences.
 
@@ -734,23 +730,13 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
   - Cross-platform audio I/O library for recording and playback.
 - [Symphonia](https://github.com/pdeljanov/Symphonia)
   - Pure Rust multimedia format decoding library with support for common audio formats.
-- [Hound](https://github.com/ruuda/hound)
-  - WAV audio encoding and decoding library.
 - [Kira](https://github.com/tesselode/kira)
   - Audio library for games with support for sound effects, music, and spatial audio.
-- [Rubato](https://github.com/HEnquist/rubato)
-  - Audio resampling library for converting between sample rates.
 - [NIH-plug](https://github.com/robbert-vdh/nih-plug)
   - Framework for developing audio plugins in Rust.
-- [Lofty](https://github.com/Serial-ATA/lofty-rs)
-  - Library for reading and writing metadata tags in audio files.
-- [OxideAV](https://github.com/OxideAV/oxideav-workspace)
-  - Pure Rust audio and video codec implementations.
 
 ### Video
 
-- [GStreamer Rust Bindings](https://github.com/GStreamer/gstreamer-rs)
-  - Rust bindings for the GStreamer multimedia framework.
 - [Rust FFmpeg](https://github.com/zmwangx/rust-ffmpeg)
   - Rust bindings for the FFmpeg multimedia framework.
 - [Av1an](https://github.com/rust-av/Av1an)
@@ -764,8 +750,6 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
   - Library for working with curves and geometric shapes.
 - [Tiny Skia](https://github.com/linebender/tiny-skia)
   - Lightweight 2D graphics rendering library.
-- [Raden](https://github.com/shiguredo/raden)
-  - 2D vector graphics library powered by Cranelift JIT.
 
 ### Game Development
 
