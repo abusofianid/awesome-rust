@@ -360,6 +360,8 @@ Libraries and tools for database connectivity, data persistence, and storage man
   - Official MongoDB driver for Rust, supporting CRUD operations, aggregation, transactions, and change streams.
 - [Redis-rs](https://github.com/redis-rs/redis-rs)
   - Redis client for Rust, with support for async and sync connections, Pub/Sub, and pipelining.
+- [SQLx](https://github.com/transact-rs/sqlx)
+  - Async SQL toolkit with compile-time checked queries, connection pooling, and support for PostgreSQL, MySQL, MariaDB, and SQLite.
 
 ### SQL Databases
 
