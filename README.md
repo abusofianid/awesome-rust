@@ -186,6 +186,8 @@ Applications, platforms, and workflows that support AI-assisted software develop
   - An open-source desktop platform for managing AI coding agents locally and in the cloud, powered by a Rust-based cloud engine.
 - [ai-memory](https://github.com/akitaonrails/ai-memory)
   - Long-term memory and cross-agent handoffs for AI coding agents.
+- [Codync](https://github.com/leepokai/Codync)
+  - Open-source platform for managing and orchestrating multiple AI coding agents across devices.
 
 ### Model Context Protocol (MCP)
 
