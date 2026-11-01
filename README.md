@@ -733,6 +733,8 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
   - Audio library for games with support for sound effects, music, and spatial audio.
 - [NIH-plug](https://github.com/robbert-vdh/nih-plug)
   - Framework for developing audio plugins in Rust.
+- [Handy](https://github.com/cjpais/Handy)
+  - Cross-platform, offline speech-to-text application built with Rust, featuring real-time audio processing and local AI transcription.
 
 ### Video
 
