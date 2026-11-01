@@ -606,10 +606,6 @@ Tools and libraries for infrastructure, deployment, cloud services, and operatio
   - OCI-compatible container runtime written in Rust.
 - [runwasi](https://github.com/containerd/runwasi)
   - Library for running WebAssembly workloads with containerd.
-- [oci-spec-rs](https://github.com/youki-dev/oci-spec-rs)
-  - Rust implementation of the OCI Runtime, Image, and Distribution Specifications.
-- [containerd-shim-spin](https://github.com/spinframework/containerd-shim-spin)
-  - containerd integration for running Spin WebAssembly applications.
 
 ### CI/CD
 
@@ -628,8 +624,6 @@ Tools and libraries for infrastructure, deployment, cloud services, and operatio
   - Raft consensus implementation for building fault-tolerant distributed systems.
 - [raft-rs](https://github.com/tikv/raft-rs)
   - Rust implementation of the Raft consensus algorithm for replicated state machines.
-- [OmniPaxos](https://github.com/haraldng/omnipaxos)
-  - Distributed log library for building replicated and fault-tolerant services.
 
 ### Observability
 
@@ -637,12 +631,6 @@ Tools and libraries for infrastructure, deployment, cloud services, and operatio
   - Instrumentation and telemetry collection for metrics, logs, and traces.
 - [metrics](https://github.com/metrics-rs/metrics)
   - Metrics ecosystem for recording counters, gauges, and histograms in Rust applications.
-- [Prometheus Rust Client](https://github.com/prometheus/client_rust)
-  - Prometheus-compatible metrics instrumentation library for Rust.
-- [Sentry Rust SDK](https://github.com/getsentry/sentry-rust)
-  - Captures application errors, panics, events, and performance data for Sentry.
-- [tracing-opentelemetry](https://github.com/tokio-rs/tracing-opentelemetry)
-  - Integrates the tracing ecosystem with OpenTelemetry for distributed tracing.
 
 ### Logging
 
@@ -652,10 +640,6 @@ Tools and libraries for infrastructure, deployment, cloud services, and operatio
   - Simple logger with log-level filtering through environment variables.
 - [log4rs](https://github.com/estk/log4rs)
   - Configurable logging framework with support for multiple outputs and appenders.
-- [logforth](https://github.com/fast/logforth)
-  - Extensible logging framework with configurable dispatches, filters, and appenders.
-- [fast_log](https://github.com/rbatis/fast_log)
-  - Asynchronous logging library designed for high-performance applications.
 
 **[⬆ Back to Top](#contents)**
 
