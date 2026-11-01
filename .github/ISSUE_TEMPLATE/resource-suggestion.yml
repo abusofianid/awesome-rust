@@ -10,7 +10,6 @@ body:
       value: |
         Thank you for suggesting a resource for Awesome Rust!
 
-        Please provide the details below so we can review your suggestion.
         Before submitting, make sure to read our [Contributing Guidelines](../../CONTRIBUTING.md).
 
   - type: input
