@@ -136,8 +136,6 @@ Frameworks, libraries, and tools for building AI applications, machine learning 
 
 ### AI Agents
 
-Frameworks and applications for building and running AI agents, including coding agents.
-
 - [Rig](https://github.com/0xPlaygrounds/rig)
   - A modular Rust framework for building LLM applications and AI agents with tool calling, multi-turn conversations, streaming, and memory management.
 - [LangChain Rust](https://github.com/Abraxas-365/langchain-rust)
@@ -150,8 +148,6 @@ Frameworks and applications for building and running AI agents, including coding
   - Open-source Rust based AI agent harness with multi-agent orchestration, persistent memory, and workflow automation.
 
 ### AI & Machine Learning Libraries
-
-Libraries and frameworks for machine learning, deep learning, LLM inference, natural language processing, and computer vision.
 
 - [mistral.rs](https://github.com/EricLBuehler/mistral.rs)
   - A fast and flexible Rust inference engine for running quantized large language models locally, with CPU, Apple Silicon, and CUDA support.
@@ -174,8 +170,6 @@ Libraries and frameworks for machine learning, deep learning, LLM inference, nat
 
 ### AI Development Tools & Workflows
 
-Applications, platforms, and workflows that support AI-assisted software development.
-
 - [OpenAgents Control](https://github.com/darrenhinde/OpenAgentsControl)
   - A framework for creating repeatable AI coding workflows with reusable patterns, specialized agents, and human approval gates.
 - [CC Switch](https://github.com/farion1231/cc-switch)
@@ -190,8 +184,6 @@ Applications, platforms, and workflows that support AI-assisted software develop
   - Open-source platform for managing and orchestrating multiple AI coding agents across devices.
 
 ### Model Context Protocol (MCP)
-
-Rust SDKs and tools for implementing, connecting, and managing Model Context Protocol integrations.
 
 - [Official Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)
   - The official Rust SDK for implementing Model Context Protocol clients and servers with asynchronous support.
