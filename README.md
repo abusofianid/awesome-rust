@@ -705,6 +705,8 @@ Frameworks and libraries for building command-line, terminal-based, and graphica
   - Vector-based drawing and note-taking application for handwritten notes and sketches.
 - [Kando](https://github.com/kando-menu/kando)
   - Cross-platform pie menu for launching applications and performing actions.
+- [AFFiNE](https://github.com/toeverything/AFFiNE)
+  - An open-source, local-first workspace combining document editing, knowledge management, databases, and collaborative whiteboards, with Rust-powered native components.
 
 **[⬆ Back to Top](#contents)**
 
@@ -722,6 +724,8 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
   - Multithreaded PNG optimizer that reduces file sizes without losing image quality.
 - [dssim](https://github.com/kornelski/dssim)
   - Image similarity comparison tool based on perceptual differences.
+- [PhotoCraft](https://github.com/storytold/photocraft)
+  - An open-source, pure Rust image editor featuring layers, masks, adjustment layers, vector tools, GPU-accelerated rendering, and native PSD support.
 
 ### Audio
 
