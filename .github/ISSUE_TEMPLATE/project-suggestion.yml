@@ -12,15 +12,6 @@ body:
 
         Before submitting, please read our [Contributing Guidelines](../../blob/main/CONTRIBUTING.md).
 
-        **Project requirements:**
-        - At least 1,000 GitHub stars at the time of submission.
-        - Development activity within the last 6 months.
-        - The repository must not be archived or abandoned.
-        - The project must be directly relevant to Rust or its ecosystem.
-        - The project must not already be listed in this repository.
-
-        These requirements apply to software projects and GitHub repositories, not learning resources.
-
   - type: input
     id: project-name
     attributes:
