@@ -18,11 +18,9 @@ Whether you are building web applications, working with systems programming, exp
 
 - [AI & Machine Learning](#ai--machine-learning)
   - [AI Agents](#ai-agents)
-  - [Large Language Models](#large-language-models)
-  - [Machine Learning](#machine-learning)
-  - [Deep Learning](#deep-learning)
-  - [Natural Language Processing](#natural-language-processing)
-  - [Computer Vision](#computer-vision)
+  - [AI & Machine Learning Libraries](#ai--machine-learning-libraries)
+  - [AI Development Tools & Workflows](#ai-development-tools--workflows)
+  - [Model Context Protocol (MCP)](#model-context-protocol-mcp)
 
 - [Web Development](#web-development)
   - [Web Frameworks](#web-frameworks)
@@ -149,47 +147,65 @@ Whether you are building web applications, working with systems programming, exp
 
 ## AI & Machine Learning
 
-Libraries and frameworks for building artificial intelligence and machine learning applications with Rust.
+Frameworks, libraries, and tools for building AI applications, machine learning systems, and AI-assisted development workflows with Rust.
 
 ### AI Agents
+
+Frameworks and applications for building and running AI agents, including coding agents.
 
 - [Rig](https://github.com/0xPlaygrounds/rig)
   - A modular Rust framework for building LLM applications and AI agents with tool calling, multi-turn conversations, streaming, and memory management.
 - [LangChain Rust](https://github.com/Abraxas-365/langchain-rust)
   - A Rust implementation of LangChain that provides tool-using agents, memory, LLM chains, and integrations with multiple model providers.
+- [OpenAI Codex CLI](https://github.com/openai/codex)
+  - An open-source coding agent that runs in the terminal and can read, modify, and execute code.
+- [Goose](https://github.com/block/goose)
+  - An extensible AI agent built in Rust that can execute commands, edit files, and automate development workflows.
 
-### Large Language Models
+### AI & Machine Learning Libraries
+
+Libraries and frameworks for machine learning, deep learning, LLM inference, natural language processing, and computer vision.
 
 - [mistral.rs](https://github.com/EricLBuehler/mistral.rs)
   - A fast and flexible Rust inference engine for running quantized large language models locally, with CPU, Apple Silicon, and CUDA support.
 - [Candle](https://github.com/huggingface/candle)
   - A minimalist machine learning framework for Rust, with support for running transformer-based language models on CPU and GPU.
-
-### Machine Learning
-
 - [Burn](https://github.com/tracel-ai/burn)
   - A flexible and portable deep learning framework written in Rust, supporting neural networks, automatic differentiation, model training, and multiple hardware backends.
 - [Linfa](https://github.com/rust-ml/linfa)
   - A Rust machine learning toolkit inspired by scikit-learn, providing classical algorithms, preprocessing, clustering, regression, and dimensionality reduction.
-
-### Deep Learning
-
 - [Neuronika](https://github.com/neuronika/neuronika)
   - A pure Rust deep learning library for building dynamic neural networks with reverse-mode automatic differentiation.
 - [tch-rs](https://github.com/LaurentMazare/tch-rs)
   - Rust bindings for the PyTorch C++ API, providing tensor operations, automatic differentiation, neural network modules, and GPU acceleration.
-
-### Natural Language Processing
-
 - [Hugging Face Tokenizers](https://github.com/huggingface/tokenizers)
   - A fast and versatile tokenizer library written in Rust, supporting widely used subword tokenization algorithms and pretrained tokenizer models.
 - [Lingua](https://github.com/pemistahl/lingua-rs)
   - A language detection library for Rust designed to identify languages accurately, including short text and individual words, with offline support.
-
-### Computer Vision
-
 - [OpenCV Rust](https://github.com/twistedfall/opencv-rust)
   - Rust bindings for OpenCV, providing access to image processing, object detection, feature extraction, camera calibration, and computer vision algorithms.
+
+### AI Development Tools & Workflows
+
+Applications, platforms, and workflows that support AI-assisted software development.
+
+- [OpenAgents Control](https://github.com/darrenhinde/OpenAgentsControl)
+  - A framework for creating repeatable AI coding workflows with reusable patterns, specialized agents, and human approval gates.
+- [CC Switch](https://github.com/farion1231/cc-switch)
+  - A desktop tool for managing configurations and switching between AI coding assistants and model providers.
+- [Agent Desktop](https://github.com/vercel-labs/agent-desktop)
+  - A Rust-based computer-use tool that enables AI agents to inspect and operate desktop applications through accessibility APIs.
+- [Cloudroom](https://github.com/davidondrej/cloudroom)
+  - An open-source desktop platform for managing AI coding agents locally and in the cloud, powered by a Rust-based cloud engine.
+
+### Model Context Protocol (MCP)
+
+Rust SDKs and tools for implementing, connecting, and managing Model Context Protocol integrations.
+
+- [Official Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)
+  - The official Rust SDK for implementing Model Context Protocol clients and servers with asynchronous support.
+- [Agent Gateway](https://github.com/agentgateway/agentgateway)
+  - A Rust-based gateway for managing and securing connections between AI agents, MCP servers, and model providers.
 
 **[⬆ Back to Top](#contents)**
 
@@ -1189,44 +1205,6 @@ Learning materials and community resources for Rust developers.
   - A newsletter highlighting Rust ecosystem developments, industry adoption, technical articles, and emerging projects.
 - [How To Code It](https://www.howtocodeit.com/newsletter)
   - A newsletter sharing practical Rust programming techniques, software architecture insights, and engineering discussions.
-
-**[⬆ Back to Top](#contents)**
-
-## AI Development Resources
-
-Resources that help developers use AI tools and workflows when building Rust applications.
-
-### AI Coding Agents
-
-- [OpenAI Codex CLI](https://github.com/openai/codex)
-  - An open-source coding agent that runs in the terminal and can read, modify, and execute code.
-- [Goose](https://github.com/block/goose)
-  - An extensible AI agent built in Rust that can execute commands, edit files, and automate development workflows.
-
-### AI Coding Instructions
-
-### AI Agent Skills
-
-### AI Development Workflows
-
-- [OpenAgents Control](https://github.com/darrenhinde/OpenAgentsControl)
-  - A framework for creating repeatable AI coding workflows with reusable patterns, specialized agents, and human approval gates.
-
-### Model Context Protocol (MCP)
-
-- [Official Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)
-  - The official Rust SDK for implementing Model Context Protocol clients and servers with asynchronous support.
-- [Agent Gateway](https://github.com/agentgateway/agentgateway)
-  - A Rust-based gateway for managing and securing connections between AI agents, MCP servers, and model providers.
-
-### AI Developer Tools
-
-- [CC Switch](https://github.com/farion1231/cc-switch)
-  - A desktop tool for managing configurations and switching between AI coding assistants and model providers.
-- [Agent Desktop](https://github.com/vercel-labs/agent-desktop)
-  - A Rust-based computer-use tool that enables AI agents to inspect and operate desktop applications through accessibility APIs.
-- [Cloudroom](https://github.com/davidondrej/cloudroom)
-  - An open-source desktop platform for managing AI coding agents locally and in the cloud, powered by a Rust-based cloud engine.
 
 **[⬆ Back to Top](#contents)**
 
