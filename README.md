@@ -1067,6 +1067,8 @@ Libraries, tools, and projects for low-level programming and operating system de
   - A modern virtual machine monitor built with Rust, designed for cloud workloads.
 - [crosvm](https://github.com/google/crosvm)
   - A secure virtual machine monitor written in Rust, used by ChromeOS.
+- [Firecracker](https://github.com/firecracker-microvm/firecracker)
+  - Lightweight virtual machine monitor for running secure, isolated microVMs.
 
 **[⬆ Back to Top](#contents)**
 
