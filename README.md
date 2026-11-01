@@ -974,6 +974,8 @@ Libraries and tools for embedded development and hardware interaction.
   - A dataflow framework for building distributed robotic and AI applications with low-latency communication between nodes.
 - [Copper](https://github.com/copper-project/copper-rs)
   - A Rust robotics runtime for building, executing, recording, and replaying robot task graphs from Linux to bare-metal systems.
+- [microduck](https://github.com/pollen-robotics/microduck)
+  - Rust based software stack for a small bipedal robot, featuring real-time motor control, reinforcement learning policies, and hardware management.
 
 **[⬆ Back to Top](#contents)**
 
