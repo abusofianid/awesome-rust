@@ -134,14 +134,6 @@ Whether you are building web applications, working with systems programming, exp
   - [Podcasts](#podcasts)
   - [Newsletters](#newsletters)
 
-- [AI Development Resources](#ai-development-resources)
-  - [AI Coding Agents](#ai-coding-agents)
-  - [AI Coding Instructions](#ai-coding-instructions)
-  - [AI Agent Skills](#ai-agent-skills)
-  - [AI Development Workflows](#ai-development-workflows)
-  - [Model Context Protocol (MCP)](#model-context-protocol-mcp)
-  - [AI Developer Tools](#ai-developer-tools)
-
 - [Contributing](#contributing)
 - [License](#license)
 
