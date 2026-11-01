@@ -50,10 +50,8 @@ Whether you are building web applications, working with systems programming, exp
 
 - [Data & Science](#data--science)
   - [Data Analysis](#data-analysis)
-  - [Data Processing](#data-processing)
-  - [ETL](#etl)
+  - [Data Processing & ETL](#data-processing--etl)
   - [Data Visualization](#data-visualization)
-  - [Statistics](#statistics)
   - [Scientific Computing](#scientific-computing)
   - [Geospatial](#geospatial)
 
@@ -64,14 +62,15 @@ Whether you are building web applications, working with systems programming, exp
   - [Documentation](#documentation)
   - [Profiling](#profiling)
   - [Algorithms](#algorithms)
+  - [Package Managers](#package-managers)
+  - [Bundlers](#bundlers)
 
 - [DevOps & Cloud](#devops--cloud)
   - [Cloud](#cloud)
   - [Containers](#containers)
   - [CI/CD](#cicd)
   - [Distributed Systems](#distributed-systems)
-  - [Observability](#observability)
-  - [Logging](#logging)
+  - [Observability & Logging](#observability--logging)
 
 - [CLI & GUI](#cli--gui)
   - [CLI Frameworks](#cli-frameworks)
@@ -83,15 +82,14 @@ Whether you are building web applications, working with systems programming, exp
   - [Image Processing](#image-processing)
   - [Audio](#audio)
   - [Video](#video)
-  - [Graphics](#graphics)
+  - [Graphics & Rendering](#graphics--rendering)
   - [Game Development](#game-development)
-  - [Rendering](#rendering)
 
 - [Rust Language](#rust-language)
   - [Async](#async)
   - [Concurrency](#concurrency)
   - [Macros](#macros)
-  - [Memory Management](#memory-management)
+  - [Rust Memory Management](#rust-memory-management)
   - [Functional Programming](#functional-programming)
   - [FFI](#ffi)
   - [Unsafe Rust](#unsafe-rust)
@@ -100,28 +98,23 @@ Whether you are building web applications, working with systems programming, exp
   - [Cargo](#cargo)
   - [Compilers](#compilers)
   - [Package Management](#package-management)
-  - [Linters](#linters)
-  - [Formatters](#formatters)
+  - [Linting & Formatting](#linting--formatting)
   - [Build Tools](#build-tools)
 
 - [Embedded & Hardware](#embedded--hardware)
-  - [Embedded Systems](#embedded-systems)
-  - [IoT](#iot)
+  - [Embedded Systems & Microcontrollers](#embedded-systems--microcontrollers)
   - [Robotics](#robotics)
-  - [Microcontrollers](#microcontrollers)
-  - [Hardware Interfaces](#hardware-interfaces)
 
 - [Security](#security)
   - [Cryptography](#cryptography)
   - [TLS](#tls)
   - [Security Auditing](#security-auditing)
-  - [Authentication](#authentication)
   - [Penetration Testing](#penetration-testing)
 
 - [Operating Systems & Systems Programming](#operating-systems--systems-programming)
   - [Operating Systems](#operating-systems)
   - [Filesystems](#filesystems)
-  - [Memory Management](#memory-management)
+  - [System Memory Management](#system-memory-management)
   - [Kernel Development](#kernel-development)
   - [Virtualization](#virtualization)
 
@@ -441,10 +434,8 @@ Libraries for data processing, scientific computing, and analytical applications
   - Extensible SQL query engine built on Apache Arrow for analytical queries over different data sources.
 - [Daft](https://github.com/Eventual-Inc/Daft)
   - DataFrame and query engine for processing large datasets, including images, videos, and other multimodal data.
-- [ndarray](https://github.com/rust-ndarray/ndarray)
-  - Library for working with multidimensional arrays, including slicing, mathematical operations, and linear algebra.
 
-### Data Processing
+### Data Processing & ETL
 
 - [Apache Arrow Rust](https://github.com/apache/arrow-rs)
   - Rust implementation of Apache Arrow and Parquet for columnar data processing and storage.
@@ -456,9 +447,6 @@ Libraries for data processing, scientific computing, and analytical applications
   - Framework for building parallel and distributed dataflow computations.
 - [Differential Dataflow](https://github.com/TimelyDataflow/differential-dataflow)
   - Incremental data processing framework that updates computation results as input data changes.
-
-### ETL
-
 - [Apache SeaTunnel](https://github.com/apache/seatunnel)
   - Data integration platform for moving data between different systems, supporting batch processing, streaming, and CDC.
 
@@ -468,8 +456,6 @@ Libraries for data processing, scientific computing, and analytical applications
   - Rust library for creating interactive charts and plots powered by Plotly.js.
 - [Rerun](https://github.com/rerun-io/rerun)
   - Visualization tool for exploring multimodal data, including images, point clouds, spatial data, and sensor streams.
-
-### Statistics
 
 ### Scientific Computing
 
@@ -484,6 +470,8 @@ Libraries for data processing, scientific computing, and analytical applications
 
 - [Geo](https://github.com/georust/geo)
   - Geospatial library for points, lines, polygons, geometric operations, and distance calculations.
+
+**[⬆ Back to Top](#contents)**
 
 **[⬆ Back to Top](#contents)**
 
