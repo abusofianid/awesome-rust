@@ -1,6 +1,7 @@
 
 # Awesome Rust [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 <p align="center">
+  <a href="https://www.producthunt.com/products/awesome-rust?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-awesome-rust" target="_blank" rel="noopener noreferrer"><img alt="Awesome Rust - A curated list of awesome Rust. | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1298428&amp;theme=light&amp;t=1793573711289"></a>
   <img src="images/awesome-rust.svg" alt="Awesome Rust Logo" width="180">
 </p>
 
