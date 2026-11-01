@@ -609,6 +609,8 @@ Tools and libraries for infrastructure, deployment, cloud services, and operatio
   - Linux-based operating system designed for running containers in cloud environments.
 - [Vector](https://github.com/vectordotdev/vector)
   - Observability data pipeline for collecting, processing, and routing logs, metrics, and traces.
+- [RustFS](https://github.com/rustfs/rustfs)
+  - High-performance distributed object storage system with S3-compatible APIs.
 
 ### Containers
 
