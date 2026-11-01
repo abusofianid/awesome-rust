@@ -325,6 +325,8 @@ Libraries and tools for network communication, protocols, and distributed messag
   - Email library for building and sending messages over SMTP, with support for TLS, attachments, and async transports.
 - [MailCrab](https://github.com/tweedegolf/mailcrab)
   - Local SMTP server for testing outgoing emails, with a web interface for viewing messages and attachments.
+- [Stalwart](https://github.com/stalwartlabs/stalwart)
+  - Open-source mail and collaboration server written in Rust, supporting SMTP, IMAP, JMAP, CalDAV, CardDAV, and WebDAV.
 
 ### Web Scraping
 
