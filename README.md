@@ -476,20 +476,6 @@ Libraries for data processing, scientific computing, and analytical applications
 
 - [Geo](https://github.com/georust/geo)
   - Geospatial library for points, lines, polygons, geometric operations, and distance calculations.
-- [GeoZero](https://github.com/georust/geozero)
-  - Reads and writes geospatial data in formats such as GeoJSON, WKT, WKB, and GeoPackage.
-- [GDAL](https://github.com/georust/gdal)
-  - Rust bindings for GDAL to read, write, and process raster and vector geospatial data.
-- [PROJ](https://github.com/georust/proj)
-  - Rust bindings for PROJ to transform coordinates and convert between geographic coordinate systems.
-- [rstar](https://github.com/georust/rstar)
-  - Spatial indexing library using R*-trees for efficient spatial and nearest-neighbor queries.
-- [GeoJSON](https://github.com/georust/geojson)
-  - Library for reading, writing, and working with GeoJSON geographic data.
-- [geo-index](https://github.com/georust/geo-index)
-  - Packed, immutable spatial indexes designed for fast geographic queries.
-- [geohash](https://github.com/georust/geohash)
-  - Library for encoding and decoding geographic coordinates using the Geohash system.
 
 **[⬆ Back to Top](#contents)**
 
