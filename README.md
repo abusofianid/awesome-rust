@@ -544,8 +544,6 @@ Tools and libraries that improve the software development workflow.
   - Generates or updates README sections from crate-level Rust documentation comments.
 - [document-features](https://github.com/slint-ui/document-features)
   - Generates documentation for Cargo feature flags from comments in Cargo.toml.
-- [rustdoc](https://github.com/rust-lang/rust)
-  - Generates HTML documentation from Rust source code and documentation comments.
 
 ### Profiling
 
@@ -797,8 +795,6 @@ Libraries and resources related to Rust language features and programming paradi
   - Asynchronous runtime based on io_uring.
 - [Compio](https://github.com/compio-rs/compio)
   - Thread-per-core async runtime with support for IOCP and io_uring.
-- [Embassy](https://github.com/embassy-rs/embassy)
-  - Async framework for embedded systems.
 
 ### Concurrency
 
@@ -897,8 +893,6 @@ Tools for compiling, building, formatting, and managing Rust projects.
 
 ### Compilers
 
-- [rustc](https://github.com/rust-lang/rust)
-  - The official Rust compiler, responsible for compiling Rust source code into executable binaries and libraries.
 - [Cranelift Codegen Backend](https://github.com/rust-lang/rustc_codegen_cranelift)
   - An alternative Rust compiler backend that uses Cranelift to generate machine code.
 - [GCC Codegen Backend](https://github.com/rust-lang/rustc_codegen_gcc)
