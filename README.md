@@ -1010,8 +1010,6 @@ Libraries and tools for application security, cryptography, and secure developme
 - [RustSec Advisory Database](https://github.com/RustSec/advisory-db)
   - A database of security advisories affecting Rust packages published on crates.io.
 
-### Authentication
-
 ### Penetration Testing
 
 - [RustScan](https://github.com/bee-san/RustScan)
