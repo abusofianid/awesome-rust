@@ -473,8 +473,6 @@ Libraries for data processing, scientific computing, and analytical applications
 
 **[⬆ Back to Top](#contents)**
 
-**[⬆ Back to Top](#contents)**
-
 ## Developer Tools
 
 Tools and libraries that improve the software development workflow.
@@ -577,6 +575,18 @@ Tools and libraries that improve the software development workflow.
 - [Condor](https://github.com/bnomei/condor)
   - Pathfinding library with grid search, polygonal pathfinding, navigation meshes, and route planning.
 
+### Package Managers
+
+- [Bun](https://github.com/oven-sh/bun)
+  - Fast all-in-one JavaScript and TypeScript toolkit written in Rust, featuring a runtime, bundler, test runner, and package manager.
+- [uv](https://github.com/astral-sh/uv)
+  - Extremely fast Python package and project manager written in Rust, with dependency management, lockfiles, virtual environments, and Python version management.
+
+### Bundlers
+
+- [Rolldown](https://github.com/rolldown/rolldown)
+  - A fast Rust-based JavaScript and TypeScript bundler with a Rollup-compatible API.
+
 **[⬆ Back to Top](#contents)**
 
 ## DevOps & Cloud
@@ -621,15 +631,12 @@ Tools and libraries for infrastructure, deployment, cloud services, and operatio
 - [raft-rs](https://github.com/tikv/raft-rs)
   - Rust implementation of the Raft consensus algorithm for replicated state machines.
 
-### Observability
+### Observability & Logging
 
 - [OpenTelemetry Rust](https://github.com/open-telemetry/opentelemetry-rust)
   - Instrumentation and telemetry collection for metrics, logs, and traces.
 - [metrics](https://github.com/metrics-rs/metrics)
   - Metrics ecosystem for recording counters, gauges, and histograms in Rust applications.
-
-### Logging
-
 - [log](https://github.com/rust-lang/log)
   - Logging facade providing macros such as `info!`, `warn!`, and `error!`.
 - [env_logger](https://github.com/rust-cli/env_logger)
@@ -738,7 +745,7 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
 - [Av1an](https://github.com/rust-av/Av1an)
   - Video encoding automation tool for AV1 and other codecs.
 
-### Graphics
+### Graphics & Rendering
 
 - [Vello](https://github.com/linebender/vello)
   - GPU-accelerated 2D graphics renderer.
@@ -746,6 +753,14 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
   - Library for working with curves and geometric shapes.
 - [Tiny Skia](https://github.com/linebender/tiny-skia)
   - Lightweight 2D graphics rendering library.
+- [wgpu](https://github.com/gfx-rs/wgpu)
+  - Cross-platform graphics API written in Rust.
+- [Vulkano](https://github.com/vulkano-rs/vulkano)
+  - Safe Rust wrapper for the Vulkan graphics API.
+- [three-d](https://github.com/asny/three-d)
+  - Cross-platform 2D and 3D rendering library.
+- [Pixels](https://github.com/parasyte/pixels)
+  - Hardware-accelerated pixel framebuffer renderer.
 
 ### Game Development
 
@@ -763,17 +778,6 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
   - ECS-driven 2D and 3D physics engine for Bevy.
 - [Piston](https://github.com/PistonDevelopers/piston)
   - Modular game engine written in Rust.
-
-### Rendering
-
-- [wgpu](https://github.com/gfx-rs/wgpu)
-  - Cross-platform graphics API written in Rust.
-- [Vulkano](https://github.com/vulkano-rs/vulkano)
-  - Safe Rust wrapper for the Vulkan graphics API.
-- [three-d](https://github.com/asny/three-d)
-  - Cross-platform 2D and 3D rendering library.
-- [Pixels](https://github.com/parasyte/pixels)
-  - Hardware-accelerated pixel framebuffer renderer.
 
 **[⬆ Back to Top](#contents)**
 
@@ -824,7 +828,7 @@ Libraries and resources related to Rust language features and programming paradi
 - [Inventory](https://github.com/dtolnay/inventory)
   - Typed plugin registration through distributed collections.
 
-### Memory Management
+### Rust Memory Management
 
 - [Bumpalo](https://github.com/fitzgen/bumpalo)
   - Fast bump allocation arena for Rust.
@@ -888,8 +892,6 @@ Tools for compiling, building, formatting, and managing Rust projects.
   - Creates new Rust projects from existing Git repository templates.
 - [cargo-expand](https://github.com/dtolnay/cargo-expand)
   - Displays expanded Rust macros and derive implementations for easier inspection.
-- [cargo-chef](https://github.com/LukeMathWalker/cargo-chef)
-  - Speeds up Docker builds by caching Rust project dependencies.
 - [cargo-msrv](https://github.com/foresterre/cargo-msrv)
   - Identifies the minimum Rust version required to compile a crate.
 
@@ -920,14 +922,8 @@ Tools for compiling, building, formatting, and managing Rust projects.
   - Removes stale Cargo build artifacts to reclaim disk space.
 - [crates.io](https://github.com/rust-lang/crates.io)
   - The official Rust package registry, providing infrastructure for publishing and downloading crates.
-- [Bun](https://github.com/oven-sh/bun)
-  - Fast all-in-one JavaScript and TypeScript toolkit written in Rust, featuring a runtime, bundler, test runner, and package manager.
-- [uv](https://github.com/astral-sh/uv)
-  - Extremely fast Python package and project manager written in Rust, with dependency management, lockfiles, virtual environments, and Python version management.
 
-### Linters
-
-### Formatters
+### Linting & Formatting
 
 - [Taplo](https://github.com/tamasfe/taplo)
   - Provides formatting, validation, and language-server support for TOML files.
@@ -942,8 +938,6 @@ Tools for compiling, building, formatting, and managing Rust projects.
   - Caches compiler outputs to accelerate repeated Rust builds and reduce compilation time.
 - [cargo-chef](https://github.com/LukeMathWalker/cargo-chef)
   - Optimizes Rust Docker builds by separating dependency compilation from application source changes.
-- [Rolldown](https://github.com/rolldown/rolldown)
-  - A fast Rust-based JavaScript and TypeScript bundler with a Rollup-compatible API.
 
 **[⬆ Back to Top](#contents)**
 
@@ -951,7 +945,7 @@ Tools for compiling, building, formatting, and managing Rust projects.
 
 Libraries and tools for embedded development and hardware interaction.
 
-### Embedded Systems
+### Embedded Systems & Microcontrollers
 
 - [Tock OS](https://github.com/tock/tock)
   - An embedded operating system designed for secure and reliable applications on microcontrollers.
@@ -967,18 +961,6 @@ Libraries and tools for embedded development and hardware interaction.
   - Hardware abstraction libraries for Raspberry Pi RP2040 and RP2350 microcontrollers.
 - [AVR HAL](https://github.com/Rahix/avr-hal)
   - Hardware abstraction libraries and tools for programming AVR microcontrollers in Rust.
-
-### IoT
-
-### Robotics
-
-- [Dora](https://github.com/dora-rs/dora)
-  - A dataflow framework for building distributed robotic and AI applications with low-latency communication between nodes.
-- [Copper](https://github.com/copper-project/copper-rs)
-  - A Rust robotics runtime for building, executing, recording, and replaying robot task graphs from Linux to bare-metal systems.
-
-### Microcontrollers
-
 - [probe-rs](https://github.com/probe-rs/probe-rs)
   - A toolkit for flashing, debugging, and interacting with ARM, RISC-V, and Xtensa microcontrollers.
 - [defmt](https://github.com/knurling-rs/defmt)
@@ -988,7 +970,12 @@ Libraries and tools for embedded development and hardware interaction.
 - [STM32 Peripheral Access Crates](https://github.com/stm32-rs/stm32-rs)
   - Generated peripheral access crates for a wide range of STM32 microcontroller families.
 
-### Hardware Interfaces
+### Robotics
+
+- [Dora](https://github.com/dora-rs/dora)
+  - A dataflow framework for building distributed robotic and AI applications with low-latency communication between nodes.
+- [Copper](https://github.com/copper-project/copper-rs)
+  - A Rust robotics runtime for building, executing, recording, and replaying robot task graphs from Linux to bare-metal systems.
 
 **[⬆ Back to Top](#contents)**
 
@@ -1052,7 +1039,7 @@ Libraries, tools, and projects for low-level programming and operating system de
 - [Fuser](https://github.com/cberner/fuser)
   - Provides a Rust library for implementing userspace filesystems using the FUSE interface.
 
-### Memory Management
+### System Memory Management
 
 - [Mimalloc Rust](https://github.com/purpleprotocol/mimalloc_rust)
   - Provides Rust bindings for Microsoft's mimalloc memory allocator.
