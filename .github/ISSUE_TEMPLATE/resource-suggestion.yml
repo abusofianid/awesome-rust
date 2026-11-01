@@ -59,15 +59,5 @@ body:
     attributes:
       label: Submission Checklist
       options:
-        - label: This resource is relevant to the Rust ecosystem.
-          required: true
-        - label: I have checked that this resource is not already listed.
-          required: true
-        - label: I have verified that the URL is valid and accessible.
-          required: true
-        - label: The description is clear, concise, and written in English.
-          required: true
-        - label: I have selected the most appropriate category.
-          required: true
         - label: I have read the Contributing Guidelines.
           required: true
