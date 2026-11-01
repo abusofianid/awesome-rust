@@ -155,10 +155,6 @@ Libraries and frameworks for building artificial intelligence and machine learni
 
 - [Rig](https://github.com/0xPlaygrounds/rig)
   - A modular Rust framework for building LLM applications and AI agents with tool calling, multi-turn conversations, streaming, and memory management.
-- [Swiftide](https://github.com/bosun-ai/swiftide)
-  - A framework for building LLM agents with tool execution, typed task graphs, streaming workflows, and RAG pipelines.
-- [AutoAgents](https://github.com/liquidos-ai/AutoAgents)
-  - A modular multi-agent framework with type-safe agent execution, structured tool calling, configurable memory, and pluggable LLM backends.
 - [LangChain Rust](https://github.com/Abraxas-365/langchain-rust)
   - A Rust implementation of LangChain that provides tool-using agents, memory, LLM chains, and integrations with multiple model providers.
 
@@ -171,8 +167,6 @@ Libraries and frameworks for building artificial intelligence and machine learni
 
 ### Machine Learning
 
-- [SmartCore](https://github.com/smartcorelib/smartcore)
-  - A comprehensive machine learning library for Rust, featuring classification, regression, clustering, model evaluation, and numerical computing.
 - [Burn](https://github.com/tracel-ai/burn)
   - A flexible and portable deep learning framework written in Rust, supporting neural networks, automatic differentiation, model training, and multiple hardware backends.
 - [Linfa](https://github.com/rust-ml/linfa)
@@ -191,8 +185,6 @@ Libraries and frameworks for building artificial intelligence and machine learni
   - A fast and versatile tokenizer library written in Rust, supporting widely used subword tokenization algorithms and pretrained tokenizer models.
 - [Lingua](https://github.com/pemistahl/lingua-rs)
   - A language detection library for Rust designed to identify languages accurately, including short text and individual words, with offline support.
-- [Lindera](https://github.com/lindera/lindera)
-  - A multilingual morphological analysis library for Rust, supporting tokenization, part-of-speech tagging, and text normalization for Japanese, Korean, and Chinese.
 
 ### Computer Vision
 
