@@ -618,6 +618,8 @@ Tools and libraries for infrastructure, deployment, cloud services, and operatio
   - OCI-compatible container runtime written in Rust.
 - [runwasi](https://github.com/containerd/runwasi)
   - Library for running WebAssembly workloads with containerd.
+- [Wasmer](https://github.com/wasmerio/wasmer)
+  - WebAssembly runtime for executing applications in secure, lightweight sandboxes across local, cloud, and browser environments.
 
 ### CI/CD
 
