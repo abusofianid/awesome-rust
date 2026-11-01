@@ -890,8 +890,6 @@ Tools for compiling, building, formatting, and managing Rust projects.
   - Provides commands for adding, removing, and upgrading dependencies in Cargo.toml.
 - [cargo-generate](https://github.com/cargo-generate/cargo-generate)
   - Creates new Rust projects from existing Git repository templates.
-- [cargo-hack](https://github.com/taiki-e/cargo-hack)
-  - Simplifies testing crate features and feature combinations in CI workflows.
 - [cargo-expand](https://github.com/dtolnay/cargo-expand)
   - Displays expanded Rust macros and derive implementations for easier inspection.
 - [cargo-chef](https://github.com/LukeMathWalker/cargo-chef)
@@ -909,8 +907,6 @@ Tools for compiling, building, formatting, and managing Rust projects.
   - Enables Rust programs to be compiled through GCC as an alternative code generation backend.
 - [Rust-GPU](https://github.com/rust-gpu/rust-gpu)
   - Provides a Rust toolchain for compiling GPU shaders to SPIR-V.
-- [Miden Compiler](https://github.com/0xMiden/compiler)
-  - Compiles programs for the Miden virtual machine.
 - [Gleam](https://github.com/gleam-lang/gleam)
   - A compiler for the Gleam programming language, targeting Erlang and JavaScript.
 - [Roc](https://github.com/roc-lang/roc)
@@ -924,8 +920,6 @@ Tools for compiling, building, formatting, and managing Rust projects.
 
 - [cargo-update](https://github.com/nabijaczleweli/cargo-update)
   - Installs and updates Rust binaries installed through `cargo install`.
-- [cargo-quickinstall](https://github.com/cargo-bins/cargo-quickinstall)
-  - Installs precompiled Rust binaries from GitHub releases to avoid compiling them locally.
 - [cargo-sweep](https://github.com/holmgr/cargo-sweep)
   - Removes stale Cargo build artifacts to reclaim disk space.
 - [crates.io](https://github.com/rust-lang/crates.io)
@@ -937,17 +931,8 @@ Tools for compiling, building, formatting, and managing Rust projects.
 
 ### Linters
 
-- [Dylint](https://github.com/trailofbits/dylint)
-  - Enables custom Rust lint libraries to detect project-specific coding issues.
-- [cargo-spellcheck](https://github.com/drahnr/cargo-spellcheck)
-  - Checks spelling errors in Rust documentation comments and project documentation.
-
 ### Formatters
 
-- [rustfmt](https://github.com/rust-lang/rust/tree/master/src/tools/rustfmt)
-  - The official Rust code formatter, automatically formatting source code according to configurable style rules.
-- [Prettyplease](https://github.com/dtolnay/prettyplease)
-  - Formats Rust syntax trees into readable source code as an alternative to rustfmt.
 - [Taplo](https://github.com/tamasfe/taplo)
   - Provides formatting, validation, and language-server support for TOML files.
 
