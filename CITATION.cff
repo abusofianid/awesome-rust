@@ -1,0 +1,19 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: awesome-rust
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Abu Sofian
+    email: abusofian.id@gmail.com
+repository-code: 'https://github.com/abusofianid/awesome-rust'
+abstract: >-
+  A curated list of awesome Rust libraries, frameworks,
+  tools, and resources.
+keywords:
+  - Rust
+license: CC-BY-4.0
