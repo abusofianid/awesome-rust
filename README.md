@@ -188,8 +188,6 @@ Libraries and frameworks for building artificial intelligence and machine learni
 
 ### Computer Vision
 
-- [Kornia-rs](https://github.com/kornia/kornia-rs)
-  - A low-level computer vision library in Rust for image processing, geometric transformations, camera pipelines, and 3D vision, with CPU and GPU support.
 - [OpenCV Rust](https://github.com/twistedfall/opencv-rust)
   - Rust bindings for OpenCV, providing access to image processing, object detection, feature extraction, camera calibration, and computer vision algorithms.
 
@@ -219,8 +217,6 @@ Frameworks and libraries for building web applications, APIs, and web services.
   - A Rust framework for building client-side web applications using WebAssembly and a component-based architecture.
 - [Leptos](https://github.com/leptos-rs/leptos)
   - A full-stack Rust web framework supporting reactive user interfaces, server-side rendering, and WebAssembly.
-- [Proa](https://github.com/Proa-Labs/proa)
-  - High-performance Rust web framework featuring compiled components, server-side rendering, streaming, data loading, and interactive islands.
 
 ### Web APIs
 
@@ -228,8 +224,6 @@ Frameworks and libraries for building web applications, APIs, and web services.
   - A code-first library for automatically generating OpenAPI documentation for Rust REST APIs, with integrations for Axum, Actix Web, and Rocket.
 - [Poem OpenAPI](https://github.com/poem-web/poem/tree/master/poem-openapi)
   - A type-safe OpenAPI implementation for the Poem web framework, with support for automatic API documentation and interactive documentation interfaces.
-- [Aide](https://github.com/tamasfe/aide)
-  - A library for generating API documentation from Rust code, with a focus on integration with Axum and OpenAPI.
 
 ### Web Servers
 
@@ -255,20 +249,11 @@ Frameworks and libraries for building web applications, APIs, and web services.
   - Asynchronous WebSocket implementation for Tokio, with support for both clients and servers.
 - [Fastwebsockets](https://github.com/denoland/fastwebsockets)
   - WebSocket protocol implementation with direct access to frames and support for building clients and servers.
-- [ewebsock](https://github.com/rerun-io/ewebsock)
-  - WebSocket client that works on native platforms and in the browser through WebAssembly.
-- [actix-ws](https://github.com/actix/actix-extras/tree/master/actix-ws)
-  - WebSocket support for Actix Web, with an API based on asynchronous streams and sessions.
 
 ### Authentication
-- [Huskarl](https://github.com/huskarl-rs/huskarl)
-  - OAuth 2.0 and OpenID Connect library for Rust, covering token requests, access token validation, and authentication flows.
+
 - [axum-login](https://github.com/maxcountryman/axum-login)
   - Handles user authentication and authorization in Axum applications, with support for custom user types and authentication backends.
-- [OpenID Connect](https://github.com/ramosbugs/openidconnect-rs)
-  - OpenID Connect library for implementing user login through identity providers such as Google, GitLab, and Microsoft.
-- [tower-sessions](https://github.com/maxcountryman/tower-sessions)
-  - Session middleware for Tower and Axum, with support for multiple storage backends.
 
 ### Template Engines
 
