@@ -1225,6 +1225,8 @@ Resources that help developers use AI tools and workflows when building Rust app
   - A desktop tool for managing configurations and switching between AI coding assistants and model providers.
 - [Agent Desktop](https://github.com/vercel-labs/agent-desktop)
   - A Rust-based computer-use tool that enables AI agents to inspect and operate desktop applications through accessibility APIs.
+- [Cloudroom](https://github.com/davidondrej/cloudroom)
+  - An open-source desktop platform for managing AI coding agents locally and in the cloud, powered by a Rust-based cloud engine.
 
 **[⬆ Back to Top](#contents)**
 
