@@ -967,27 +967,10 @@ Libraries and tools for embedded development and hardware interaction.
   - Hardware abstraction layers for developing embedded applications on Espressif microcontrollers.
 - [RP HAL](https://github.com/rp-rs/rp-hal)
   - Hardware abstraction libraries for Raspberry Pi RP2040 and RP2350 microcontrollers.
-- [STM32F4xx HAL](https://github.com/stm32-rs/stm32f4xx-hal)
-  - Provides hardware abstraction support for STM32F4 microcontrollers.
 - [AVR HAL](https://github.com/Rahix/avr-hal)
   - Hardware abstraction libraries and tools for programming AVR microcontrollers in Rust.
-- [Linux Embedded HAL](https://github.com/rust-embedded/linux-embedded-hal)
-  - Implements embedded HAL traits for interacting with hardware peripherals on Linux systems.
 
 ### IoT
-
-- [Edgehog](https://github.com/edgehog-device-manager/edgehog)
-  - An open-source IoT device management platform for managing the entire lifecycle of connected device fleets.
-- [Edgehog Device Runtime](https://github.com/edgehog-device-manager/edgehog-device-runtime)
-  - Portable middleware for connecting embedded devices to the Edgehog IoT device management platform.
-- [LoRa-rs](https://github.com/lora-rs/lora-rs)
-  - A collection of Rust libraries for building LoRa and LoRaWAN devices and applications.
-- [rs-matter](https://github.com/project-chip/rs-matter)
-  - A pure Rust implementation of the Matter smart home protocol for embedded devices and IoT applications.
-- [Async OPC UA](https://github.com/FreeOpcUa/async-opcua)
-  - An asynchronous OPC UA client and server implementation for industrial IoT and automation systems.
-- [Tokio Modbus](https://github.com/slowtec/tokio-modbus)
-  - An asynchronous Modbus library built on Tokio for industrial devices and IoT communication.
 
 ### Robotics
 
@@ -995,18 +978,6 @@ Libraries and tools for embedded development and hardware interaction.
   - A dataflow framework for building distributed robotic and AI applications with low-latency communication between nodes.
 - [Copper](https://github.com/copper-project/copper-rs)
   - A Rust robotics runtime for building, executing, recording, and replaying robot task graphs from Linux to bare-metal systems.
-- [ROS 2 Rust](https://github.com/ros2-rust/ros2_rust)
-  - A collection of Rust libraries and tools for developing applications with the Robot Operating System 2 (ROS 2).
-- [ROS2 Client](https://github.com/Atostek/ros2-client)
-  - A native Rust client library for ROS 2 communication without relying on non-Rust DDS implementations.
-- [RosLibRust](https://github.com/RosLibRust/roslibrust)
-  - An asynchronous Rust library for communicating with ROS 1 and ROS 2 systems.
-- [RustRobotics](https://github.com/rsasaki0109/rust_robotics)
-  - A robotics algorithms library covering motion planning, localization, SLAM, control, and manipulation.
-- [MuJoCo-rs](https://github.com/davidhozic/mujoco-rs)
-  - Rust bindings and high-level wrappers for the MuJoCo physics simulation engine.
-- [Foxglove SDK](https://github.com/foxglove/foxglove-sdk)
-  - A Rust-based SDK for logging, streaming, and visualizing robotics and multimodal data.
 
 ### Microcontrollers
 
@@ -1016,23 +987,10 @@ Libraries and tools for embedded development and hardware interaction.
   - An efficient logging framework designed for resource-constrained devices and embedded microcontrollers.
 - [Cortex-M](https://github.com/rust-embedded/cortex-m)
   - A collection of Rust crates providing peripheral access, CPU intrinsics, startup support, and debugging utilities for Cortex-M microcontrollers.
-- [nrf-hal](https://github.com/nrf-rs/nrf-hal)
-  - Hardware abstraction layers for Nordic Semiconductor nRF51, nRF52, and nRF91 microcontrollers.
 - [STM32 Peripheral Access Crates](https://github.com/stm32-rs/stm32-rs)
   - Generated peripheral access crates for a wide range of STM32 microcontroller families.
-- [embedded-alloc](https://github.com/rust-embedded/embedded-alloc)
-  - A heap allocator that enables dynamic memory allocation in embedded Rust applications.
-- [espup](https://github.com/esp-rs/espup)
-  - A tool for installing and managing the toolchains required for Rust development on Espressif microcontrollers.
 
 ### Hardware Interfaces
-
-- [Serialport](https://github.com/serialport/serialport-rs)
-  - A cross-platform Rust library for accessing serial ports and communicating with hardware devices.
-- [SocketCAN](https://github.com/socketcan-rs/socketcan-rs)
-  - A Rust library for working with Linux SocketCAN interfaces and communicating with CAN bus devices.
-- [HIDAPI-rs](https://github.com/ruabmbua/hidapi-rs)
-  - Rust bindings for HIDAPI, enabling communication with USB and Bluetooth Human Interface Devices.
 
 **[⬆ Back to Top](#contents)**
 
@@ -1044,22 +1002,12 @@ Libraries and tools for application security, cryptography, and secure developme
 
 - [RustCrypto Hashes](https://github.com/RustCrypto/hashes)
   - A collection of pure Rust implementations of cryptographic hash functions, including SHA-2, SHA-3, and BLAKE2.
-- [RustCrypto AEADs](https://github.com/RustCrypto/AEADs)
-  - A collection of pure Rust authenticated encryption algorithms for secure symmetric encryption.
-- [RustCrypto Elliptic Curves](https://github.com/RustCrypto/elliptic-curves)
-  - A collection of elliptic curve cryptography implementations for digital signatures and public-key operations.
-- [RustCrypto Password Hashes](https://github.com/RustCrypto/password-hashes)
-  - Pure Rust implementations of password hashing and password-based key derivation algorithms.
-- [RustCrypto Crypto BigInt](https://github.com/RustCrypto/crypto-bigint)
-  - A constant-time, `no_std`-friendly big integer library designed for cryptographic applications.
 - [Curve25519-Dalek](https://github.com/dalek-cryptography/curve25519-dalek)
   - A pure Rust implementation of Curve25519 elliptic curve operations and related cryptographic primitives.
 - [Ring](https://github.com/briansmith/ring)
   - A cryptographic library providing primitives for encryption, hashing, digital signatures, and key exchange.
 - [BLAKE3](https://github.com/BLAKE3-team/BLAKE3)
   - A high-performance cryptographic hash function supporting parallel processing and incremental hashing.
-- [RustCrypto RSA](https://github.com/RustCrypto/RSA)
-  - A portable pure Rust implementation of RSA encryption and digital signature schemes.
 
 ### TLS
 
@@ -1067,16 +1015,6 @@ Libraries and tools for application security, cryptography, and secure developme
   - A modern TLS library written entirely in Rust for secure client and server connections.
 - [s2n-tls](https://github.com/aws/s2n-tls)
   - A compact and security-focused TLS implementation developed by AWS, with Rust bindings.
-- [rustls-webpki](https://github.com/rustls/webpki)
-  - A Rust library for validating Web PKI certificates used in TLS connections.
-- [rustls-pki-types](https://github.com/rustls/pki-types)
-  - Provides Rust types for representing X.509 certificates, private keys, and related PKI data.
-- [rcgen](https://github.com/rustls/rcgen)
-  - A Rust library for generating X.509 certificates and private keys.
-- [rustls-platform-verifier](https://github.com/rustls/rustls-platform-verifier)
-  - Verifies TLS certificates using the operating system's native certificate verification facilities.
-- [Tokio-Rustls](https://github.com/rustls/tokio-rustls)
-  - Provides asynchronous TLS streams for Tokio applications using Rustls.
 
 ### Security Auditing
 
@@ -1084,19 +1022,10 @@ Libraries and tools for application security, cryptography, and secure developme
   - Scans `Cargo.lock` files for dependencies with known security vulnerabilities using the RustSec Advisory Database.
 - [Cargo Vet](https://github.com/mozilla/cargo-vet)
   - Helps verify that third-party Rust dependencies have been audited by trusted reviewers.
-- [Cargo Auditable](https://github.com/rust-secure-code/cargo-auditable)
-  - Embeds dependency information into compiled binaries so they can be audited for known vulnerabilities in production.
 - [RustSec Advisory Database](https://github.com/RustSec/advisory-db)
   - A database of security advisories affecting Rust packages published on crates.io.
 
 ### Authentication
-
-- [WebAuthn-RS](https://github.com/kanidm/webauthn-rs)
-  - A Rust library suite for implementing WebAuthn and passkey-based authentication in web applications.
-- [Wauthn](https://github.com/cablehead/wauthn)
-  - A command-line tool for performing WebAuthn and passkey registration and authentication ceremonies.
-- [WebAuthn Authenticator NAPI](https://github.com/beeper/webauthn-authenticator-napi)
-  - Provides native Node.js and Electron bindings for WebAuthn authenticator operations through Rust.
 
 ### Penetration Testing
 
@@ -1106,14 +1035,6 @@ Libraries and tools for application security, cryptography, and secure developme
   - Fast, recursive content discovery tool for web applications.
 - [sn0int](https://github.com/kpcyrd/sn0int)
   - Semi-automatic OSINT framework for reconnaissance and attack surface enumeration.
-- [authoscope](https://github.com/kpcyrd/authoscope)
-  - Scriptable network authentication testing tool supporting custom authentication workflows.
-- [AEGIS](https://github.com/PranavG19/AEIGS)
-  - Experimental web application security scanner featuring endpoint discovery, HTTP fuzzing, and vulnerability analysis.
-- [Pentra](https://github.com/Int3ch-Labs/pentra)
-  - Modular penetration testing platform written in Rust with network scanning and extensible tooling.
-- [Vonogs Sentinel](https://github.com/alpibit/vonogs-sentinel)
-  - Lightweight network security toolkit with TCP port scanning and network discovery.
 
 **[⬆ Back to Top](#contents)**
 
@@ -1132,15 +1053,9 @@ Libraries, tools, and projects for low-level programming and operating system de
 
 - [Fuser](https://github.com/cberner/fuser)
   - Provides a Rust library for implementing userspace filesystems using the FUSE interface.
-- [Rust FATFS](https://github.com/rafalh/rust-fatfs)
-  - Implements FAT12, FAT16, and FAT32 filesystem support in Rust.
 
 ### Memory Management
 
-- [Talc](https://github.com/SFBdragon/talc)
-  - A fast and flexible memory allocator designed for Rust applications.
-- [Buddy System Allocator](https://github.com/rcore-os/buddy_system_allocator)
-  - Implements a buddy memory allocation algorithm for managing memory blocks.
 - [Mimalloc Rust](https://github.com/purpleprotocol/mimalloc_rust)
   - Provides Rust bindings for Microsoft's mimalloc memory allocator.
 
@@ -1157,12 +1072,6 @@ Libraries, tools, and projects for low-level programming and operating system de
   - A modern virtual machine monitor built with Rust, designed for cloud workloads.
 - [crosvm](https://github.com/google/crosvm)
   - A secure virtual machine monitor written in Rust, used by ChromeOS.
-- [Rust VMM KVM](https://github.com/rust-vmm/kvm)
-  - Provides Rust abstractions for interacting with the Linux KVM virtualization interface.
-- [vm-memory](https://github.com/rust-vmm/vm-memory)
-  - Provides memory abstractions and utilities for virtual machine monitors.
-- [vhost](https://github.com/rust-vmm/vhost)
-  - Implements Rust interfaces for the vhost protocol used in virtualized environments.
 
 **[⬆ Back to Top](#contents)**
 
