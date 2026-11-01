@@ -238,6 +238,8 @@ Frameworks and libraries for building web applications, APIs, and web services.
   - Framework for building HTTP proxies and other network services, developed by Cloudflare.
 - [Static Web Server](https://github.com/static-web-server/static-web-server)
   - Serves static files over HTTP and HTTPS, with support for compression, caching, and access control.
+- [Granian](https://github.com/emmett-framework/granian)
+  - High-performance Rust HTTP server for Python applications, supporting ASGI, WSGI, HTTP/2, WebSockets, and concurrent request handling.
 
 ### GraphQL
 
