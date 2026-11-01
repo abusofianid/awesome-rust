@@ -298,6 +298,8 @@ Libraries and tools for network communication, protocols, and distributed messag
   - TCP/IP stack designed for embedded and bare-metal systems, with no heap allocation required.
 - [Quinn](https://github.com/quinn-rs/quinn)
   - Async implementation of the QUIC protocol for building network clients and servers in Rust.
+- [Sniffnet](https://github.com/GyulyVGC/sniffnet)
+  - GUI tool for real-time network traffic monitoring and inspection.
 
 ### gRPC
 
