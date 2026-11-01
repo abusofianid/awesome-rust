@@ -31,17 +31,16 @@ Before submitting a project, make sure it meets the following requirements:
 
 ## Project Requirements
 
-We prioritize quality over quantity.
+To maintain the quality and relevance of this list, submitted projects must meet the following requirements:
 
-Projects should meet the following criteria:
-
+- **Minimum Stars:** GitHub repositories must have at least 1,000 stars at the time of submission.
+- **Recent Activity:** Projects must show development activity within the last 6 months, such as code commits, releases, or meaningful code updates.
+- **Project Status:** Projects must not be archived or abandoned.
 - **Relevance:** The project must be directly related to Rust or its ecosystem.
 - **Quality:** The project should provide useful functionality and a reasonable level of documentation.
-- **Maintenance:** The project should be actively maintained or remain useful as a stable and mature tool.
-- **Accessibility:** The project must have a working public link.
-- **Uniqueness:** The project must not duplicate an existing entry.
+- **No Duplicates:** Projects must not already be listed elsewhere in this repository.
 
-Projects do not need to be popular or have a large number of GitHub stars to be considered.
+Submissions that do not meet these requirements may be rejected.
 
 ## Writing Guidelines
 
