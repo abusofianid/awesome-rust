@@ -182,6 +182,8 @@ Applications, platforms, and workflows that support AI-assisted software develop
   - A Rust-based computer-use tool that enables AI agents to inspect and operate desktop applications through accessibility APIs.
 - [Cloudroom](https://github.com/davidondrej/cloudroom)
   - An open-source desktop platform for managing AI coding agents locally and in the cloud, powered by a Rust-based cloud engine.
+- [ai-memory](https://github.com/akitaonrails/ai-memory)
+  - Long-term memory and cross-agent handoffs for AI coding agents.
 
 ### Model Context Protocol (MCP)
 
