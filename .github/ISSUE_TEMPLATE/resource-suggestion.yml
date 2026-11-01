@@ -1,14 +1,17 @@
-
 name: Resource Suggestion
-description: Suggest a Rust book, course, tutorial, or learning resource.
+description: Suggest a Rust book, course, tutorial, conference, community, podcast, or newsletter.
 title: "[Resource Suggestion]: "
 labels:
   - resource suggestion
+
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for suggesting a learning resource for Awesome Rust!
+        Thank you for suggesting a resource for Awesome Rust!
+
+        Please provide the details below so we can review your suggestion.
+        Before submitting, make sure to read our [Contributing Guidelines](../../CONTRIBUTING.md).
 
   - type: input
     id: resource-name
@@ -22,24 +25,24 @@ body:
     id: resource-url
     attributes:
       label: Resource URL
+      description: Provide the official website or direct link to the resource.
       placeholder: https://example.com
     validations:
       required: true
 
   - type: dropdown
-    id: resource-type
+    id: resource-category
     attributes:
-      label: Resource Type
+      label: Resource Category
+      description: Select the most appropriate category from the README.
       options:
-        - Book
-        - Course
-        - Tutorial
-        - Documentation
-        - Conference
-        - Community
-        - Podcast
-        - Newsletter
-        - Other
+        - Books
+        - Courses
+        - Tutorials
+        - Conferences
+        - Communities
+        - Podcasts
+        - Newsletters
     validations:
       required: true
 
@@ -47,7 +50,8 @@ body:
     id: description
     attributes:
       label: Description
-      description: Describe the resource in clear and concise English.
+      description: Explain what the resource offers and how it benefits Rust developers. Write in clear and concise English.
+      placeholder: Describe the resource and its main benefits.
     validations:
       required: true
 
@@ -56,7 +60,15 @@ body:
     attributes:
       label: Submission Checklist
       options:
+        - label: This resource is relevant to the Rust ecosystem.
+          required: true
         - label: I have checked that this resource is not already listed.
           required: true
-        - label: I have verified that the URL is accessible.
+        - label: I have verified that the URL is valid and accessible.
+          required: true
+        - label: The description is clear, concise, and written in English.
+          required: true
+        - label: I have selected the most appropriate category.
+          required: true
+        - label: I have read the Contributing Guidelines.
           required: true
