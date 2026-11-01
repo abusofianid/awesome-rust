@@ -946,6 +946,8 @@ Tools for compiling, building, formatting, and managing Rust projects.
   - Caches compiler outputs to accelerate repeated Rust builds and reduce compilation time.
 - [cargo-chef](https://github.com/LukeMathWalker/cargo-chef)
   - Optimizes Rust Docker builds by separating dependency compilation from application source changes.
+- [Rolldown](https://github.com/rolldown/rolldown)
+  - A fast Rust-based JavaScript and TypeScript bundler with a Rollup-compatible API.
 
 **[⬆ Back to Top](#contents)**
 
