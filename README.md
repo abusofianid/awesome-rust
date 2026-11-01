@@ -766,6 +766,8 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
   - Rust bindings for the FFmpeg multimedia framework.
 - [Av1an](https://github.com/rust-av/Av1an)
   - Video encoding automation tool for AV1 and other codecs.
+- [Gyroflow](https://github.com/gyroflow/gyroflow)
+  - Cross-platform video stabilization application using gyroscope data, with GPU-accelerated processing, lens correction, and support for professional video formats.
 
 ### Graphics & Rendering
 
