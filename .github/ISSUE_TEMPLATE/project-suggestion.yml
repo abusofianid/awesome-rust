@@ -130,82 +130,11 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: rust-relevance
-    attributes:
-      label: Relevance to Rust
-      description: Explain how the project relates to Rust and why it is useful to Rust developers.
-      placeholder: |
-        Explain the project's Rust implementation or integration.
-
-        For mixed-language projects, describe which components are written in Rust
-        and why Rust is a substantial part of the project.
-    validations:
-      required: true
-
-  - type: input
-    id: stars
-    attributes:
-      label: GitHub Stars
-      description: Provide the current number of stars. The repository must have at least 1,000 stars.
-      placeholder: "Example: 1500"
-    validations:
-      required: true
-
-  - type: input
-    id: recent-activity
-    attributes:
-      label: Recent Development Activity
-      description: Provide the date and link to a meaningful code commit, release, or code update within the last 6 months.
-      placeholder: "Example: 2026-10-15 - https://github.com/owner/project/commit/..."
-    validations:
-      required: true
-
-  - type: dropdown
-    id: maintenance
-    attributes:
-      label: Project Status
-      description: Select the current status of the repository.
-      options:
-        - Actively maintained
-        - Stable and maintained
-        - Maintenance status uncertain
-    validations:
-      required: true
-
-  - type: input
-    id: documentation
-    attributes:
-      label: Documentation
-      description: Provide a link to the project's documentation, if available.
-      placeholder: "https://docs.example.com"
-
-  - type: input
-    id: license
-    attributes:
-      label: License
-      description: Provide the project's open-source license, if available.
-      placeholder: "Example: MIT or Apache-2.0"
-
   - type: checkboxes
     id: checklist
     attributes:
       label: Submission Checklist
       description: Confirm that your suggestion meets the contribution requirements.
       options:
-        - label: I have checked that this project is not already listed in the README.
-          required: true
-        - label: The repository has at least 1,000 GitHub stars.
-          required: true
-        - label: The repository has meaningful development activity within the last 6 months.
-          required: true
-        - label: The repository is not archived or abandoned.
-          required: true
-        - label: The project is directly relevant to Rust or its ecosystem.
-          required: true
-        - label: I have selected the most appropriate category.
-          required: true
-        - label: I have verified that the repository and its links are accessible.
-          required: true
         - label: I have read the Contributing Guidelines.
           required: true
