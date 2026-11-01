@@ -1,9 +1,8 @@
-
-name: Category Request
+name: Category Suggestion
 description: Suggest a new category or subcategory for Awesome Rust.
-title: "[Category Request] "
+title: "[Category Suggestion] "
 labels:
-  - category request
+  - category suggestion
 
 body:
   - type: dropdown
@@ -59,31 +58,3 @@ body:
       placeholder: Explain what types of projects or resources belong in this category.
     validations:
       required: true
-
-  - type: textarea
-    id: justification
-    attributes:
-      label: Why Is This Category Needed?
-      description: Explain why this category should be added to Awesome Rust.
-      placeholder: Describe its relevance to the Rust ecosystem and why existing categories are insufficient.
-    validations:
-      required: true
-
-  - type: textarea
-    id: examples
-    attributes:
-      label: Suggested Projects or Resources
-      description: Provide examples of projects or resources that would belong in this category.
-      placeholder: |
-        - Project or resource name: URL
-        - Project or resource name: URL
-    validations:
-      required: false
-
-  - type: textarea
-    id: additional_information
-    attributes:
-      label: Additional Information
-      description: Provide any other relevant details.
-    validations:
-      required: false
