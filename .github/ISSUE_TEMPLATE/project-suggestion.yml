@@ -1,6 +1,5 @@
-
 name: Project Suggestion
-description: Suggest a Rust library, framework, software, or developer tool.
+description: Suggest a Rust library, framework, application, or developer tool.
 title: "[Project Suggestion]: "
 labels:
   - project suggestion
@@ -13,7 +12,14 @@ body:
 
         Before submitting, please read our [Contributing Guidelines](../../blob/main/CONTRIBUTING.md).
 
-        Make sure the project is relevant to the Rust ecosystem, properly documented, and not already listed.
+        **Project requirements:**
+        - At least 1,000 GitHub stars at the time of submission.
+        - Development activity within the last 6 months.
+        - The repository must not be archived or abandoned.
+        - The project must be directly relevant to Rust or its ecosystem.
+        - The project must not already be listed in this repository.
+
+        These requirements apply to software projects and GitHub repositories, not learning resources.
 
   - type: input
     id: project-name
@@ -27,34 +33,100 @@ body:
   - type: input
     id: project-url
     attributes:
-      label: Project URL
-      description: Provide the official repository or website.
-      placeholder: https://github.com/owner/project
+      label: Project Repository
+      description: Provide the official GitHub repository URL.
+      placeholder: "https://github.com/owner/project"
     validations:
       required: true
+
+  - type: input
+    id: project-website
+    attributes:
+      label: Official Website
+      description: Provide the official website, if available.
+      placeholder: "https://example.com"
 
   - type: dropdown
     id: category
     attributes:
       label: Suggested Category
-      description: Select the most appropriate category from the README.
+      description: Select the most appropriate category and subcategory from the README.
       options:
-        - AI & Machine Learning
-        - Web Development
-        - Networking & Communication
-        - Database & Storage
-        - Data & Science
-        - Developer Tools
-        - DevOps & Cloud
-        - CLI & GUI
-        - Media & Graphics
-        - Rust Language
-        - Rust Toolchain
-        - Embedded & Hardware
-        - Security
-        - Operating Systems & Systems Programming
-        - AI Development Resources
-        - Other
+        - "AI & Machine Learning / AI Agents"
+        - "AI & Machine Learning / AI & Machine Learning Libraries"
+        - "AI & Machine Learning / AI Development Tools & Workflows"
+        - "AI & Machine Learning / Model Context Protocol (MCP)"
+        - "Web Development / Web Frameworks"
+        - "Web Development / Web APIs"
+        - "Web Development / Web Servers"
+        - "Web Development / GraphQL"
+        - "Web Development / WebSocket"
+        - "Web Development / Authentication"
+        - "Web Development / Template Engines"
+        - "Networking & Communication / HTTP Clients"
+        - "Networking & Communication / Networking"
+        - "Networking & Communication / gRPC"
+        - "Networking & Communication / Messaging"
+        - "Networking & Communication / Email"
+        - "Networking & Communication / Web Scraping"
+        - "Database & Storage / ORM"
+        - "Database & Storage / Database Drivers"
+        - "Database & Storage / SQL Databases"
+        - "Database & Storage / NoSQL Databases"
+        - "Database & Storage / Caching"
+        - "Database & Storage / Search"
+        - "Database & Storage / Serialization"
+        - "Data & Science / Data Analysis"
+        - "Data & Science / Data Processing & ETL"
+        - "Data & Science / Data Visualization"
+        - "Data & Science / Scientific Computing"
+        - "Data & Science / Geospatial"
+        - "Developer Tools / Testing"
+        - "Developer Tools / Debugging"
+        - "Developer Tools / Code Analysis"
+        - "Developer Tools / Documentation"
+        - "Developer Tools / Profiling"
+        - "Developer Tools / Algorithms"
+        - "Developer Tools / Package Managers"
+        - "Developer Tools / Bundlers"
+        - "DevOps & Cloud / Cloud"
+        - "DevOps & Cloud / Containers"
+        - "DevOps & Cloud / CI/CD"
+        - "DevOps & Cloud / Distributed Systems"
+        - "DevOps & Cloud / Observability & Logging"
+        - "CLI & GUI / CLI Frameworks"
+        - "CLI & GUI / Terminal UI"
+        - "CLI & GUI / GUI Frameworks"
+        - "CLI & GUI / Desktop Applications"
+        - "Media & Graphics / Image Processing"
+        - "Media & Graphics / Audio"
+        - "Media & Graphics / Video"
+        - "Media & Graphics / Graphics & Rendering"
+        - "Media & Graphics / Game Development"
+        - "Rust Language / Async"
+        - "Rust Language / Concurrency"
+        - "Rust Language / Macros"
+        - "Rust Language / Rust Memory Management"
+        - "Rust Language / Functional Programming"
+        - "Rust Language / FFI"
+        - "Rust Language / Unsafe Rust"
+        - "Rust Toolchain / Cargo"
+        - "Rust Toolchain / Compilers"
+        - "Rust Toolchain / Package Management"
+        - "Rust Toolchain / Linting & Formatting"
+        - "Rust Toolchain / Build Tools"
+        - "Embedded & Hardware / Embedded Systems & Microcontrollers"
+        - "Embedded & Hardware / Robotics"
+        - "Security / Cryptography"
+        - "Security / TLS"
+        - "Security / Security Auditing"
+        - "Security / Penetration Testing"
+        - "Operating Systems & Systems Programming / Operating Systems"
+        - "Operating Systems & Systems Programming / Filesystems"
+        - "Operating Systems & Systems Programming / System Memory Management"
+        - "Operating Systems & Systems Programming / Kernel Development"
+        - "Operating Systems & Systems Programming / Virtualization"
+        - "Not sure"
     validations:
       required: true
 
@@ -63,7 +135,7 @@ body:
     attributes:
       label: Project Description
       description: Provide a concise and objective description in English.
-      placeholder: Explain what the project does and its main purpose.
+      placeholder: Explain what the project does and its main functionality.
     validations:
       required: true
 
@@ -71,8 +143,42 @@ body:
     id: rust-relevance
     attributes:
       label: Relevance to Rust
-      description: Explain how this project relates to the Rust ecosystem.
-      placeholder: Describe its use case and relevance to Rust developers.
+      description: Explain how the project relates to Rust and why it is useful to Rust developers.
+      placeholder: |
+        Explain the project's Rust implementation or integration.
+
+        For mixed-language projects, describe which components are written in Rust
+        and why Rust is a substantial part of the project.
+    validations:
+      required: true
+
+  - type: input
+    id: stars
+    attributes:
+      label: GitHub Stars
+      description: Provide the current number of stars. The repository must have at least 1,000 stars.
+      placeholder: "Example: 1500"
+    validations:
+      required: true
+
+  - type: input
+    id: recent-activity
+    attributes:
+      label: Recent Development Activity
+      description: Provide the date and link to a meaningful code commit, release, or code update within the last 6 months.
+      placeholder: "Example: 2026-10-15 - https://github.com/owner/project/commit/..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: maintenance
+    attributes:
+      label: Project Status
+      description: Select the current status of the repository.
+      options:
+        - Actively maintained
+        - Stable and maintained
+        - Maintenance status uncertain
     validations:
       required: true
 
@@ -81,33 +187,34 @@ body:
     attributes:
       label: Documentation
       description: Provide a link to the project's documentation, if available.
-      placeholder: https://docs.example.com
+      placeholder: "https://docs.example.com"
 
-  - type: dropdown
-    id: maintenance
+  - type: input
+    id: license
     attributes:
-      label: Maintenance Status
-      description: Select the current maintenance status of the project.
-      options:
-        - Actively maintained
-        - Stable and mature
-        - Maintenance status unknown
-    validations:
-      required: true
+      label: License
+      description: Provide the project's open-source license, if available.
+      placeholder: "Example: MIT or Apache-2.0"
 
   - type: checkboxes
     id: checklist
     attributes:
       label: Submission Checklist
-      description: Confirm that your suggestion follows our contribution guidelines.
+      description: Confirm that your suggestion meets the contribution requirements.
       options:
-        - label: I have checked that this project is not already listed.
+        - label: I have checked that this project is not already listed in the README.
           required: true
-        - label: I have verified that the project URL is accessible.
+        - label: The repository has at least 1,000 GitHub stars.
           required: true
-        - label: I have checked that the project is relevant to the Rust ecosystem.
+        - label: The repository has meaningful development activity within the last 6 months.
           required: true
-        - label: I have read the contribution guidelines.
+        - label: The repository is not archived or abandoned.
           required: true
-        - label: I have the right to submit the description and other content included in this suggestion.
+        - label: The project is directly relevant to Rust or its ecosystem.
+          required: true
+        - label: I have selected the most appropriate category.
+          required: true
+        - label: I have verified that the repository and its links are accessible.
+          required: true
+        - label: I have read the Contributing Guidelines.
           required: true
