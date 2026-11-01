@@ -799,12 +799,6 @@ Libraries and resources related to Rust language features and programming paradi
   - Thread-per-core async runtime with support for IOCP and io_uring.
 - [Embassy](https://github.com/embassy-rs/embassy)
   - Async framework for embedded systems.
-- [Async Channel](https://github.com/smol-rs/async-channel)
-  - Asynchronous multi-producer multi-consumer channel.
-- [Async Lock](https://github.com/smol-rs/async-lock)
-  - Asynchronous synchronization primitives.
-- [Async FS](https://github.com/smol-rs/async-fs)
-  - Asynchronous filesystem operations.
 
 ### Concurrency
 
@@ -814,8 +808,6 @@ Libraries and resources related to Rust language features and programming paradi
   - Tools and primitives for concurrent programming in Rust.
 - [Parking Lot](https://github.com/Amanieu/parking_lot)
   - Efficient synchronization primitives for multithreaded applications.
-- [Orx Parallel](https://github.com/orxfun/orx-parallel)
-  - Parallel computation library with an expressive iterator API.
 - [Loom](https://github.com/tokio-rs/loom)
   - Concurrency testing tool for exploring possible thread execution orders.
 - [Flume](https://github.com/zesterer/flume)
@@ -827,42 +819,26 @@ Libraries and resources related to Rust language features and programming paradi
   - Parsing library for Rust source code and procedural macros.
 - [Quote](https://github.com/dtolnay/quote)
   - Quasi-quoting library for generating Rust code.
-- [Proc Macro2](https://github.com/dtolnay/proc-macro2)
-  - Stable interface for interacting with Rust procedural macros.
 - [Bon](https://github.com/elastio/bon)
   - Builder generator using Rust procedural macros.
 - [Async Trait](https://github.com/dtolnay/async-trait)
   - Enables async functions in trait definitions and implementations.
 - [Thiserror](https://github.com/dtolnay/thiserror)
   - Derive macros for implementing standard error traits.
-- [Seq Macro](https://github.com/dtolnay/seq-macro)
-  - Macro for expanding sequences of repeated Rust code.
 - [Inventory](https://github.com/dtolnay/inventory)
   - Typed plugin registration through distributed collections.
-- [Linkme](https://github.com/dtolnay/linkme)
-  - Distributed slices implemented with procedural macros.
 
 ### Memory Management
 
-- [jemallocator](https://github.com/tikv/jemallocator)
-  - Rust allocator using jemalloc as its memory allocation backend.
 - [Bumpalo](https://github.com/fitzgen/bumpalo)
   - Fast bump allocation arena for Rust.
 - [Slotmap](https://github.com/orlp/slotmap)
   - Slot-based storage with stable keys for managing objects.
-- [Triomphe](https://github.com/Manishearth/triomphe)
-  - Reference-counted smart pointer library with additional utilities.
-- [Self Cell](https://github.com/Voultapher/self_cell)
-  - Safe self-referential structs for stable Rust.
-- [Bytecheck](https://github.com/rkyv/bytecheck)
-  - Memory validation framework for Rust data structures.
 
 ### Functional Programming
 
 - [Itertools](https://github.com/rust-itertools/itertools)
   - Extra iterator adaptors, methods, functions, and macros for Rust.
-- [Rustica](https://github.com/but212/rustica)
-  - Functional programming library for the Rust language.
 - [Num](https://github.com/rust-num/num)
   - Collection of numeric types and traits for Rust.
 - [Frunk](https://github.com/lloydmeta/frunk)
@@ -886,8 +862,6 @@ Libraries and resources related to Rust language features and programming paradi
   - Facilitates interactions between WebAssembly and JavaScript.
 - [JNI-RS](https://github.com/jni-rs/jni-rs)
   - Rust bindings for the Java Native Interface.
-- [Diplomat](https://github.com/rust-diplomat/diplomat)
-  - Generates FFI interfaces for exposing Rust APIs to other languages.
 
 ### Unsafe Rust
 
@@ -899,12 +873,8 @@ Libraries and resources related to Rust language features and programming paradi
   - Interpreter for detecting undefined behavior in Rust programs.
 - [SmallVec](https://github.com/servo/rust-smallvec)
   - Vector implementation that stores small collections inline on the stack.
-- [x86_64](https://github.com/rust-osdev/x86_64)
-  - Low-level abstractions for programming x86_64 hardware.
 - [Libc](https://github.com/rust-lang/libc)
   - Raw bindings to platform-specific C APIs.
-- [rustc-hash](https://github.com/rust-lang/rustc-hash)
-  - Fast hash algorithm and collection aliases used by the Rust compiler.
 
 **[⬆ Back to Top](#contents)**
 
