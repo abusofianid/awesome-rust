@@ -146,6 +146,8 @@ Frameworks and applications for building and running AI agents, including coding
   - An open-source coding agent that runs in the terminal and can read, modify, and execute code.
 - [Goose](https://github.com/block/goose)
   - An extensible AI agent built in Rust that can execute commands, edit files, and automate development workflows.
+- [OpenHuman](https://github.com/tinyhumansai/openhuman)
+  - Open-source Rust based AI agent harness with multi-agent orchestration, persistent memory, and workflow automation.
 
 ### AI & Machine Learning Libraries
 
