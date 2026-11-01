@@ -282,8 +282,6 @@ Libraries and tools for network communication, protocols, and distributed messag
   - Synchronous HTTP client for applications that don't need an async runtime.
 - [Wreq](https://github.com/0x676e67/wreq)
   - HTTP client with customizable TLS and HTTP/2 settings, proxy support, and browser fingerprint matching.
-- [ehttp](https://github.com/emilk/ehttp)
-  - Minimal HTTP client that works on native platforms and in WebAssembly.
 
 ### Networking
 
@@ -318,10 +316,6 @@ Libraries and tools for network communication, protocols, and distributed messag
 
 - [Lettre](https://github.com/lettre/lettre)
   - Email library for building and sending messages over SMTP, with support for TLS, attachments, and async transports.
-- [mail-send](https://github.com/stalwartlabs/mail-send)
-  - SMTP email delivery library with MIME support and DKIM signing.
-- [mail-parser](https://github.com/stalwartlabs/mail-parser)
-  - Parses email messages, including headers, MIME parts, attachments, and encoded message bodies.
 - [MailCrab](https://github.com/tweedegolf/mailcrab)
   - Local SMTP server for testing outgoing emails, with a web interface for viewing messages and attachments.
 
@@ -333,8 +327,6 @@ Libraries and tools for network communication, protocols, and distributed messag
   - HTML parsing library with CSS selector support for extracting elements and data from web pages.
 - [Fantoccini](https://github.com/jonhoo/fantoccini)
   - Async WebDriver client for controlling browsers and interacting with web pages through CSS selectors.
-- [cfsolve](https://github.com/chris124567/cfsolve)
-  - A Rust library and CLI tool for handling Cloudflare Turnstile widgets and challenge pages without a headless browser.
 
 **[⬆ Back to Top](#contents)**
 
