@@ -349,14 +349,10 @@ Libraries and tools for database connectivity, data persistence, and storage man
   - Async PostgreSQL driver for Tokio, with support for transactions, prepared statements, and pipelining.
 - [Rusqlite](https://github.com/rusqlite/rusqlite)
   - SQLite bindings for Rust, providing an API for executing SQL queries and managing transactions.
-- [MySQL Async](https://github.com/blackbeam/rust-mysql-simple)
-  - Async MySQL driver for Tokio, with support for prepared statements and connection pooling.
 - [MongoDB Rust Driver](https://github.com/mongodb/mongo-rust-driver)
   - Official MongoDB driver for Rust, supporting CRUD operations, aggregation, transactions, and change streams.
 - [Redis-rs](https://github.com/redis-rs/redis-rs)
   - Redis client for Rust, with support for async and sync connections, Pub/Sub, and pipelining.
-- [ScyllaDB Rust Driver](https://github.com/scylladb/scylla-rust-driver)
-  - Async CQL driver for ScyllaDB, also compatible with Apache Cassandra.
 
 ### SQL Databases
 
@@ -390,8 +386,6 @@ Libraries and tools for database connectivity, data persistence, and storage man
   - Concurrent in-memory cache for synchronous and asynchronous applications, with TTL, TTI, and eviction policies.
 - [Foyer](https://github.com/foyer-rs/foyer)
   - Hybrid cache that combines memory and disk storage with asynchronous access.
-- [Quick Cache](https://github.com/arthurprs/quick-cache)
-  - Lightweight concurrent cache with S3-FIFO eviction and low access overhead.
 - [cached](https://github.com/jaemk/cached)
   - Caching library with reusable cache structures and macros for function memoization.
 
