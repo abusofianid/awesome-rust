@@ -182,6 +182,8 @@ Frameworks, libraries, and tools for building AI applications, machine learning 
   - Long-term memory and cross-agent handoffs for AI coding agents.
 - [Codync](https://github.com/leepokai/Codync)
   - Open-source platform for managing and orchestrating multiple AI coding agents across devices.
+- [RTK](https://github.com/rtk-ai/rtk)
+  - A Rust-based CLI tool that filters and compresses command outputs to reduce LLM context consumption in AI-assisted development workflows, supporting 100+ developer commands and multiple AI coding agents.
 
 ### Model Context Protocol (MCP)
 
