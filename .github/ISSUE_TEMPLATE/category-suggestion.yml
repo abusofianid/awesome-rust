@@ -1,30 +1,53 @@
 
-name: Category Suggestion
+name: Category Request
 description: Suggest a new category or subcategory for Awesome Rust.
-title: "[Category Suggestion]: "
+title: "[Category Request] "
 labels:
-  - category suggestion
-body:
-  - type: markdown
-    attributes:
-      value: |
-        Thank you for helping improve the organization of Awesome Rust!
+  - category request
 
-  - type: input
-    id: category-name
+body:
+  - type: dropdown
+    id: request_type
     attributes:
-      label: Proposed Category or Subcategory
-      placeholder: "Example: Blockchain"
+      label: Request Type
+      description: What type of category are you proposing?
+      options:
+        - New Main Category
+        - New Subcategory
     validations:
       required: true
 
   - type: dropdown
-    id: suggestion-type
+    id: parent_category
     attributes:
-      label: Suggestion Type
+      label: Parent Category
+      description: Select the existing main category where the proposed subcategory belongs. Select Not Applicable for a new main category.
       options:
-        - New Main Category
-        - New Subcategory
+        - Not Applicable
+        - AI & Machine Learning
+        - Web Development
+        - Networking & Communication
+        - Database & Storage
+        - Data & Science
+        - Developer Tools
+        - DevOps & Cloud
+        - CLI & GUI
+        - Media & Graphics
+        - Rust Language
+        - Rust Toolchain
+        - Embedded & Hardware
+        - Security
+        - Operating Systems & Systems Programming
+        - Resources
+    validations:
+      required: true
+
+  - type: input
+    id: category_name
+    attributes:
+      label: Proposed Category Name
+      description: Enter the name of the proposed category or subcategory.
+      placeholder: e.g. Robotics
     validations:
       required: true
 
@@ -32,23 +55,35 @@ body:
     id: description
     attributes:
       label: Description
-      description: Explain what this category covers.
+      description: Describe the purpose and scope of the proposed category.
+      placeholder: Explain what types of projects or resources belong in this category.
     validations:
       required: true
 
   - type: textarea
     id: justification
     attributes:
-      label: Reason for Suggestion
-      description: Explain why this category is needed and how it differs from existing categories.
+      label: Why Is This Category Needed?
+      description: Explain why this category should be added to Awesome Rust.
+      placeholder: Describe its relevance to the Rust ecosystem and why existing categories are insufficient.
     validations:
       required: true
 
   - type: textarea
     id: examples
     attributes:
-      label: Example Projects
-      description: Provide examples of projects that would belong in this category.
+      label: Suggested Projects or Resources
+      description: Provide examples of projects or resources that would belong in this category.
       placeholder: |
-        - Project A: https://github.com/example/project-a
-        - Project B: https://github.com/example/project-b
+        - Project or resource name: URL
+        - Project or resource name: URL
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional Information
+      description: Provide any other relevant details.
+    validations:
+      required: false
