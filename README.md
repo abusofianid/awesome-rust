@@ -653,8 +653,6 @@ Frameworks and libraries for building command-line, terminal-based, and graphica
   - Command-line argument parser with support for subcommands, flags, and automatic help generation.
 - [Argh](https://github.com/google/argh)
   - Derive-based argument parsing library for building command-line interfaces.
-- [bpaf](https://github.com/pacak/bpaf)
-  - Composable argument parser for building declarative command-line interfaces.
 - [Dialoguer](https://github.com/console-rs/dialoguer)
   - Library for creating interactive CLI prompts, selections, and confirmations.
 - [Inquire](https://github.com/mikaelmello/inquire)
@@ -668,12 +666,8 @@ Frameworks and libraries for building command-line, terminal-based, and graphica
   - Framework for building terminal applications with dialogs, menus, forms, and reusable views.
 - [TUI Realm](https://github.com/veeso/tui-realm)
   - Component-based framework for building terminal user interfaces with widgets and event handling.
-- [TUI Widgets](https://github.com/ratatui/tui-widgets)
-  - Collection of additional widgets for extending Ratatui applications.
 - [TachyonFX](https://github.com/ratatui/tachyonfx)
   - Library for adding animations and visual effects to Ratatui applications.
-- [Ratatui Image](https://github.com/ratatui/ratatui-image)
-  - Library for displaying images in terminal applications using Ratatui.
 
 ### GUI Frameworks
 
@@ -695,8 +689,6 @@ Frameworks and libraries for building command-line, terminal-based, and graphica
   - Data-driven GUI framework for building reactive user interfaces.
 - [Tauri](https://github.com/tauri-apps/tauri)
   - Framework for building desktop applications with web frontends and Rust backends.
-- [libcosmic](https://github.com/pop-os/libcosmic)
-  - Toolkit for building desktop applications with COSMIC components and design.
 
 ### Desktop Applications
 
@@ -708,8 +700,6 @@ Frameworks and libraries for building command-line, terminal-based, and graphica
   - Open-source remote desktop application for remote access and support.
 - [Pake](https://github.com/tw93/Pake)
   - Tool for packaging websites into lightweight desktop applications.
-- [Mission Center](https://github.com/YJ-Software/mission-control-center)
-  - System monitor for viewing CPU, memory, disk, network, and GPU usage.
 - [Rnote](https://github.com/flxzt/rnote)
   - Vector-based drawing and note-taking application for handwritten notes and sketches.
 - [Kando](https://github.com/kando-menu/kando)
