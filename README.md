@@ -796,6 +796,8 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
   - ECS-driven 2D and 3D physics engine for Bevy.
 - [Piston](https://github.com/PistonDevelopers/piston)
   - Modular game engine written in Rust.
+- [Pyxel](https://github.com/kitao/pyxel)
+  - Retro game engine implemented in Rust, providing a Python API for creating 8-bit-style games with pixel art, sound, and music.
 
 **[⬆ Back to Top](#contents)**
 
