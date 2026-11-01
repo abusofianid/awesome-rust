@@ -453,10 +453,6 @@ Libraries for data processing, scientific computing, and analytical applications
 
 - [Apache SeaTunnel](https://github.com/apache/seatunnel)
   - Data integration platform for moving data between different systems, supporting batch processing, streaming, and CDC.
-- [Estuary Flow](https://github.com/estuary/flow)
-  - Data pipeline platform for synchronizing data across databases, SaaS applications, and streaming systems, with CDC and real-time transformations.
-- [dbt Fusion](https://github.com/dbt-labs/dbt-fusion)
-  - Rust-based engine for running and validating SQL transformations in dbt projects.
 
 ### Data Visualization
 
@@ -464,15 +460,8 @@ Libraries for data processing, scientific computing, and analytical applications
   - Rust library for creating interactive charts and plots powered by Plotly.js.
 - [Rerun](https://github.com/rerun-io/rerun)
   - Visualization tool for exploring multimodal data, including images, point clouds, spatial data, and sensor streams.
-- [egui_plot](https://github.com/emilk/egui_plot)
-  - Plotting library for egui applications, supporting line charts, scatter plots, bar charts, and other 2D plots.
 
 ### Statistics
-
-- [Statrs](https://github.com/statrs-dev/statrs)
-  - Statistical library for Rust with probability distributions, statistical functions, and descriptive statistics.
-- [rand_distr](https://github.com/rust-random/rand_distr)
-  - Library for generating random samples from probability distributions such as Normal, Binomial, Poisson, and Gamma.
 
 ### Scientific Computing
 
@@ -482,10 +471,6 @@ Libraries for data processing, scientific computing, and analytical applications
   - Linear algebra library for vectors, matrices, and geometric transformations.
 - [ndarray](https://github.com/rust-ndarray/ndarray)
   - N-dimensional array library with slicing, array views, and numerical operations.
-- [Peroxide](https://github.com/Axect/Peroxide)
-  - Numerical computing library with linear algebra, ODE solvers, interpolation, optimization, and numerical integration.
-- [sprs](https://github.com/sparsemat/sprs)
-  - Sparse linear algebra library for sparse matrices, vectors, and matrix operations.
 
 ### Geospatial
 
