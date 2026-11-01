@@ -702,6 +702,8 @@ Frameworks and libraries for building command-line, terminal-based, and graphica
   - Data-driven GUI framework for building reactive user interfaces.
 - [Tauri](https://github.com/tauri-apps/tauri)
   - Framework for building desktop applications with web frontends and Rust backends.
+- [GPUI Kit](https://github.com/longbridge/gpui-kit)
+  - Cross-platform desktop UI framework built on GPUI, providing reusable components, interaction primitives, and application infrastructure.
 
 ### Desktop Applications
 
