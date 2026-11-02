@@ -1101,6 +1101,8 @@ Learning materials and community resources for Rust developers.
   - A practical book on building reliable, production-ready backend applications with Rust.
 - [Rust Atomics and Locks](https://marabos.nl/atomics/)
   - Explores concurrent programming in Rust through atomics, memory ordering, and synchronization primitives.
+- [The Rust Programming Handbook](https://a.co/d/00MHIw4L)
+  - A practical guide to Rust fundamentals, ownership, concurrency, error handling, and systems and web programming by Francesco Ciulla.
 
 ### Courses
 
@@ -1135,7 +1137,8 @@ Learning materials and community resources for Rust developers.
   - A project-based guide to creating 2D games with Rust and the Macroquad game framework.
 - [Build a Lua Interpreter in Rust](https://wubingzheng.github.io/build-lua-in-rust/en/)
   - A tutorial series that teaches interpreter development by implementing Lua in Rust.
-- [Rust Crash Course Tutorial for Beginners](https://www.youtube.com/playlist?list=PLPoSdR46FgI412aItyJhj2bF66cudB6Qs) - A practical Rust tutorial covering fundamentals, ownership, error handling, testing, and concurrency by Francesco Ciulla on YouTube.
+- [Rust Crash Course Tutorial for Beginners](https://www.youtube.com/playlist?list=PLPoSdR46FgI412aItyJhj2bF66cudB6Qs)
+  - A practical Rust tutorial covering fundamentals, ownership, error handling, testing, and concurrency by Francesco Ciulla on YouTube.
 
 ### Conferences
 
