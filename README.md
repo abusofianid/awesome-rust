@@ -629,6 +629,8 @@ Tools and libraries for infrastructure, deployment, cloud services, and operatio
   - Library for running WebAssembly workloads with containerd.
 - [Wasmer](https://github.com/wasmerio/wasmer)
   - WebAssembly runtime for executing applications in secure, lightweight sandboxes across local, cloud, and browser environments.
+- [Sandstorm](https://github.com/deeplethe/sandstorm)
+  - A Rust-based sandbox orchestration system that manages gVisor containers and Firecracker microVMs across a fleet, using adaptive lifecycle management to reduce resource usage and quickly restore idle sandboxes.
 
 ### CI/CD
 
