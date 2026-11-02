@@ -485,6 +485,8 @@ Libraries for data processing, scientific computing, and analytical applications
 
 - [Geo](https://github.com/georust/geo)
   - Geospatial library for points, lines, polygons, geometric operations, and distance calculations.
+- [RustGIS](https://github.com/opengeos/RustGIS)
+  - A fast, open-source GIS application written in Rust for mapping, analyzing, and sharing geospatial data, with desktop, web, CLI, and Python interfaces.
 
 **[⬆ Back to Top](#contents)**
 
