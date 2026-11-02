@@ -1165,20 +1165,16 @@ Learning materials and community resources for Rust developers.
 
 ### Communities
 
-- [Rust Users Forum](https://users.rust-lang.org/)
-  - The official community forum for asking questions, sharing projects, and discussing Rust programming.
-- [Rust Internals Forum](https://internals.rust-lang.org/)
-  - A discussion forum focused on Rust language development, compiler internals, and language design.
-- [Rust Zulip](https://rust-lang.zulipchat.com/)
-  - The primary chat platform for Rust project teams, contributors, and community discussions.
+- [Official Rust Users Forum](https://users.rust-lang.org/)
+  - The Rust Users Forum is a place for Rust users to communicate about anything and everything related to Rust. Ask questions here, coordinate on project ideas, whatever you like!
+- [Official Rust Internals Forum](https://internals.rust-lang.org/)
+  - The Rust Internals Forum is a place for discussion about the development of Rust itself – including work on the compiler as well as the design of the language and the standard library.
 - [Rust Programming Language Community Discord](https://discord.gg/rust-lang-community)
   - A large community Discord server for learning Rust, getting help, and connecting with other developers.
 - [r/rust](https://www.reddit.com/r/rust/)
   - A Reddit community for Rust news, discussions, questions, and project showcases.
 - [Rust Community on Stack Overflow](https://stackoverflow.com/questions/tagged/rust)
   - A question-and-answer community for solving Rust programming problems.
-- [Rust User Groups](https://rust-lang.org/community/)
-  - A directory of local Rust meetups and community events around the world.
 
 ### Podcasts
 
