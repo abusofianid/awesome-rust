@@ -1093,10 +1093,12 @@ Learning materials and community resources for Rust developers.
 
 ### Books
 
-- [Programming Rust](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
-  - A comprehensive guide to systems programming with Rust, covering ownership, concurrency, and performance.
+- [The Rust Programming Language](https://doc.rust-lang.org/stable/book/)
+  - The official Rust book by Steve Klabnik, Carol Nichols, and Chris Krycho.
+- [Programming Rust, 2nd Edition](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
+  - A comprehensive guide to Rust programming by Jim Blandy, Jason Orendorff, and Leonora F. S. Tindall.
 - [Rust for Rustaceans](https://rust-for-rustaceans.com/)
-  - An advanced guide to writing idiomatic, efficient, and maintainable Rust code.
+  - An advanced guide to writing idiomatic Rust by Jon Gjengset.
 - [Zero To Production In Rust](https://www.zero2prod.com/)
   - A practical book on building reliable, production-ready backend applications with Rust.
 - [Rust Atomics and Locks](https://marabos.nl/atomics/)
