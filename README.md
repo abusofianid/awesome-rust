@@ -1145,7 +1145,7 @@ Learning materials and community resources for Rust developers.
 ### Conferences
 
 - [RustConf](https://rustconf.com/)
-  - The flagship annual Rust conference bringing together developers, maintainers, and researchers from across the Rust ecosystem.
+  - The annual flagship conference dedicated to the Rust programming language, featuring talks, workshops, and community discussions, hosted by the Rust Foundation.
 - [RustWeek](https://rustweek.org/)
   - A week-long Rust community event featuring technical talks, workshops, hackathons, and networking.
 - [Oxidize](https://oxidizeconf.com/)
