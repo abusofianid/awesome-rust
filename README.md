@@ -1099,12 +1099,12 @@ Learning materials and community resources for Rust developers.
   - A comprehensive guide to Rust programming by Jim Blandy, Jason Orendorff, and Leonora F. S. Tindall.
 - [Rust for Rustaceans](https://rust-for-rustaceans.com/)
   - An advanced guide to writing idiomatic Rust by Jon Gjengset.
-- [Zero To Production In Rust](https://www.zero2prod.com/)
-  - A practical book on building reliable, production-ready backend applications with Rust.
-- [Rust Atomics and Locks](https://marabos.nl/atomics/)
-  - Explores concurrent programming in Rust through atomics, memory ordering, and synchronization primitives.
+- [Rust Atomics and Locks: Low-Level Concurrency in Practice](https://marabos.nl/atomics/)
+  - A practical book by Mara Bos covering Rust concurrency, atomic operations, memory ordering, mutexes, condition variables, and the implementation of synchronization primitives.
 - [The Rust Programming Handbook](https://a.co/d/00MHIw4L)
   - A practical guide to Rust fundamentals, ownership, concurrency, error handling, and systems and web programming by Francesco Ciulla.
+- [Rust in Action](https://www.rustinaction.com/)
+  - A practical book by Tim McNamara that teaches Rust through systems programming projects, covering computer architecture, CPU emulation, databases, networking, and operating system development.
 
 ### Courses
 
