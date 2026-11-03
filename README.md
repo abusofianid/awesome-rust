@@ -550,6 +550,8 @@ Tools and libraries that improve the software development workflow.
   - Extremely fast Python linter and code formatter written in Rust, with hundreds of lint rules and automatic code fixes.
 - [ty](https://github.com/astral-sh/ty)
   - Extremely fast Python type checker and language server written in Rust, providing static type analysis and rich diagnostics.
+- [Pyrefly](https://github.com/meta/pyrefly)
+  - A fast Rust-based static type checker and language server for Python, providing type inference, code navigation, autocomplete, and other IDE features.
 
 ### Documentation
 
