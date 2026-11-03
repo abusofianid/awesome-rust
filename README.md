@@ -462,8 +462,6 @@ Libraries for data processing, scientific computing, and analytical applications
   - Framework for building parallel and distributed dataflow computations.
 - [Differential Dataflow](https://github.com/TimelyDataflow/differential-dataflow)
   - Incremental data processing framework that updates computation results as input data changes.
-- [Apache SeaTunnel](https://github.com/apache/seatunnel)
-  - Data integration platform for moving data between different systems, supporting batch processing, streaming, and CDC.
 
 ### Data Visualization
 
@@ -521,7 +519,7 @@ Tools and libraries that improve the software development workflow.
   - Interactive debugging tool for monitoring Tokio tasks, async operations, and runtime resources.
 - [Tracing](https://github.com/tokio-rs/tracing)
   - Instrumentation framework for collecting structured events and diagnostic information from Rust applications.
-- [Ey​​re](https://github.com/eyre-rs/eyre)
+- [Eyre](https://github.com/eyre-rs/eyre)
   - Error reporting library with customizable error reports and backtrace support.
 - [Backtrace](https://github.com/rust-lang/backtrace-rs)
   - Library for capturing stack traces and resolving function names and source locations at runtime.
@@ -865,6 +863,8 @@ Libraries and resources related to Rust language features and programming paradi
   - Fast bump allocation arena for Rust.
 - [Slotmap](https://github.com/orlp/slotmap)
   - Slot-based storage with stable keys for managing objects.
+- [SmallVec](https://github.com/servo/rust-smallvec)
+  - Vector implementation that stores small collections inline on the stack.
 
 ### Functional Programming
 
@@ -902,8 +902,6 @@ Libraries and resources related to Rust language features and programming paradi
   - Zero-cost memory manipulation with safe abstractions over unsafe code.
 - [Miri](https://github.com/rust-lang/miri)
   - Interpreter for detecting undefined behavior in Rust programs.
-- [SmallVec](https://github.com/servo/rust-smallvec)
-  - Vector implementation that stores small collections inline on the stack.
 - [Libc](https://github.com/rust-lang/libc)
   - Raw bindings to platform-specific C APIs.
 
