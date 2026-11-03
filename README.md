@@ -929,6 +929,8 @@ Tools for compiling, building, formatting, and managing Rust projects.
   - Displays expanded Rust macros and derive implementations for easier inspection.
 - [cargo-msrv](https://github.com/foresterre/cargo-msrv)
   - Identifies the minimum Rust version required to compile a crate.
+- [cargo-update](https://github.com/nabijaczleweli/cargo-update)
+  - Installs and updates Rust binaries installed through `cargo install`.
 
 ### Compilers
 
@@ -943,10 +945,6 @@ Tools for compiling, building, formatting, and managing Rust projects.
 
 ### Package Management
 
-- [cargo-update](https://github.com/nabijaczleweli/cargo-update)
-  - Installs and updates Rust binaries installed through `cargo install`.
-- [cargo-sweep](https://github.com/holmgr/cargo-sweep)
-  - Removes stale Cargo build artifacts to reclaim disk space.
 - [crates.io](https://github.com/rust-lang/crates.io)
   - The official Rust package registry, providing infrastructure for publishing and downloading crates.
 
@@ -965,6 +963,8 @@ Tools for compiling, building, formatting, and managing Rust projects.
   - Caches compiler outputs to accelerate repeated Rust builds and reduce compilation time.
 - [cargo-chef](https://github.com/LukeMathWalker/cargo-chef)
   - Optimizes Rust Docker builds by separating dependency compilation from application source changes.
+- [cargo-sweep](https://github.com/holmgr/cargo-sweep)
+  - Removes stale Cargo build artifacts to reclaim disk space.
 
 **[⬆ Back to Top](#contents)**
 
