@@ -764,6 +764,8 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
   - Framework for developing audio plugins in Rust.
 - [Handy](https://github.com/cjpais/Handy)
   - Cross-platform, offline speech-to-text application built with Rust, featuring real-time audio processing and local AI transcription.
+- [Hex](https://github.com/anomalyco/hex)
+  - A cross-platform, offline voice dictation app for macOS, Windows, and Linux, featuring local speech recognition and automatic text input.
 
 ### Video
 
