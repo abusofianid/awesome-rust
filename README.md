@@ -532,8 +532,6 @@ Tools and libraries that improve the software development workflow.
 
 ### Code Analysis
 
-- [Clippy](https://github.com/rust-lang/rust-clippy)
-  - A collection of Rust lints that detects common mistakes, suspicious code, and performance issues.
 - [cargo-deny](https://github.com/EmbarkStudios/cargo-deny)
   - Checks project dependencies for license compliance, security advisories, duplicate versions, and allowed sources.
 - [cargo-udeps](https://github.com/est31/cargo-udeps)
@@ -950,6 +948,10 @@ Tools for compiling, building, formatting, and managing Rust projects.
 
 - [Taplo](https://github.com/tamasfe/taplo)
   - Provides formatting, validation, and language-server support for TOML files.
+- [Clippy](https://github.com/rust-lang/rust-clippy)
+  - An official Rust linting tool that analyzes code to detect common mistakes, suspicious patterns, non-idiomatic code, unnecessary complexity, and potential performance issues.
+- [rustfmt](https://github.com/rust-lang/rustfmt)
+  - The official Rust code formatter that automatically formats Rust source code according to consistent style guidelines, integrated with the Rust toolchain and available through `rustfmt` and `cargo fmt`.
 
 ### Build Tools
 
