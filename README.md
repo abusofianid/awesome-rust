@@ -614,8 +614,6 @@ Tools and libraries for infrastructure, deployment, cloud services, and operatio
 
 - [AWS SDK for Rust](https://github.com/awslabs/aws-sdk-rust)
   - Official Rust SDK for interacting with AWS services.
-- [Firecracker](https://github.com/firecracker-microvm/firecracker)
-  - Lightweight virtualization technology for running secure microVMs.
 - [Spin](https://github.com/spinframework/spin)
   - Framework for building and running WebAssembly applications in the cloud.
 - [Bottlerocket](https://github.com/bottlerocket-os/bottlerocket)
