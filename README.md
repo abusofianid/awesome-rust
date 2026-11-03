@@ -944,6 +944,8 @@ Tools for compiling, building, formatting, and managing Rust projects.
   - A Rust implementation of the TypeScript 7 compiler and language server, designed for faster type checking and lower memory usage.
 - [SWC](https://github.com/swc-project/swc)
   - A high-performance JavaScript and TypeScript compiler written in Rust, providing fast code transformation and minification.
+- [Blaze](https://github.com/indexable-inc/blaze)
+  - An alternative Rust compiler and build tool focused on high-speed incremental compilation, rebuilding only the code affected by changes.
 
 ### Package Management
 
