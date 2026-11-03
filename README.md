@@ -1137,8 +1137,6 @@ Learning materials and community resources for Rust developers.
   - A practical tutorial series on building an operating system kernel with Rust.
 - [Game Development with Macroquad](https://mq.agical.se/)
   - A project-based guide to creating 2D games with Rust and the Macroquad game framework.
-- [Build a Lua Interpreter in Rust](https://wubingzheng.github.io/build-lua-in-rust/en/)
-  - A tutorial series that teaches interpreter development by implementing Lua in Rust.
 - [Rust Crash Course Tutorial for Beginners](https://www.youtube.com/playlist?list=PLPoSdR46FgI412aItyJhj2bF66cudB6Qs)
   - A practical Rust tutorial covering fundamentals, ownership, error handling, testing, and concurrency by Francesco Ciulla on YouTube.
 
