@@ -717,6 +717,8 @@ Frameworks and libraries for building command-line, terminal-based, and graphica
   - Framework for building desktop applications with web frontends and Rust backends.
 - [GPUI Kit](https://github.com/longbridge/gpui-kit)
   - Cross-platform desktop UI framework built on GPUI, providing reusable components, interaction primitives, and application infrastructure.
+- [Rune](https://github.com/anomalyco/rune)
+  - Provides a cross-platform Rust UI framework with custom GPU rendering, text layout, spring-based animations, and headless testing for native and web applications.
 
 ### Desktop Applications
 
