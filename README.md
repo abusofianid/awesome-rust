@@ -777,6 +777,8 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
   - Video encoding automation tool for AV1 and other codecs.
 - [Gyroflow](https://github.com/gyroflow/gyroflow)
   - Cross-platform video stabilization application using gyroscope data, with GPU-accelerated processing, lens correction, and support for professional video formats.
+- [agg](https://github.com/asciinema/agg)
+  - Converts terminal session recordings into high-quality animated GIFs with customizable themes, fonts, playback speed, and frame timing.
 
 ### Graphics & Rendering
 
