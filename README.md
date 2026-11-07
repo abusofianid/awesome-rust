@@ -307,6 +307,8 @@ Libraries and tools for network communication, protocols, and distributed messag
   - Async implementation of the QUIC protocol for building network clients and servers in Rust.
 - [Sniffnet](https://github.com/GyulyVGC/sniffnet)
   - GUI tool for real-time network traffic monitoring and inspection.
+- [Media over QUIC](https://github.com/moq-dev/moq)
+  - Implements a low-latency, scalable real-time media streaming protocol over QUIC, with Rust libraries, distributed relays, hardware-accelerated codecs, and cross-language bindings.
 
 ### gRPC
 
