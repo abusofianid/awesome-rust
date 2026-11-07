@@ -783,6 +783,8 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
   - Cross-platform video stabilization application using gyroscope data, with GPU-accelerated processing, lens correction, and support for professional video formats.
 - [agg](https://github.com/asciinema/agg)
   - Converts terminal session recordings into high-quality animated GIFs with customizable themes, fonts, playback speed, and frame timing.
+- [Concat](https://github.com/jub0t/Concat)
+  - Provides a cross-platform video editor built with Rust, featuring GPU-accelerated rendering, AI-powered editing tools, multi-track timelines, and local media processing.
 
 ### Graphics & Rendering
 
