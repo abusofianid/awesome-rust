@@ -149,6 +149,8 @@ Frameworks, libraries, and tools for building AI applications, machine learning 
   - Open-source Rust based AI agent harness with multi-agent orchestration, persistent memory, and workflow automation.
 - [Open Interpreter](https://github.com/openinterpreter/openinterpreter)
   - A Rust-based coding agent that works with multiple AI models, providing terminal execution, sandboxing, MCP integration, and support for various agent protocols and harnesses.
+- [Agent Client Protocol](https://github.com/agentclientprotocol/agent-client-protocol)
+  - An open protocol for communication between code editors and AI coding agents, with strongly typed Rust schema definitions and JSON-RPC support.
 
 ### AI & Machine Learning Libraries
 
