@@ -1062,6 +1062,8 @@ Libraries, tools, and projects for low-level programming and operating system de
   - A Unix-like operating system written in Rust, featuring its own kernel, drivers, and system utilities.
 - [Asterinas](https://github.com/asterinas/asterinas)
   - A Linux-compatible operating system kernel written in Rust, designed with memory safety and performance in mind.
+- [UEFI-rs](https://github.com/rust-osdev/uefi-rs)
+  - A Rust library providing safe and convenient abstractions for developing applications and system software in UEFI firmware environments.
 
 ### Filesystems
 
