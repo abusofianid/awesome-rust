@@ -516,6 +516,8 @@ Tools and libraries that improve the software development workflow.
   - Test attribute that initializes logging or tracing before running tests.
 - [cargo-fuzz](https://github.com/rust-fuzz/cargo-fuzz)
   - Cargo subcommand for fuzz testing Rust code with libFuzzer.
+- [Foundry](https://github.com/foundry-rs/foundry)
+  - Provides a comprehensive Ethereum development toolkit with Solidity compilation, testing, fuzzing, debugging, local blockchain simulation, and smart contract deployment.
 
 ### Debugging
 
