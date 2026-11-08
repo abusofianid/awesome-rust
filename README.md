@@ -399,6 +399,8 @@ Libraries and tools for database connectivity, data persistence, and storage man
   - Embedded key-value storage engine based on an LSM-tree, designed for use directly in Rust applications.
 - [redb](https://github.com/cberner/redb)
   - Embedded key-value database written in pure Rust with ACID transactions and concurrent readers.
+- [FalkorDB](https://github.com/FalkorDB/FalkorDB)
+  - Implements a high-performance graph database in Rust, using sparse matrices and GraphBLAS for graph storage and traversal, with OpenCypher query support and Redis integration.
 
 ### Caching
 
