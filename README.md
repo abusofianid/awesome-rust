@@ -345,6 +345,8 @@ Libraries and tools for network communication, protocols, and distributed messag
   - HTML parsing library with CSS selector support for extracting elements and data from web pages.
 - [Fantoccini](https://github.com/jonhoo/fantoccini)
   - Async WebDriver client for controlling browsers and interacting with web pages through CSS selectors.
+- "Obscura" (https://github.com/h4ckf0r0day/obscura)
+  - Implements a lightweight headless browser engine in Rust for web scraping and AI agent automation, with V8 JavaScript execution, Chrome DevTools Protocol support, native rendering, and MCP integration.
 
 **[⬆ Back to Top](#contents)**
 
