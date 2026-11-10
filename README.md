@@ -809,9 +809,11 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
 - [Vulkano](https://github.com/vulkano-rs/vulkano)
   - Safe Rust wrapper for the Vulkan graphics API.
 - [three-d](https://github.com/asny/three-d)
-  - Cross-platform 2D and 3D rendering library.
+  - Implements a cross-platform 2D and 3D rendering library in Rust, with layered APIs for low-level graphics control, custom shaders, and high-level rendering across desktop, web, and mobile platforms.
 - [Pixels](https://github.com/parasyte/pixels)
-  - Hardware-accelerated pixel framebuffer renderer.
+  - Implements a lightweight, GPU-accelerated pixel framebuffer in Rust for 2D games, emulators, and software rendering, with custom shader support and hardware-accelerated pixel scaling.
+- "Raea" (https://github.com/shinyobjectz/raea)
+  - Combines GPU-accelerated rendering, video, motion graphics, 3D scenes, and game development in a Rust engine, with a React and TypeScript SDK powered by Bevy.
 
 ### Game Development
 
