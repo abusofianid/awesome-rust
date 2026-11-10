@@ -731,11 +731,11 @@ Frameworks and libraries for building command-line, terminal-based, and graphica
 ### Desktop Applications
 
 - [Zed](https://github.com/zed-industries/zed)
-  - High-performance code editor with built-in collaboration and AI features.
+  - A high-performance code editor built in Rust, combining GPU-accelerated rendering, real-time collaborative editing, and native language tooling with an extensible ecosystem for modern software development.
 - [Lapce](https://github.com/lapce/lapce)
-  - Fast, open-source code editor built with Rust.
+  - A high-performance, cross-platform code editor built entirely in Rust, featuring rope-based text editing, GPU-accelerated rendering, remote development, and a WebAssembly-powered plugin system.
 - [RustDesk](https://github.com/rustdesk/rustdesk)
-  - Open-source remote desktop application for remote access and support.
+  - Combines peer-to-peer connectivity, native system integration, and real-time multimedia streaming to enable cross-platform remote desktop access with self-hosted server support.
 - [Pake](https://github.com/tw93/Pake)
   - Tool for packaging websites into lightweight desktop applications.
 - [Rnote](https://github.com/flxzt/rnote)
@@ -746,6 +746,8 @@ Frameworks and libraries for building command-line, terminal-based, and graphica
   - An open-source, local-first workspace combining document editing, knowledge management, databases, and collaborative whiteboards, with Rust-powered native components.
 - [Mister Download Manager](https://github.com/anefzaoui/misterdownloadmanager)
   - Implements a cross-platform download manager in Rust with dynamic multi-connection downloads, browser integration, BitTorrent support, video downloading, and a desktop GUI.
+- [Argus](https://github.com/Ray-lea/Argus)
+  - Implements a modern Windows task manager in Rust, featuring real-time process management, hardware monitoring, per-process resource tracking, network diagnostics, and historical performance analysis.
 
 **[⬆ Back to Top](#contents)**
 
