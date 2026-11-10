@@ -388,6 +388,8 @@ Libraries and tools for database connectivity, data persistence, and storage man
   - Cloud-native SQL data warehouse for analytics on large datasets stored in object storage.
 - [GlueSQL](https://github.com/gluesql/gluesql)
   - Extensible SQL database engine that works with different storage backends, including memory and files.
+- [SpacetimeDB](https://github.com/ClockworkLabs/SpacetimeDB)
+  - Combines a relational database and application runtime in Rust, with transactional reducers, real-time client synchronization, and support for multiplayer games and reactive applications.
 
 ### NoSQL Databases
 
