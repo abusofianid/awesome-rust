@@ -610,7 +610,9 @@ Tools and libraries that improve the software development workflow.
 ### Bundlers
 
 - [Rolldown](https://github.com/rolldown/rolldown)
-  - A fast Rust-based JavaScript and TypeScript bundler with a Rollup-compatible API.
+  - Handles JavaScript and TypeScript module bundling through a high-performance Rust engine with tree-shaking, code splitting, and minification.
+- [Parcel](https://github.com/parcel-bundler/parcel)
+  - Combines zero-configuration bundling, native Rust performance, and automatic asset optimization to streamline web application development and production builds.
 
 **[⬆ Back to Top](#contents)**
 
