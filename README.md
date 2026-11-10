@@ -742,6 +742,8 @@ Frameworks and libraries for building command-line, terminal-based, and graphica
   - Cross-platform pie menu for launching applications and performing actions.
 - [AFFiNE](https://github.com/toeverything/AFFiNE)
   - An open-source, local-first workspace combining document editing, knowledge management, databases, and collaborative whiteboards, with Rust-powered native components.
+- [Mister Download Manager](https://github.com/anefzaoui/misterdownloadmanager)
+  - Implements a cross-platform download manager in Rust with dynamic multi-connection downloads, browser integration, BitTorrent support, video downloading, and a desktop GUI.
 
 **[⬆ Back to Top](#contents)**
 
