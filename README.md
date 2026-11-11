@@ -560,6 +560,8 @@ Tools and libraries that improve the software development workflow.
   - Extremely fast Python type checker and language server written in Rust, providing static type analysis and rich diagnostics.
 - [Pyrefly](https://github.com/meta/pyrefly)
   - A fast Rust-based static type checker and language server for Python, providing type inference, code navigation, autocomplete, and other IDE features.
+- [Fallow](https://github.com/fallow-rs/fallow)
+  - Analyzes JavaScript and TypeScript codebases for dead code, dependency cycles, architectural violations, code duplication, and complexity using a high-performance Rust engine.
 
 ### Documentation
 
