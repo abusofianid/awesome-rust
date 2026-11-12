@@ -967,11 +967,6 @@ Tools for compiling, building, formatting, and managing Rust projects.
 - [Blaze](https://github.com/indexable-inc/blaze)
   - An alternative Rust compiler and build tool focused on high-speed incremental compilation, rebuilding only the code affected by changes.
 
-### Package Management
-
-- [crates.io](https://github.com/rust-lang/crates.io)
-  - The official Rust package registry, providing infrastructure for publishing and downloading crates.
-
 ### Linting & Formatting
 
 - [Taplo](https://github.com/tamasfe/taplo)
@@ -1095,11 +1090,13 @@ Libraries, tools, and projects for low-level programming and operating system de
 
 - [Fuser](https://github.com/cberner/fuser)
   - Provides a Rust library for implementing userspace filesystems using the FUSE interface.
+- [notify](https://github.com/notify-rs/notify)
+  - Monitors filesystem changes across platforms through native operating system APIs, with recursive watching, event filtering, and optional debouncing support.
 
 ### System Memory Management
 
-- [Mimalloc Rust](https://github.com/purpleprotocol/mimalloc_rust)
-  - Provides Rust bindings for Microsoft's mimalloc memory allocator.
+- [mimalloc_rust](https://github.com/purpleprotocol/mimalloc_rust)
+  - Integrates Microsoft's high-performance mimalloc allocator into Rust applications through the GlobalAlloc interface, with optional secure mode and extended allocation APIs.
 
 ### Kernel Development
 
