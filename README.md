@@ -731,6 +731,8 @@ Frameworks and libraries for building command-line, terminal-based, and graphica
 - [Rune](https://github.com/anomalyco/rune)
   - Provides a cross-platform Rust UI framework with custom GPU rendering, text layout, spring-based animations, and headless testing for native and web applications.
 
+- [exact](https://github.com/expo/exact) - Cross-platform application runtime built with Rust, enabling apps to run natively on the web, macOS, iOS, and Linux.
+
 ### Desktop Applications
 
 - [Zed](https://github.com/zed-industries/zed)
