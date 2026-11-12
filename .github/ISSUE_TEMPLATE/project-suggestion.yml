@@ -103,7 +103,6 @@ body:
         - "Rust Language / Unsafe Rust"
         - "Rust Toolchain / Cargo"
         - "Rust Toolchain / Compilers"
-        - "Rust Toolchain / Package Management"
         - "Rust Toolchain / Linting & Formatting"
         - "Rust Toolchain / Build Tools"
         - "Embedded & Hardware / Embedded Systems & Microcontrollers"
