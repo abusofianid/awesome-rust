@@ -98,7 +98,6 @@ Whether you are building web applications, working with systems programming, exp
 - [Rust Toolchain](#rust-toolchain)
   - [Cargo](#cargo)
   - [Compilers](#compilers)
-  - [Package Management](#package-management)
   - [Linting & Formatting](#linting--formatting)
   - [Build Tools](#build-tools)
 
