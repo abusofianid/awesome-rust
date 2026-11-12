@@ -707,6 +707,8 @@ Frameworks and libraries for building command-line, terminal-based, and graphica
   - Library for adding animations and visual effects to Ratatui applications.
 - [Yazi](https://github.com/sxyazi/yazi)
   - A blazing-fast terminal file manager written in Rust, featuring asynchronous file operations, image previews, Vim-like navigation, and an extensible Lua plugin system.
+- [Broot](https://github.com/Canop/broot)
+  - Interactive terminal file manager for directory navigation, fuzzy search, file previews, multi-panel browsing, file operations, Git integration, and disk usage analysis.
 
 ### GUI Frameworks
 
