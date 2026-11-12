@@ -190,6 +190,8 @@ Frameworks, libraries, and tools for building AI applications, machine learning 
   - A Rust-based CLI tool that filters and compresses command outputs to reduce LLM context consumption in AI-assisted development workflows, supporting 100+ developer commands and multiple AI coding agents.
 - [Craft Anything](https://github.com/storytold/craft-anything)
   - A pure-Rust tool for inspecting websites, applications, games, and files, then using AI coding agents to build and refine new implementations.
+- [Skills Manager](https://github.com/xingkongliang/skills-manager)
+  - Manage, organize, deploy, and synchronize AI agent skills across multiple coding tools. Supports centralized skill libraries, project and global workspaces, presets, update tracking, and Git-based backups.
 
 ### Model Context Protocol (MCP)
 
