@@ -846,6 +846,8 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
   - Modular game engine written in Rust.
 - [Pyxel](https://github.com/kitao/pyxel)
   - Retro game engine implemented in Rust, providing a Python API for creating 8-bit-style games with pixel art, sound, and music.
+- [Fyrox](https://github.com/FyroxEngine/Fyrox)
+  - Offers a complete 2D and 3D game development environment in Rust, combining a visual scene editor with rendering, physics, animation, and scripting systems.
 
 **[⬆ Back to Top](#contents)**
 
