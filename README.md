@@ -1252,6 +1252,6 @@ Make sure your submission is relevant to the Rust ecosystem, properly documented
 
 ## License
 
-This project is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+This project is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://github.com/abusofianid/awesome-rust/blob/main/LICENSE).
 
 **[⬆ Back to Top](#contents)**
