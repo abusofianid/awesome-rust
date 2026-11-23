@@ -247,8 +247,7 @@ Frameworks and libraries for building web applications, APIs, and web services.
   - High-performance Rust HTTP server for Python applications, supporting ASGI, WSGI, HTTP/2, WebSockets, and concurrent request handling.
 
 ### GraphQL
-- [async-graphql](https://github.com/async-graphql/async-graphql)
-  - GraphQL server library with async support, subscriptions, and integrations for Axum, Poem, and Actix Web.
+- [async-graphql](https://github.com/async-graphql/async-graphql)  - GraphQL server library with async support, subscriptions, and integrations for Axum, Poem, and Actix Web.
 - [Juniper](https://github.com/graphql-rust/juniper)
   - GraphQL server library that lets you define schemas using Rust types and connect them to existing web frameworks.
 - [graphql-client](https://github.com/graphql-rust/graphql-client)
@@ -497,7 +496,6 @@ Libraries for data processing, scientific computing, and analytical applications
 
 **[⬆ Back to Top](#contents)**
 ## Developer Tools
-
 Tools and libraries that improve the software development workflow.
 
 ### Testing
@@ -613,6 +611,26 @@ Tools and libraries that improve the software development workflow.
   - Handles JavaScript and TypeScript module bundling through a high-performance Rust engine with tree-shaking, code splitting, and minification.
 - [Parcel](https://github.com/parcel-bundler/parcel)
   - Combines zero-configuration bundling, native Rust performance, and automatic asset optimization to streamline web application development and production builds.
+
+
+### Game Development
+
+- [Bevy](https://github.com/bevyengine/bevy)
+  - Data-driven game engine built in Rust.
+- [Macroquad](https://github.com/not-fl3/macroquad)
+  - Cross-platform game engine for 2D and 3D games.
+- [ggez](https://github.com/ggez/ggez)
+  - Lightweight game development framework for Rust.
+- [Rapier](https://github.com/dimforge/rapier)
+  - Physics engine for 2D and 3D games.
+- [Avian](https://github.com/avianphysics/avian)
+  - ECS-driven 2D and 3D physics engine for Bevy.
+- [Piston](https://github.com/PistonDevelopers/piston)
+  - Modular game engine written in Rust.
+- [Pyxel](https://github.com/kitao/pyxel)
+  - Retro game engine implemented in Rust, providing a Python API for creating 8-bit-style games with pixel art, sound, and music.
+- [Fyrox](https://github.com/FyroxEngine/Fyrox)
+  - Offers a complete 2D and 3D game development environment in Rust, combining a visual scene editor with rendering, physics, animation, and scripting systems.
 
 **[⬆ Back to Top](#contents)**
 
@@ -747,8 +765,7 @@ Frameworks and libraries for building command-line, terminal-based, and graphica
 - [RustDesk](https://github.com/rustdesk/rustdesk)
   - Combines peer-to-peer connectivity, native system integration, and real-time multimedia streaming to enable cross-platform remote desktop access with self-hosted server support.- [Pake](https://github.com/tw93/Pake)
   - Tool for packaging websites into lightweight desktop applications.
-- [Rnote](https://github.com/flxzt/rnote)
-  - Vector-based drawing and note-taking application for handwritten notes and sketches.
+- [Rnote](https://github.com/flxzt/rnote)  - Vector-based drawing and note-taking application for handwritten notes and sketches.
 - [Kando](https://github.com/kando-menu/kando)
   - Cross-platform pie menu for launching applications and performing actions.
 - [AFFiNE](https://github.com/toeverything/AFFiNE)
@@ -826,24 +843,6 @@ Libraries and tools for multimedia processing, graphics, and rendering.
 - [Raea](https://github.com/shinyobjectz/raea)
   - Combines GPU-accelerated rendering, video, motion graphics, 3D scenes, and game development in a Rust engine, with a React and TypeScript SDK powered by Bevy.
 
-### Game Development
-
-- [Bevy](https://github.com/bevyengine/bevy)
-  - Data-driven game engine built in Rust.
-- [Macroquad](https://github.com/not-fl3/macroquad)
-  - Cross-platform game engine for 2D and 3D games.
-- [ggez](https://github.com/ggez/ggez)
-  - Lightweight game development framework for Rust.
-- [Rapier](https://github.com/dimforge/rapier)
-  - Physics engine for 2D and 3D games.
-- [Avian](https://github.com/avianphysics/avian)
-  - ECS-driven 2D and 3D physics engine for Bevy.
-- [Piston](https://github.com/PistonDevelopers/piston)
-  - Modular game engine written in Rust.
-- [Pyxel](https://github.com/kitao/pyxel)
-  - Retro game engine implemented in Rust, providing a Python API for creating 8-bit-style games with pixel art, sound, and music.
-- [Fyrox](https://github.com/FyroxEngine/Fyrox)
-  - Offers a complete 2D and 3D game development environment in Rust, combining a visual scene editor with rendering, physics, animation, and scripting systems.
 
 **[⬆ Back to Top](#contents)**
 
@@ -998,7 +997,6 @@ Tools for compiling, building, formatting, and managing Rust projects.
 ## Embedded & Hardware
 
 Libraries and tools for embedded development and hardware interaction.
-
 ### Embedded Systems & Microcontrollers
 
 - [Tock OS](https://github.com/tock/tock)
@@ -1247,5 +1245,4 @@ Make sure your submission is relevant to the Rust ecosystem, properly documented
 ## License
 
 This project is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://github.com/abusofianid/awesome-rust/blob/main/LICENSE).
-
 **[⬆ Back to Top](#contents)**
