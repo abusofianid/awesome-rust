@@ -735,8 +735,9 @@ Frameworks and libraries for building command-line, terminal-based, and graphica
   - Cross-platform desktop UI framework built on GPUI, providing reusable components, interaction primitives, and application infrastructure.
 - [Rune](https://github.com/anomalyco/rune)
   - Provides a cross-platform Rust UI framework with custom GPU rendering, text layout, spring-based animations, and headless testing for native and web applications.
-
 - [exact](https://github.com/expo/exact) - Cross-platform application runtime built with Rust, enabling apps to run natively on the web, macOS, iOS, and Linux.
+- [GPUI](https://github.com/zed-industries/zed/tree/main/crates/gpui)
+  - Provides a GPU-accelerated Rust UI framework for building native applications, combining immediate and retained rendering models with declarative views, flexible layout, and integrated state management.
 
 ### Desktop Applications
 
