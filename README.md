@@ -833,8 +833,6 @@ Libraries and tools for multimedia processing, graphics, rendering, and game dev
   - Data-driven game engine built in Rust.
 - [Macroquad](https://github.com/not-fl3/macroquad)
   - Cross-platform game engine for 2D and 3D games.
-- [Fyrox](https://github.com/FyroxEngine/Fyrox)
-  - 2D and 3D game engine written in Rust.
 - [ggez](https://github.com/ggez/ggez)
   - Lightweight game development framework for Rust.
 - [Rapier](https://github.com/dimforge/rapier)
