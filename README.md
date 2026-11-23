@@ -1,4 +1,3 @@
-
 # Awesome Rust [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 <p align="center">
   <a href="https://www.producthunt.com/products/awesome-rust?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-awesome-rust" target="_blank" rel="noopener noreferrer"><img alt="Awesome Rust - A curated list of awesome Rust. | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1298428&amp;theme=light&amp;t=1793573711289"></a>
@@ -346,7 +345,7 @@ Libraries and tools for network communication, protocols, and distributed messag
   - HTML parsing library with CSS selector support for extracting elements and data from web pages.
 - [Fantoccini](https://github.com/jonhoo/fantoccini)
   - Async WebDriver client for controlling browsers and interacting with web pages through CSS selectors.
-- "Obscura" (https://github.com/h4ckf0r0day/obscura)
+- Obscura (https://github.com/h4ckf0r0day/obscura)
   - Implements a lightweight headless browser engine in Rust for web scraping and AI agent automation, with V8 JavaScript execution, Chrome DevTools Protocol support, native rendering, and MCP integration.
 
 **[⬆ Back to Top](#contents)**
